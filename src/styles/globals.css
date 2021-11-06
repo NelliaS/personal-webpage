@@ -1,16 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Yeseva+One&display=swap');
+
+:root {
+  --color-background: #FFFFFF;
+  --color-primary: #f9f9f9;
+  --color-secondary: #77aec3;
+  /*--color-btn: #33743a;*/
+
+  --color-font-main: #141b0b;
+  --color-font-heading: #0c1908;
+
+  --font-family-main: 'PT Serif', serif;
+  --font-family-heading: 'Yeseva One', cursive;
+
+  --max-width: 120rem; /*1920px*/
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+*/
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1 {
+  font-family: var(--font-family-heading);
+  color: var(--color-font-heading);
 }
 
-* {
-  box-sizing: border-box;
+p {
+  font-family: var(--font-family-main);
+  color: var(--color-font-main);
 }
+
