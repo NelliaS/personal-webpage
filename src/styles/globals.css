@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Yeseva+One&display=swap');
 
+/*Breakpoints
+< 480px         xs
+  481-768px     sm
+  769-1024px    md
+  1025-1280px   lg
+> 1280px        xl */
+
 :root {
   --color-background: #FFFFFF;
   --color-primary: #f9f9f9;
@@ -11,6 +18,21 @@
 
   --font-family-main: 'PT Serif', serif;
   --font-family-heading: 'Yeseva One', cursive;
+/*
+  --font-size-h1-xs: 14px;
+  --font-size-h1-sm: 16px;
+  --font-size-h1-md: 18px;
+  --font-size-h1-lg: 30px;
+
+  --font-size-h2-xs: 14px;
+  --font-size-h2-sm: 16px;
+  --font-size-h2-md: 18px;
+  --font-size-h2-lg: 30px;
+
+  /*--font-size-text-xs:
+  --font-size-text-sm:
+  --font-size-text-md:
+  --font-size-text-lg:*/
 
   --max-width: 120rem; /*1920px*/
 }
@@ -36,13 +58,28 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, h2 {
   font-family: var(--font-family-heading);
   color: var(--color-font-heading);
+}
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 14px;
 }
 
 p {
   font-family: var(--font-family-main);
   color: var(--color-font-main);
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+footer {
+  background-color: var(--color-primary);
+  margin-top: 20px;
+  padding: 20px;
 }
 
