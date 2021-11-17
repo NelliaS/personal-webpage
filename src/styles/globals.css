@@ -63,18 +63,20 @@ h1, h2 {
   color: var(--color-font-heading);
 }
 h1 {
-  font-size: 16px;
+  font-size: 1.875rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 1.75rem;
 }
 
-p {
+p, li {
   font-family: var(--font-family-main);
-  color: var(--color-font-main);
-  margin-bottom: 10px;
-  font-size: 12px;
+  color: var(--color-font-main);  
+  font-size: 1.563rem;
+  margin-bottom: 1.6rem;
 }
 
 footer {
