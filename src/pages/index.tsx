@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             <li>Si zoufáš, že nevíš odkud začít</li>
             <li>Zasekl/a ses na tutoriálech</li>
             <li>Nedaří se ti dodržovat učební plán nebo ho vůbec nemáš</li>
-            <li>Tvůj time management pokůlhává</li>
+            <li>Tvůj time management pokulhává</li>
             <li>Potýkáš se s nejistotou (imposter syndrom)</li>
             <li>Srovnáváš se s ostatními, kterým se to podařilo</li>
             <li>
