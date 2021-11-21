@@ -32,10 +32,11 @@ const Home: NextPage = () => {
           </h2>
         </div>
       </div>
-      <div className={styles.content}>
+      <div className={styles.content_wrap}>
         <div className={styles.content__block1}>
           <h2>Myslíš, že by se ti hodila pomoc?</h2>
         </div>
+        <div className={styles.content_flex}>
         <div className={styles.content__block2}>
           <h2>Pomoc se ti hodí pokud:</h2>
           <ul>
@@ -51,19 +52,8 @@ const Home: NextPage = () => {
             <li>Chybí ti nadhled a jsi ve stresu</li>
           </ul>
         </div>
-        <div className={styles.content__block3}>
-        <div className={styles.content__block3_flex}>
-          <h2>Průvodce kariérní změnou</h2>
-          <p>
-            Je člověk, který se v dané oblasti dobře vyzná. Šel cestou, na které
-            tě chce doprovázet. Expertízu mu dodává psychologické vzdělání a
-            praktické dovednosti. Pomůže ti se na tvé cestě za změnou kariéry
-            objevit poklady a vyhnout se pastem.
-          </p>
-        </div>
-        </div>
         <div className={styles.content__block4}>
-          <img />
+          <img className={styles.profile}src='images/profil.png'/>
           <h2>Nela - průvodkyně kariérní změnou</h2>
           <p>
             Šla jsem stejnou cestou, na které tě chci provázet - jako samouk
@@ -78,6 +68,18 @@ const Home: NextPage = () => {
             slíbit jedno - neposuneš se jen ve znalostech, ale vyrosteš i
             osobnostně.
           </p>
+        </div>
+        </div>
+        <div className={styles.content__block3}>
+        <div className={styles.content__block3_flex}>
+          <h2>Průvodce kariérní změnou</h2>
+          <p>
+            Je člověk, který se v dané oblasti dobře vyzná. Šel cestou, na které
+            tě chce doprovázet. Expertízu mu dodává psychologické vzdělání a
+            praktické dovednosti. Pomůže ti se na tvé cestě za změnou kariéry
+            objevit poklady a vyhnout se pastem.
+          </p>
+        </div>
         </div>
       </div>
     </>
