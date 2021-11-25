@@ -13,9 +13,9 @@ const Footer = () => {
           <p>+420 605 135 201</p>
         </div>
         <div className={styles.footer_icons}>
-          <img src="../../public/images/icons/discord.svg"></img>
-          <img src="../../public/images/icons/github.svg"></img>
-          <img src="../../public/images/icons/linkedin.svg"></img>
+          <img className={styles.footer_icon} src="/images/icons/discord.svg"/>
+          <img className={styles.footer_icon} src="/images/icons/github.svg"/>
+          <img className={styles.footer_icon} src="/images/icons/linkedin.svg"/>
         </div>
         <div className={styles.footer_copy}>
           <p>Copyright © </p>
