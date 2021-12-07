@@ -36,55 +36,55 @@ const JakToFunguje: NextPage = () => {
           </div>
         </section >
         <section className={styles.content__block2}>
-          <h1>Fáze spolupráce</h1>
+          <h1>Balíčky</h1>
         </section>
         <section className={styles.content__block3}>
           <div className={styles.card_container}>
           <div className={styles.card}>
-            <span className={styles.card_number}>1</span><h2>Poznávám</h2>
+            <span className={styles.card_number}>1</span><h2>Dobrý start</h2>
             <ul>
-              <li>svoji situaci</li>
-              <li>svá očekávání</li>
-              <li>své silné stránky</li>
+              <li>-----------------</li>
+              <li>-----------------</li>
+              <li>-----------------</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>2</span><h2>Stanovuju</h2>
+          <span className={styles.card_number}>2</span><h2>Podpora na cestě</h2>
             <ul>
-              <li>dílčí cíle</li>
-              <li>nejlepší postup</li>
-              <li>časový plán</li>
+              <li>_______________</li>
+              <li>_______________</li>
+              <li>_______________</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>3</span><h2>Mám podporu</h2>
+          <span className={styles.card_number}>3</span><h2>Lepší pohovory</h2>
             <ul>
-              <li>vytrvat</li>
-              <li>zdolat překážky</li>
-              <li>při budování sebedůvěry</li>
+              <li>----------------</li>
+              <li>---------------</li>
+              <li>----------------</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>4</span><h2>Pohovoruju</h2>
+          <span className={styles.card_number}>4</span><h2>Snazší adaptace</h2>
             <ul>
-              <li>po důkladné přípravě a nácviku</li>
-              <li>méně ve stresu</li>
-              <li>a učím se ze zkušenosti</li>
+              <li>---------------------</li>
+              <li>---------------------</li>
+              <li>---------------------</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>5</span><h2>V nové práci</h2>
+          <span className={styles.card_number}>5</span><h2>Na míru</h2>
             <ul>
-              <li>využívám znalosti a silné stránky</li>
-              <li>navazuji vztahy s kolegy</li>
-              <li>učím se ze zpětné vazby</li>
+              <li>---------------------</li>
+              <li>---------------------</li>
+              <li>---------------------</li>
             </ul>
           </div>
           </div>
         </section>
         <section className={styles.content__block4}>
           <h1>Za kolik?</h1>
-          <p>Za 1 sezení (55 min) si účtuju 850,- Kč. Můžeš si taky předplatit 4 sezení za 3 000,-Kč</p>
+          <p>-------------------</p>
           </section>      
       </main>
       </>
