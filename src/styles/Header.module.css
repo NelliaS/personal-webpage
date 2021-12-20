@@ -47,7 +47,6 @@
   font-size: 1.5rem;
   display: inline-block;
   padding: 1rem 1rem;
- 
 }
 
 @media screen and (max-width: 768px) {
@@ -58,16 +57,13 @@
   .link a:hover {
     color: var(--color-secondary);
   }
-
 }
 
-
 @media screen and (min-width: 768px) {
-
   .menu {
     display: none;
   }
-  
+
   .nav_wrapper {
     display: block;
     background-color: #f9f9f9;

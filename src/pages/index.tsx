@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <div className={styles.hero}>
         <div
           className={styles.hero__wrap}
-          style={{ position: "relative", width: "100vw", height: "33.33vw" }}
+          style={{ position: "relative", width: "100%", height: "33.33vw" }}
         >
           <Image
             src={HeroImage}

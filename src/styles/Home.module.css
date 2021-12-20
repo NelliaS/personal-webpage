@@ -1,9 +1,8 @@
-
 /* HERO */
 .hero__wrap {
-position: relative;
-height: '33.33vw';
-width: '100vw';
+  position: relative;
+  height: "33.33vw";
+  width: "100vw";
 }
 
 .hero {
@@ -28,13 +27,13 @@ width: '100vw';
 }
 
 .popup {
-background-color: rgb(254,252,240,0.5);
-border-radius: 5px;
-max-width: 200px;
-padding: 5px;
-position: absolute;
-bottom: 10px;
-left: 20px;
+  background-color: rgb(254, 252, 240, 0.5);
+  border-radius: 5px;
+  max-width: 200px;
+  padding: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
 }
 .popup h2 {
   font-size: 10px;
@@ -42,13 +41,15 @@ left: 20px;
 
 /* CONTENT*/
 
-.content__block1, .content__block3 {
+.content__block1,
+.content__block3 {
   background-color: var(--color-primary);
 }
 .content__block1 {
   box-shadow: 2px 2px 10px #00000029;
 }
-.content__block3, .content__block4 {
+.content__block3,
+.content__block4 {
   box-shadow: 2px 2px 10px 5px #00000029;
 }
 
@@ -60,13 +61,17 @@ left: 20px;
   margin: 0 20px 0 20px;
 }
 
-.content__block1  h2, .content__block2  h2,
-.content__block3  h2, .content__block4 h2{
+.content__block1 h2,
+.content__block2 h2,
+.content__block3 h2,
+.content__block4 h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
-.content__block1, .content__block2,
-.content__block3, .content__block4 {
+.content__block1,
+.content__block2,
+.content__block3,
+.content__block4 {
   margin-bottom: 1.2rem;
   padding: 30px;
 }
@@ -90,7 +95,7 @@ left: 20px;
   margin: 20px;
 }
 
-@media screen and (min-width: 480px)  {
+@media screen and (min-width: 480px) {
   .popup h2 {
     font-size: 16px;
   }
@@ -118,7 +123,7 @@ left: 20px;
     z-index: 2;
     flex-grow: 1;
     margin: 20px 0 -50px 0;
-  } 
+  }
 
   .content__block3_flex {
     max-width: 50%;
@@ -147,7 +152,7 @@ left: 20px;
   }
 }
 
-@media screen and (min-width: 1920px)  {
+@media screen and (min-width: 1920px) {
   .content_flex {
     max-width: 70%;
     margin-left: auto;
