@@ -1,3 +1,33 @@
+.footer_line {
+  position: relative;
+}
+
+.footer_line ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50%;
+  bottom: 0px;
+  right: 0px;
+  border-top: 1px solid #707070;
+  transform: translateY(50%);
+}
+
+.footer_line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 3;
+  width: 1px;
+  height: 1px;
+  background-color: #707070;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  bottom: 0.25px;
+  right: 50%;
+  transform: translateY(50%);
+}
+
 .menu {
   /* display: block; */
   width: 50px;
