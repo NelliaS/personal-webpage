@@ -20,7 +20,7 @@ const Footer = () => {
         <div className={styles.footer_copy}>
           <p>Copyright © </p>
           <p>N. Slezáková, P. Kejmarová, L. Cicvárková, </p>
-          <p>V. Mádr, L. Silná</p>
+          <p>V. Mádr, L. Silná, R. Zeman</p>
         </div>
       </div>
     </footer>
