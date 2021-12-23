@@ -40,44 +40,45 @@ const Home: NextPage = () => {
         <div className={styles.content__block2}>
           <h2>Pomoc se ti hodí pokud:</h2>
           <ul>
-            <li>Si zoufáš, že nevíš odkud začít</li>
-            <li>Zasekl/a ses na tutoriálech</li>
-            <li>Nedaří se ti dodržovat učební plán nebo ho vůbec nemáš</li>
-            <li>Tvůj time management pokulhává</li>
-            <li>Potýkáš se s nejistotou (imposter syndrom)</li>
-            <li>Srovnáváš se s ostatními, kterým se to podařilo</li>
-            <li>
-              Máš strach z pohovorů a nevíš, zda bys už na ně měl/a začít chodit
-            </li>
-            <li>Chybí ti nadhled a jsi ve stresu</li>
+            <li>S programováním teprve začínáš a ... </li>
+            <li>Ztratil/a ses v záplavě toho, co se musíš naučit</li>
+            <li>Tvoje snaha nenese kýžené ovoce</li>
+            <li>Pochybuješ, zda se ti to vůbec podaří</li>
+            <li>Máš strach z pohovorů </li>
+            <li>V IT už pracuješ, ale …</li>
+            <li>V současné práci nejsi spokojený/á</li>
+            <li>Cítíš se vyhořele</li>
+            <li>Pochybuješ, zda je IT pro tebe a nevíš jak dál </li>
           </ul>
         </div>
         <div className={styles.content__block4}>
           <img className={styles.profile}src='images/profil.png'/>
           <h2>Nela - průvodkyně kariérní změnou</h2>
           <p>
-            Šla jsem stejnou cestou, na které tě chci provázet - jako samouk
-            jsem se do IT úspěšně dostala a chvíli se v něm i zdržela. Mým
-            záměrem je zužitkovat své psychologické vzdělání a dovednosti
-            (probíhající terapeutický a koučovací výcvik) a pomoci ti na tvojí
-            cestě do IT.{" "}
+           Jako samouk jsem se za relativně krátký čas byla schopná uchytit jako
+           Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 
+           terapeutka a koučka ve výcviku.{" "}
           </p>
           <p>
-            Věřím, že se mnou, jako průvodkyní, se ti bude našlapovat snáz.
-            Pokud se se mnou rozhodneš vydat na toto dobrodružství, můžu ti
-            slíbit jedno - neposuneš se jen ve znalostech, ale vyrosteš i
-            osobnostně.
+           Hledala jsem způsob, jak spojit své dva milované světy - 
+           programování a psychologii. A když jsem se začala pohybovat mezi 
+           začátečníky, kteří se do IT snaží dostat, objevila jsem, že jim mám 
+           hodně co nabídnout. A nejen jim, ale i lidem, kteří se v IT pohybují, 
+           ale nejsou úplně spokojení.
           </p>
         </div>
         </div>
         <div className={styles.content__block3}>
         <div className={styles.content__block3_flex}>
-          <h2>Průvodce kariérní změnou</h2>
+          <h2>Co nabízím?</h2>
           <p>
-            Je člověk, který se v dané oblasti dobře vyzná. Šel cestou, na které
-            tě chce doprovázet. Expertízu mu dodává psychologické vzdělání a
-            praktické dovednosti. Pomůže ti se na tvé cestě za změnou kariéry
-            objevit poklady a vyhnout se pastem.
+           Nabízím čtyři služby - koučink, mentoring, sebepoznání a podporu. 
+           {" "}
+          </p>
+          <p>
+           Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu práce. 
+           Pokud na stránce Jak to funguje nepřijdeš na to, která je pro tebe 
+           nejvhodnější, nelam si hlavu s tím, ozvi se a společně na to přijdeme. 
           </p>
         </div>
         </div>
