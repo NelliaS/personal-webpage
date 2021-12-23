@@ -19,9 +19,8 @@ const Footer = () => {
             <img className={styles.footer_icon} src="/images/icons/linkedin.svg"/>
           </div>
           <div className={styles.footer_copy}>
+            <p>Contributors </p>
             <p>Copyright © </p>
-            <p>N. Slezáková, P. Kejmarová, L. Cicvárková, </p>
-            <p>V. Mádr, L. Silná, R. Zeman</p>
           </div>
         </div>
       </footer>
