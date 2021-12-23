@@ -1,8 +1,8 @@
-- [ ] odrážky na stránce "Nela" vyčárkované
-- [ ] hlavička jako sticky header 
+- [ ] odrážky na stránce "Nela" vyčárkované - Rado
+- [ ] hlavička jako sticky header - Rado
 - [ ] vložit odkazy na favicony (personal-webpage/src/pages/_document.tsx)
-- [ ] potřeba napozicovat patičku (contributors a copyright)
-- [ ] v patičce je potřeba zvětšit ikonky a udělat je šedé
+- [ ] potřeba napozicovat patičku (contributors a copyright) - Rado
+- [ ] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
 - [ ] prolinkovat patičku:
     - contributors se stránkou contributors
     - github https://github.com/NelliaS/
