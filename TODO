@@ -9,8 +9,8 @@
     - linkedin https://www.linkedin.com/in/nela-slezakova/
     - discord https://discordapp.com/users/791020144661889054/
 - [ ] zúžit o něco header
-- [ ] vybrat nové písmo - Nela
-- [ ] implementovat nové písmo (velikosti a spol.)
+- [x] vybrat nové písmo - Nela - místo Yeseva one -> Open sans - semibold
+- [ ] implementovat nové písmo (velikosti a spol.) -> Open sans semibold
 - [ ] nachystat integromat - Vojta
 - [ ] dodělat stránku "Úvod"
 - [x] dodělat návrh stránky "Jak to funguje" (vzhled + obsah) - Nela
