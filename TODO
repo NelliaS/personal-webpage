@@ -13,7 +13,7 @@
 - [ ] implementovat nové písmo (velikosti a spol.)
 - [ ] nachystat integromat - Vojta
 - [ ] dodělat stránku "Úvod"
-- [ ] dodělat návrh stránky "Jak to funguje" (vzhled + obsah) - Nela
+- [x] dodělat návrh stránky "Jak to funguje" (vzhled + obsah) - Nela
 - [ ] dodělat stránku "Jak to funguje"
 - [ ] rozcestníky pro "Kontakt" - design + prolinkování mezi nimi
 - [ ] kontaktní formulář design 
@@ -24,3 +24,5 @@
 - [ ] objednací formulář další objednání napojení na integromat - Sveťa
 - [ ] stránka "Contributors"
 - [ ] vybrat hosting - Nela
+- [ ] stránka s kvízem
+- [ ] otázky a vyhodnocení pro kvíz - Nela

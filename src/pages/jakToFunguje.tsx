@@ -22,69 +22,76 @@ const JakToFunguje: NextPage = () => {
         <section className={styles.content__block1} >
           <div className={styles.content__box1}>
             <h1>Jak pracuju</h1>            
-            <p>Poskytuju komplexní podporu při tvojí snaze změnit kariéru a dostat se do IT. Chci, abychom kráčeli po této cestě přiměřeným tempem a s důvěrou, že na konci nás čeká úspěch. Nenabízím ti instantní řešení, ani rychlou a přímočarou cestu, nechci tě totiž dostat do ještě větší tlaku, než pod jakým možná jsi.</p>
-             <p> Budu se ti snažit pomoct uspořádat si myšlenky, pochopit emoce a získat nadhled. Chci ti pomoct k většímu klidu a sebedůvěře. Budeme se bavit o tvém učebním procesu a time managementu. Vymyslíme, jak nejlépe se dostat do cíle, a budeme průběžně monitorovat naši snahu. Překážky, které se na cestě nevyhnutelně objeví, ti pomohu úspěšně zdolávat.</p>
-             <p> Všechny mé znalosti, dovednosti a zkušenosti jsou ti plně k dispozici. Pracuji pod supervizí a pravidelně tak svůj styl práce konzultuji. Ve své práci stavím jednak na svém psychologickém vzdělání, terapeutických dovednostech (procesově orientovaná práce) a koučinku. Také na zkušenostech z mojí cesty do IT a zkušenostech z vlastní programátorské praxe.</p>
+             <p>Poskytuju individualizovanou podporu při tvojí snaze za lepší prací. Nabízím čtyři služby - koučink, mentoring, sebepoznání a podporu. Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu práce a mají společné jedno - mě :) Styl mé práce je ovlivněn tím, kdo jsem a co považuji za důležité. Jsem upřímná, svéhlavá, empatická a podporující. Nejsem prodavač instantních řešení, ani ti nebudu lhát, že jde vše snadno a bez práce, nechci tě dostávat pod větší tlak, než pod jakým nejspíše jsi.</p>
+             <p>Když se do toho se mnou rozhodneš jít, můžu ti slíbit, že všechny mé znalosti, dovednosti a zkušenosti ti budou plně k dispozici. Ve své praxi stavím jednak na svém psychologickém vzdělání, terapeutických dovednostech (procesově orientovaná práce) a koučinku. Tak na zkušenostech z mojí cesty do IT a zkušenostech z vlastní programátorské praxe.</p>
+             <p>Prakticky to funguje tak, že se objednáš a ve stanovený čas se připojíš na videohovor. Každé sezení, nehledě na variantu spolupráce, by ti mělo přinášet uspořádání myšlenek, nadhled a větší klid. Blíže k jednotlivým variantám se dozvíš níže, můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.</p>
               </div>
           <div className={styles.content__box2}>
-            <h1>Důležité informace</h1>
+            <h1>To be deleted</h1>
             <ul>
-              <li>Prosím zajisti si klidné prostředí, zkontroluj techniku a ve smluveném čase se připoj na videohovor na Zoomu. Odkaz na Zoom ti přijde předem na e-mail.</li> 
-              <li>Po sezení ti zašlu na stejný e-mail fakturu s platebními pokyny.</li> 
-              <li>S předem naplánovaným sezením závazně počítám. V případě, že ti termín přestane vyhovovat, prosím ozvi se mi s touto informací alespoň 24 h dopředu. V opačném případě si účtuju storno poplatek v plné výši.</li>
+              <li>to be deleted</li> 
+              <li>to be deleted</li> 
+              <li>to be deleted</li>
             </ul>
           </div>
         </section >
         <section className={styles.content__block2}>
-          <h1>Balíčky</h1>
+          <h1>Varianty spolupráce</h1>
         </section>
         <section className={styles.content__block3}>
           <div className={styles.card_container}>
           <div className={styles.card}>
-            <span className={styles.card_number}>1</span><h2>Dobrý start</h2>
+            <span className={styles.card_number}>1</span><h2>Koučink</h2>
             <ul>
-              <li>-----------------</li>
-              <li>-----------------</li>
-              <li>-----------------</li>
+              <li>zorientuješ se ve své situaci</li>
+              <li>budeš vědět, co použít na cestě za svými cíly</li>
+              <li>vybereš si svůj první cíl, který je SMART</li>
+              <li>budeš mít jasný plán, co a jak dělat abys svého cíle dosáhl/a</li>
+              <li>1 sezení od ...,- Kč</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>2</span><h2>Podpora na cestě</h2>
+          <span className={styles.card_number}>2</span><h2>Mentoring</h2>
             <ul>
-              <li>_______________</li>
-              <li>_______________</li>
-              <li>_______________</li>
+              <li>rozhodneš se, čemu se věnovat (jazyk, oblast, odvětví)</li>
+              <li>budeš vědět, co tě čeká a čím začít</li>
+              <li>nastavíš si rozumný time management</li>
+              <li>cenné tipy v rukávu</li>
+              <li>1 sezení od ...,- Kč</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>3</span><h2>Lepší pohovory</h2>
+          <span className={styles.card_number}>3</span><h2>Podpora</h2>
             <ul>
-              <li>----------------</li>
-              <li>---------------</li>
-              <li>----------------</li>
+              <li>lépe porozumíš své situaci a svým pocitům</li>
+              <li>budeš klidnější</li>
+              <li>zvýší se tvoje sebedůvěra</li>
+              <li>svoji situaci budeš lépe zvládat a mít plán, jak dál postupovat</li>
+              <li>1 sezení od ...,- Kč</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>4</span><h2>Snazší adaptace</h2>
+          <span className={styles.card_number}>4</span><h2>Sebepoznání</h2>
             <ul>
-              <li>---------------------</li>
-              <li>---------------------</li>
-              <li>---------------------</li>
+              <li>absolvuješ diagnostiku osobnosti, či kognitivních schopností (inteligence)</li>
+              <li>budeš se lépe znát a proto se rozhodneš pro cestu, která je pro tebe nejvhodnější</li>
+              <li>budeš vědět, na čem stavět úspěch</li>
+              <li>1 sezení od ...,- Kč</li>
             </ul>
           </div>
           <div className={styles.card}>
-          <span className={styles.card_number}>5</span><h2>Na míru</h2>
+          <span className={styles.card_number}>5</span><h2>Dlouhodobá</h2>
             <ul>
-              <li>---------------------</li>
-              <li>---------------------</li>
-              <li>---------------------</li>
+              <li>spolupracuj se mnou dlouhodobě a v každý moment využívej takový typ spolupráce, který ti dá nejvíc</li>
+              <li>získej dlouhodobou podporu na svojí cestě za (lepší) prací v IT</li>
+              <li>1 sezení od ...,- Kč</li>
             </ul>
           </div>
           </div>
         </section>
         <section className={styles.content__block4}>
-          <h1>Za kolik?</h1>
-          <p>-------------------</p>
+          <p>Zjisti, která forma spolupráce by pro tebe byla nejlepší</p>
+          <p> >> Udělat si kvíz << </p>
           </section>      
       </main>
       </>
