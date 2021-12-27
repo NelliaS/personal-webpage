@@ -92,7 +92,7 @@ const JakToFunguje: NextPage = () => {
         <section className={styles.content__block4}>
           <h1>to be deleted</h1>
           <p>Zjisti, která forma spolupráce by pro tebe byla nejlepší</p>
-          <p> >> Udělat si kvíz << </p>
+          <p>Udělat si kvíz</p>
           </section>      
       </main>
       </>
