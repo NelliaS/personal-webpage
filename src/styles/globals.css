@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Source+Sans+Pro:wght@300;400&display=swap');
 
 /*Breakpoints
 < 480px         xs
@@ -16,8 +16,8 @@
   --color-font-main: #141b0b;
   --color-font-heading: #0c1908;
 
-  --font-family-main: 'PT Serif', serif;
-  --font-family-heading: 'Yeseva One', cursive;
+  --font-family-main: 'Source Sans Pro', sans-serif;
+  --font-family-heading: 'Noto Sans Oriya ', sans-serif;
 /*
   --font-size-h1-xs: 14px;
   --font-size-h1-sm: 16px;
@@ -63,17 +63,17 @@ h1, h2 {
   color: var(--color-font-heading);
 }
 h1 {
-  font-size: 1rem;  
+  font-size: 1.6rem;  
 }
 
 h2 {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
 }
 
 p, li {
   font-family: var(--font-family-main);
   color: var(--color-font-main);  
-  font-size: 0.6rem; 
+  font-size: 1rem; 
 }
 
 
@@ -83,7 +83,21 @@ footer {
   padding: 20px;
 }
 
+@media screen and (max-width: 769px) {
+  h1 {
+    font-size: 1.6rem;  
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+  
+  p, li { 
+    font-size: 1.2rem; 
+  }
+}
 
+/*
 @media screen and (min-width: 480px) {
   h1 {
     font-size: 1.2rem;  
@@ -112,6 +126,7 @@ footer {
   }
 }
 
+
 @media screen and (min-width: 1025px) {
   h1 {
     font-size: 1.6rem;  
@@ -139,4 +154,4 @@ footer {
     font-size: 1.25rem; 
   }
 }
-
+*/
