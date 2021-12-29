@@ -84,19 +84,20 @@
   list-style: none;
   padding-left: 0.5rem;
 }
-/*
 .card li::before {
   content: "▶";
   color: grey;
   font-size: 0.6rem;  
-  margin-right: 1rem;
-  vertical-align: middle;
-}*/
+  margin-right: 0.5rem;
+  vertical-align: 10%;
+}
+/*
 .card li::marker {  
     content: "▶";
     color: grey;
     font-size: 0.6rem;       
 }
+*/
 .card p {
   text-align: right;
   margin-top: 1rem;
