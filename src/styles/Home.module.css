@@ -215,14 +215,14 @@
     border-radius: 5px;
     max-width: 200px;
     padding: 5px 20px;
-    bottom: 5px;
+    bottom: 20px;
   }
   .popup h2 {
     font-size: 0.8rem;
   }
   .hero__text {
     font-size: 0.8rem;
-    bottom: 5px;
+    bottom: 20px;
   }
   .content_flex {
     padding-left: 50px;
@@ -270,14 +270,14 @@
     border-radius: 5px;
     max-width: 200px;
     padding: 7px 25px;
-    bottom: 15px;
+    bottom: 30px;
   }
   .popup h2 {
     font-size: 1rem;
   }
   .hero__text {
     font-size: 1rem;
-    bottom: 15px;
+    bottom: 30px;
   }
   .content__block2 li {
     font-size: 1rem;

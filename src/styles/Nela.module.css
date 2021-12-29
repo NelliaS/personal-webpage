@@ -157,7 +157,6 @@
 
 .content__block6_card ul {
   /* list-style-image: url("/src/arrow.svg"); */
-  list-style: none;
   position: relative;
   padding: 0 0.625rem;
   line-height: 55px;

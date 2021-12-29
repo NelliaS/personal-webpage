@@ -191,11 +191,11 @@ const Nela: NextPage = () => {
 
           <div className={styles.content__block6_card}>
             <ul>
-              <li><img className={styles.cardicon}src='images/icons/arrow.svg'/>Silná osobnost a zároveň mimořádně citlivá</li>
-              <li><img className={styles.cardicon}src='images/icons/arrow.svg'/>Umím si naplno užívat života, i lenošit bez výčitek</li>
-              <li><img className={styles.cardicon}src='images/icons/arrow.svg'/>Milovnice pořádku a beznadějný bordelář</li>
-              <li><img className={styles.cardicon}src='images/icons/arrow.svg'/>Prý společenská, ale preferuju klid v přírodě</li>
-              <li><img className={styles.cardicon}src='images/icons/arrow.svg'/>Obyvatelka dvou velmi odlišných světů - <br></br>   psychologie a programování</li>
+              <li>Silná osobnost a zároveň mimořádně citlivá</li>
+              <li>Umím si naplno užívat života, i lenošit bez výčitek</li>
+              <li>Milovnice pořádku a beznadějný bordelář</li>
+              <li>Prý společenská, ale preferuju klid v přírodě</li>
+              <li>Obyvatelka dvou velmi odlišných světů - <br></br>   psychologie a programování</li>
             </ul>
           </div>
             
