@@ -80,10 +80,10 @@ const JakToFunguje: NextPage = () => {
           </div>
           </div>
         </section>
-        <section className={styles.content__block4}>         
+        {/* <section className={styles.content__block4}>         
           <h2>Zjisti, která forma spolupráce by pro tebe byla nejlepší</h2>
           <h2>Udělat si kvíz</h2>
-          </section>      
+          </section>       */}
       </main>
       </>
   );
