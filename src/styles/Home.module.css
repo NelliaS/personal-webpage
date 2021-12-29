@@ -233,6 +233,7 @@
 @media screen and (min-width: 1280px) {
   .content__block3 p {
     line-height: 1.5;
+    font-size: 1rem;
   }
   .content__block4 h2 {
     font-size: 1.2rem;
