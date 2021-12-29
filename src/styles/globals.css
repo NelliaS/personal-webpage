@@ -97,6 +97,10 @@ footer {
   }
 }
 
+button, a {
+  cursor: pointer;
+}
+
 /*
 @media screen and (min-width: 480px) {
   h1 {

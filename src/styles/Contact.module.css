@@ -1,0 +1,21 @@
+.contact {
+    height: auto;
+    min-height: calc(100vh - 170px);
+    z-index: 1000;
+    position: relative;
+}
+
+.inner_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+}
+
+.button_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
