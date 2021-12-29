@@ -7,11 +7,13 @@ const Header = () => {
   
   return (
     <>
-    <div className={styles.footer_line}>
-        <Navigation />
-        <MobileNavigation />
+    <div className={styles.stick}>
+      <div className={styles.footer_line}>
+          <Navigation />
+          <MobileNavigation />
+      </div>
     </div>
-    </>
+      </>
     )
   }
   

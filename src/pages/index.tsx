@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           />
         </div>
         <h1 className={styles.hero__headline}>
-          Pomůžu ti na cestě za tvojí první prací v IT
+          Pomůžu ti na cestě za (lepší) prací v IT
         </h1>
         <h2 className={styles.hero__text}>
           Nela Slezáková <br></br> průvodkyně kariérní změnou
@@ -40,15 +40,15 @@ const Home: NextPage = () => {
         <div className={styles.content__block2}>
           <h2>Pomoc se ti hodí pokud:</h2>
           <ul>
-            <li>S programováním teprve začínáš a ... </li>
-            <li>Ztratil/a ses v záplavě toho, co se musíš naučit</li>
-            <li>Tvoje snaha nenese kýžené ovoce</li>
-            <li>Pochybuješ, zda se ti to vůbec podaří</li>
-            <li>Máš strach z pohovorů </li>
-            <li>V IT už pracuješ, ale …</li>
-            <li>V současné práci nejsi spokojený/á</li>
-            <li>Cítíš se vyhořele</li>
-            <li>Pochybuješ, zda je IT pro tebe a nevíš jak dál </li>
+            <li className={styles.mainitem}>S programováním teprve začínáš a ... </li>
+            <li className={styles.secondaryitem}>Ztratil/a ses v záplavě toho, co se musíš naučit</li>
+            <li className={styles.secondaryitem}>Tvoje snaha nenese kýžené ovoce</li>
+            <li className={styles.secondaryitem}>Pochybuješ, zda se ti to vůbec podaří</li>
+            <li className={styles.secondaryitem}>Máš strach z pohovorů </li>
+            <li className={styles.mainitem}>V IT už pracuješ, ale …</li>
+            <li className={styles.secondaryitem}>V současné práci nejsi spokojený/á</li>
+            <li className={styles.secondaryitem}>Cítíš se vyhořele</li>
+            <li className={styles.secondaryitem}>Pochybuješ, zda je IT pro tebe a nevíš jak dál </li>
           </ul>
         </div>
         <div className={styles.content__block4}>
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
            Jako samouk jsem se za relativně krátký čas byla schopná uchytit jako
            Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 
            terapeutka a koučka ve výcviku.{" "}
-          </p>
+          </p><br />
           <p>
            Hledala jsem způsob, jak spojit své dva milované světy - 
            programování a psychologii. A když jsem se začala pohybovat mezi 
@@ -72,12 +72,12 @@ const Home: NextPage = () => {
         <div className={styles.content__block3_flex}>
           <h2>Co nabízím?</h2>
           <p>
-           Nabízím čtyři služby - koučink, mentoring, sebepoznání a podporu. 
+           Nabízím čtyři služby - <span className={styles.boldfont}>koučink, mentoring, sebepoznání a podporu.</span> 
            {" "}
           </p>
           <p>
            Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu práce. 
-           Pokud na stránce Jak to funguje nepřijdeš na to, která je pro tebe 
+           Pokud na stránce <span className={styles.italicfont}>Jak to funguje</span> nepřijdeš na to, která je pro tebe 
            nejvhodnější, nelam si hlavu s tím, ozvi se a společně na to přijdeme. 
           </p>
         </div>

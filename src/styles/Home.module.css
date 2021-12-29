@@ -11,14 +11,14 @@
 
 .hero__text {
   position: absolute;
-  bottom: 10px;
-  right: 20px;
+  bottom: 20px;
+  right: calc(20% - 20px);
   font-size: 10px;
 }
 
 .hero__headline {
   position: absolute;
-  top: 20px;
+  top: calc(20% - 20px);
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -30,10 +30,10 @@
   background-color: rgb(254, 252, 240, 0.5);
   border-radius: 5px;
   max-width: 200px;
-  padding: 5px;
+  padding: 10px 40px;
   position: absolute;
-  bottom: 10px;
-  left: 20px;
+  bottom: 20px;
+  left: calc(20% - 20px);
 }
 .popup h2 {
   font-size: 10px;
@@ -65,8 +65,11 @@
 .content__block2 h2,
 .content__block3 h2,
 .content__block4 h2 {
-  text-align: center;
   margin-bottom: 1rem;
+  text-align: center;
+}
+.content__block1 h2 {
+  margin: 0;
 }
 .content__block1,
 .content__block2,
@@ -81,7 +84,7 @@
   font-size: 12px;
 }
 .content__block2 li {
-  line-height: 2;
+  line-height: 2.4;
   font-size: 0.6rem;
   font-family: var(--font-family-heading);
 }
@@ -89,18 +92,56 @@
   text-align: center;
 }
 
+.content__block2 .mainitem {
+  list-style: none;
+  font-weight: bolder;
+}
+.content__block2 .secondaryitem {
+  margin-left: 55px;
+}
+
+.content__block4 h2,
+.content__block4 p {
+  text-align: left;
+}
+.content__block3_flex .boldfont {
+  font-weight: bold;
+}
+.content__block3_flex .italicfont {
+  font-style: italic;
+}
+
 .profile {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
+  width: 160px;
+  height: 160px;
+  margin: 0 20px 20px 20px;
+  border: 3px solid #707070;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 480px) {
-  .popup h2 {
-    font-size: 16px;
+  .content__block1 h2 {
+    font-size: 1rem;
+  }
+  .hero__headline {
+    top: calc(30% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 1rem;
+  }
+  .popup {
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 5px 20px;
+    bottom: 5px;
+    left: calc(20% - 50px);
   }
   .hero__text {
-    font-size: 14px;
+    font-size: 0.7rem;
+    bottom: 5px;
+    right: calc(20% - 90px);
   }
   .content_flex {
     display: flex;
@@ -134,11 +175,54 @@
   .content__block2 li {
     font-size: 0.8rem;
   }
+  .content__block3 h2 {
+    font-family: Comic Sans MS;
+  }
+  .content__block3 {
+    margin-bottom: 6rem;
+  }
 }
 
 @media screen and (min-width: 769px) {
+  .content__block3 p {
+    font-size: 0.9rem;
+    line-height: 1.25;
+  }
   .content__block2 li {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  .content__block4 p {
+    font-size: 0.9rem;
+  }
+  .content__block4 h2 {
+    font-size: 1.1rem;
+  }
+  .content__block3 h2 {
+    font-size: 1.1rem;
+  }
+  .content__block2 h2 {
+    font-size: 1.1rem;
+  }
+  .hero__headline {
+    top: calc(20% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 1.2rem;
+  }
+  .popup {
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 5px 20px;
+    bottom: 5px;
+  }
+  .popup h2 {
+    font-size: 0.8rem;
+  }
+  .hero__text {
+    font-size: 0.8rem;
+    bottom: 5px;
   }
   .content_flex {
     padding-left: 50px;
@@ -147,8 +231,62 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .content__block3 p {
+    line-height: 1.5;
+  }
+  .content__block4 h2 {
+    font-size: 1.2rem;
+  }
+  .content__block3 h2 {
+    font-size: 1.2rem;
+  }
+  .content__block2 h2 {
+    font-size: 1.2rem;
+  }
+  .content__block4 {
+    max-width: 40%;
+    flex-shrink: 0;
+    z-index: 2;
+    flex-grow: 1;
+    margin: 20px 0 -50px 0;
+  }
+  .content__block4 p {
+    line-height: 1.55;
+  }
+  .content__block4 h2 {
+    font-size: 1.2rem;
+  }
+  .content__block1 h2 {
+    font-size: 1.2rem;
+  }
+  .hero__headline {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-size: 1.6rem;
+  }
+  .popup {
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 7px 25px;
+    bottom: 15px;
+  }
+  .popup h2 {
+    font-size: 1rem;
+  }
+  .hero__text {
+    font-size: 1rem;
+    bottom: 15px;
+  }
   .content__block2 li {
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+  .content__block2 h2 {
+    font-size: 1.2rem;
+  }
+  .content__block3 h2 {
+    font-size: 1.2rem;
   }
 }
 
