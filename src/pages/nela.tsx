@@ -35,91 +35,91 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>1995</span></p>
-                  <p>Narozena ve Svitavách</p>
+                  <p>Poprvé mamince v náručí</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>2011 - 2015</span></p>
-                  <p>Gymnázium Svitavy - maturita</p>
+                  <p>Studuji gympl a čtu knížky o psychologii</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>2015 - 2019</span></p>
-                  <p>Masarykova univerzita - bakalářské studium Psychologie</p>
+                  <p>Bakalářské studium vysněné psychologie (MUNI)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>2016 - 2018</span></p>
-                  <p>Vedení relaxací a kognitivních tréninků (projekt SPOLU)</p>
-                </div>
-              </li>
-
-              <li>
-                <div className={styles.content__block2_timelineContent}>
-                  <p><span>2018 - 2019</span></p>
-                  <p>Projektový management vzdělávacích workshopů (IAP)</p>
-                </div>
-              </li>
-
-              <li>
-                <div className={styles.content__block2_timelineContent}>
-                  <p><span>2019 - 2021</span></p>
-                  <p>Masarykova univerzita - magisterské studium Psychologie</p>
+                  <p>Dobrovolničím - vedu relaxace a kognitivní tréninky (projekt SPOLU)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>07/2020 & 07/2021</span></p>
-                  <p>Vedení seberozvojového programu pro rodiče dětí s autismem (tábory SPOSA)</p>
+                  <p>Vedu seberozvojové programy pro rodiče dětí s autismem (SPOSA)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
-                  <p><span>10/2020 - 12/2020</span></p>
-                  <p>Začátečnický kurz v Pythonu (PyLadies)</p>
+                  <p><span>2020</span></p>
+                  <p>Při datové analýze své diplomky objevuji krásu skriptů a začínám kurz Pythonu (PyLadies)</p>
+                </div>
+              </li>
+
+              <li>
+                <div className={styles.content__block2_timelineContent}>
+                  <p><span>2021</span></p>
+                  <p>Stávám se Mgr. psycholožkou (MUNI)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>02/2021 - 08/2021</span></p>
-                  <p>Programátor nákladního simulátoru (Centrum dopravního výzkumu)</p>
+                  <p>První pokus o spojení programování a psychologie - programuji scénáře výzkumu dopravní psychologie (CDV)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>06/2021 - dosud</span></p>
-                  <p>Základní výcvik v procesově orientované práci (započatý terapeutický výcvik)</p>
+                  <p>Stávám se psychoterapeutkou ve výcviku (procesově orientovaná práce)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>08/2021 - 11/2021</span></p>
-                  <p>Junior software developer v Pythonu (Red Hat)</p>
+                  <p>Věnuju se čistě programování v Pythonu (Red Hat)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>10/2021 - dosud</span></p>
-                  <p>Koučovací výcvik v metodě GROW (započatý koučovací výcvik)</p>
+                  <p>Stávám se koučkou ve výcviku (metoda GROW)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>12/2021</span></p>
-                  <p>Průvodkyně kariérní změnou (vlastní praxe)</p>
+                  <p>Začínám s vlastní praxí průvodkyně kariérní změnou</p>
+                </div>
+              </li>
+
+              <li>
+                <div className={styles.content__block2_timelineContent}>
+                  <p><span>1/2022</span></p>
+                  <p>Začínám programovat a aplikovat psychologii pro ___ ? :)</p>
                 </div>
               </li>
 
