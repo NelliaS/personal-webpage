@@ -83,7 +83,7 @@ footer {
   padding: 20px;
 }
 
-@media screen and (max-width: 769px) {
+/* @media screen and (max-width: 769px) {
   h1 {
     font-size: 1.6rem;  
   }
@@ -95,7 +95,7 @@ footer {
   p, li { 
     font-size: 1.2rem; 
   }
-}
+} */
 
 button, a {
   cursor: pointer;

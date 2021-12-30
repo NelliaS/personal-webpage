@@ -8,7 +8,7 @@ import styles from "../styles/Contact.module.css";
 
 const Kontakt: NextPage = () => {
   return (
-    <React.Fragment>
+    <div className={styles.outer_wrapper}>
       <ImageWrapper src="/images/contact_bg.webp" alt="Nella kontakt" />
       <ContactContainer>
         <div className={styles.inner_wrapper}>
@@ -19,7 +19,7 @@ const Kontakt: NextPage = () => {
         </div>
         </div>
     </ContactContainer>
-    </React.Fragment>
+    </div>
   )
 }
 

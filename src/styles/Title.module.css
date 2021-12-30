@@ -1,4 +1,10 @@
 .main_title {
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
+
+@media screen and (min-width: 768px) {
+    .main_title {
+        font-size: 2rem;
+    }
+ }
