@@ -23,14 +23,15 @@ const Home: NextPage = () => {
         <h1 className={styles.hero__headline}>
           Pomůžu ti na cestě za (lepší) prací v IT
         </h1>
-        <h2 className={styles.hero__text}>
+        {/*<h2 className={styles.hero__text}>
           Nela Slezáková <br></br> průvodkyně kariérní změnou
         </h2>
         <div className={styles.popup}>
           <h2>
             nabírám klienty
           </h2>
-        </div>
+        </div>*/ }
+
       </div>
       <div className={styles.content_wrap}>
         <div className={styles.content__block1}>
