@@ -38,7 +38,7 @@ const JakToFunguje: NextPage = () => {
               <li>zorientuješ se ve své situaci</li>
               <li>budeš vědět, co použít na cestě za svými cíli</li>
               <li>budeš mít jasný plán, co a jak dělat, abys svého cíle dosáhl/a</li>
-              <p>1 sezení od ...,- Kč</p>
+              <p>1 sezení od 1400,- Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -48,7 +48,7 @@ const JakToFunguje: NextPage = () => {
               <li>budeš vědět, co tě čeká a čím začít</li>
               <li>nastavíš si rozumný time management</li>
               <li>cenné tipy v rukávu</li>
-              <p>1 sezení od ...,- Kč</p>
+              <p>1 sezení od 1300,- Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -58,7 +58,7 @@ const JakToFunguje: NextPage = () => {
               <li>budeš klidnější</li>
               <li>zvýší se tvoje sebedůvěra</li>
               <li>svoji situaci budeš lépe zvládat a mít plán, jak dál postupovat</li>
-              <p>1 sezení od ...,- Kč</p>
+              <p>1 sezení od 800,- Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -67,7 +67,7 @@ const JakToFunguje: NextPage = () => {
               <li>absolvuješ diagnostiku osobnosti či kognitivních schopností (inteligence)</li>
               <li>budeš se lépe znát, a proto se rozhodneš pro cestu, která je pro tebe nejvhodnější</li>
               <li>budeš vědět, na čem stavět úspěch</li>
-              <p>1 sezení od ...,- Kč</p>
+              <p>1 sezení od 1500,- Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -75,7 +75,7 @@ const JakToFunguje: NextPage = () => {
             <ul>
               <li>spolupracuj se mnou dlouhodobě a v každý moment využívej takový typ spolupráce, který ti dá nejvíc</li>
               <li>získej dlouhodobou podporu na svojí cestě za (lepší) prací v IT</li>
-              <p>1 sezení od ...,- Kč</p>
+              <p>Individuální nacenění spolupráce</p>
             </ul>
           </div>
           </div>
