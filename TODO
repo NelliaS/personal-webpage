@@ -1,6 +1,6 @@
 - [ ] odrážky na stránce "Nela" vyčárkované - Rado
 - [x] hlavička jako sticky header - Rado
-- [x] vložit odkazy na favicony (personal-webpage/src/pages/_document.tsx)
+- [ ] fixnout odkazy na favicony (personal-webpage/src/pages/_document.tsx)
 - [ ] potřeba napozicovat patičku (contributors a copyright) - Rado
 - [ ] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
 - [ ] prolinkovat patičku:
@@ -27,3 +27,4 @@
 - [ ] stránka s kvízem
 - [ ] otázky a vyhodnocení pro kvíz - Nela
 - [x] komprimovat obrázky
+- [ ] vyladit komprimaci obrázků
