@@ -1,6 +1,6 @@
 - [ ] odrážky na stránce "Nela" vyčárkované - Rado
 - [ ] hlavička jako sticky header - Rado
-- [ ] vložit odkazy na favicony (personal-webpage/src/pages/_document.tsx)
+- [x] vložit odkazy na favicony (personal-webpage/src/pages/_document.tsx)
 - [ ] potřeba napozicovat patičku (contributors a copyright) - Rado
 - [ ] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
 - [ ] prolinkovat patičku:
@@ -10,7 +10,7 @@
     - discord https://discordapp.com/users/791020144661889054/
 - [ ] zúžit o něco header
 - [x] vybrat nové písmo - Nela - místo Yeseva one -> Open sans - semibold
-- [ ] implementovat nové písmo (velikosti a spol.) -> Open sans semibold
+- [x] implementovat nové písmo (velikosti a spol.) -> Open sans semibold
 - [ ] nachystat integromat - Vojta
 - [ ] dodělat stránku "Úvod"
 - [x] dodělat návrh stránky "Jak to funguje" (vzhled + obsah) - Nela
