@@ -53,7 +53,7 @@ const Home: NextPage = () => {
           </ul>
         </div>
         <div className={styles.content__block4}>
-          <img className={styles.profile}src='images/profil.png'/>
+          <img className={styles.profile}src='images/profil.jpg'/>
           <h2>Nela - průvodkyně kariérní změnou</h2>
           <p>
            Jako samouk jsem se za relativně krátký čas byla schopná uchytit jako

@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Image from "next/image";
 import styles from '../styles/Nela.module.css'
-import HeroImage from "../../public/images/nelacoverimg.jpeg";
+import HeroImage from "../../public/images/nelacoverimg.jpg";
 
 const Nela: NextPage = () => {
   return (
@@ -150,7 +150,7 @@ const Nela: NextPage = () => {
 
           <div className={styles.content__block4_box}>
             <p>Miluju svého přítele (většinou)</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/pritel.jpeg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/pritel.jpg'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
@@ -170,7 +170,7 @@ const Nela: NextPage = () => {
 
           <div className={styles.content__block4_box}>
             <p>Ráda cestuju</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/oslo.jpeg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/oslo.jpg'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
