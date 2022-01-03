@@ -184,7 +184,7 @@
     font-size: 0.8rem;
   }
   .content__block3 h2 {
-    font-family: Comic Sans MS;
+    font-family: var(--font-family-heading);
   }
   .content__block3 {
     margin-bottom: 6rem;
