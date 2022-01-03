@@ -48,7 +48,7 @@ const JakToFunguje: NextPage = () => {
               <li>budeš vědět, co tě čeká a čím začít</li>
               <li>nastavíš si rozumný time management</li>
               <li>cenné tipy v rukávu</li>
-              <p>1 sezení za <del>1300,- Kč</del> 750,-Kč</p>
+              <p>1 sezení za <del>1300,- Kč</del> 650,-Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
