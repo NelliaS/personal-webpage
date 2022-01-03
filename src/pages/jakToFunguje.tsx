@@ -24,7 +24,7 @@ const JakToFunguje: NextPage = () => {
             <h1>Jak pracuji</h1>            
              <p>Poskytuji individualizovanou podporu při tvojí snaze za lepší prací. Nabízím čtyři služby - koučink, mentoring, sebepoznání a podporu. Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu práce a mají společné jedno - mě :) Styl mé práce je ovlivněn tím, kdo jsem a co považuji za důležité. Jsem upřímná, svéhlavá, empatická a podporující. Nejsem prodavač instantních řešení, ani ti nebudu lhát, že jde vše snadno a bez práce, nechci tě dostávat pod větší tlak, než pod jakým nejspíše jsi.</p>
              <p>Když se do toho se mnou rozhodneš jít, můžu ti slíbit, že všechny mé znalosti, dovednosti a zkušenosti ti budou plně k dispozici. Ve své praxi stavím jednak na svém psychologickém vzdělání, terapeutických dovednostech (procesově orientovaná práce) a koučinku. Tak na zkušenostech z mojí cesty do IT a zkušenostech z vlastní programátorské praxe.</p>
-             <p>Prakticky to funguje tak, že se objednáš a ve stanovený čas se připojíš na videohovor. Každé sezení, nehledě na variantu spolupráce, by ti mělo přinášet uspořádání myšlenek, nadhled a větší klid. Blíže k jednotlivým variantám se dozvíš níže, můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.</p>
+             <p>Prakticky to funguje tak, že se objednáš a ve stanovený čas se připojíš na videohovor. Frekvence sezení je většinou 1-2x týdně. Odhaduju, že průměrně lidé budou do úvodu potřebovat 3-5 sezení. Každé sezení, nehledě na variantu spolupráce, by ti mělo přinášet uspořádání myšlenek, nadhled a větší klid. Blíže k jednotlivým variantám se dozvíš níže. Moje služby jsou momentálně dostupné za zaváděcí ceny (výrazně nižší než tržní ceny).</p> 
               </div>       
         </section >
         <section className={styles.content__block2}>
@@ -38,7 +38,7 @@ const JakToFunguje: NextPage = () => {
               <li>zorientuješ se ve své situaci</li>
               <li>budeš vědět, co použít na cestě za svými cíli</li>
               <li>budeš mít jasný plán, co a jak dělat, abys svého cíle dosáhl/a</li>
-              <p>1 sezení od 1400,- Kč</p>
+              <p>1 sezení za <del>1400,- Kč</del> 700,- Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -48,7 +48,7 @@ const JakToFunguje: NextPage = () => {
               <li>budeš vědět, co tě čeká a čím začít</li>
               <li>nastavíš si rozumný time management</li>
               <li>cenné tipy v rukávu</li>
-              <p>1 sezení od 1300,- Kč</p>
+              <p>1 sezení za <del>1300,- Kč</del> 750,-Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -58,7 +58,7 @@ const JakToFunguje: NextPage = () => {
               <li>budeš klidnější</li>
               <li>zvýší se tvoje sebedůvěra</li>
               <li>svoji situaci budeš lépe zvládat a mít plán, jak dál postupovat</li>
-              <p>1 sezení od 800,- Kč</p>
+              <p>1 sezení za <del>800,- Kč</del> 500,-Kč </p>
             </ul>
           </div>
           <div className={styles.card}>
@@ -67,7 +67,7 @@ const JakToFunguje: NextPage = () => {
               <li>absolvuješ diagnostiku osobnosti či kognitivních schopností (inteligence)</li>
               <li>budeš se lépe znát, a proto se rozhodneš pro cestu, která je pro tebe nejvhodnější</li>
               <li>budeš vědět, na čem stavět úspěch</li>
-              <p>1 sezení od 1500,- Kč</p>
+              <p>1 sezení za <del>1500,- Kč</del> 750,-Kč</p>
             </ul>
           </div>
           <div className={styles.card}>
