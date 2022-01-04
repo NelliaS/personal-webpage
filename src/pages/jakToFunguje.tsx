@@ -67,9 +67,9 @@ const JakToFunguje: NextPage = () => {
           <div className={styles.card}>
           <h2>Sebepoznání</h2>
             <ul>
-              <li>absolvuješ diagnostiku osobnosti či kognitivních schopností (inteligence)</li>
-              <li>budeš se lépe znát, a proto se rozhodneš pro cestu, která je pro tebe nejvhodnější</li>
-              <li>budeš vědět, na čem stavět úspěch</li>
+              <li>absolvuješ diagnostiku osobnosti, kognitivních schopností (inteligence) anebo aktuálního psychického stavu</li>
+              <li>vydáš na cestu, která je pro tebe nejvhodnější</li>
+              <li>budeš vědět, na čem stavět úspěch a jak dál</li>
               <p>1 sezení za <del>1500,- Kč</del> 750,-Kč</p>
             </ul>
           </div>
