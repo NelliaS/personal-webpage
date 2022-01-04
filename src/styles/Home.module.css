@@ -17,7 +17,6 @@
   font-size: 10px;
 }
 
-
 .hero__headline {
   position: absolute;
   top: calc(20% - 20px);
@@ -28,8 +27,6 @@
   text-align: center;
   font-size: 1.125rem;
 }
-
-
 
 .popup {
   background-color: rgb(254, 252, 240, 0.5);
@@ -90,6 +87,7 @@
   padding: 30px;
 }
 .content__block2 ul {
+  list-style: none;
   padding-left: 20px;
   font-family: var(--font-family-heading);
   font-size: 12px;
@@ -99,6 +97,16 @@
   font-size: 1rem;
   font-family: var(--font-family-heading);
 }
+
+.content__block2 li:not(:nth-of-type(5n + 1))::before {
+  content: "▶";
+  color: grey;
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+  vertical-align: 10%;
+  /* zapis hore zoberie kazdy 5. item zacinajuc prvym , not to zneguje  */
+}
+
 .content__block3 p {
   text-align: center;
 }
