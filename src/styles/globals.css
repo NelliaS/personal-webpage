@@ -76,11 +76,16 @@ p, li {
   font-size: 1rem; 
 }
 
-
 footer {
   background-color: var(--color-primary);
   margin-top: 20px;
   padding: 20px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+button, a {
+  cursor: pointer;
 }
 
 /* @media screen and (max-width: 769px) {
@@ -96,10 +101,6 @@ footer {
     font-size: 1.2rem; 
   }
 } */
-
-button, a {
-  cursor: pointer;
-}
 
 /*
 @media screen and (min-width: 480px) {

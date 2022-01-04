@@ -3,6 +3,8 @@
   top: 0;
   z-index: 4;
 }
+
+/*
 .footer_line {
   position: relative;
 }
@@ -11,7 +13,7 @@
   content: "";
   display: block;
   position: absolute;
-  width: 50%;
+  width: 50%; 
   bottom: 0px;
   right: 0px;
   border-top: 1px solid #707070;
@@ -32,6 +34,7 @@
   right: 50%;
   transform: translateY(50%);
 }
+*/
 
 .menu {
   /* display: block; */
@@ -107,6 +110,8 @@
     background-color: #f9f9f9;
     position: sticky;
     z-index: 2;
+    max-width: 1440px;
+    margin:auto;
   }
 
   .nav {
@@ -114,7 +119,7 @@
     justify-content: flex-end;
     align-items: center;
     margin: 0px;
-    font-size: 2rem;
+    font-size: 2rem;   
   }
 
   .mobileNavigation {
