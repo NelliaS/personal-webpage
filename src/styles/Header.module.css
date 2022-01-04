@@ -4,7 +4,6 @@
   z-index: 4;
 }
 
-/*
 .footer_line {
   position: relative;
 }
@@ -34,7 +33,6 @@
   right: 50%;
   transform: translateY(50%);
 }
-*/
 
 .menu {
   /* display: block; */
