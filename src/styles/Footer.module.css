@@ -27,10 +27,12 @@
   transform: translateY(-50%);
 }
 
-.footer_flex {
+.footer_content {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 1440px;
+  margin: auto;
 }
 .footer_text p {
   font-size: 1rem;
@@ -45,7 +47,7 @@
 }
 
 @media (max-width: 1024px) {
-  .footer_flex {
+  .footer_content {
     max-width: 800px;
     margin: auto;
     flex-wrap: wrap;

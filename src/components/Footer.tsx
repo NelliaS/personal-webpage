@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className={styles.footer_line}>
       <footer>
-        <div className={styles.footer_flex}>
+        <div className={styles.footer_content}>
           <div className={styles.footer_text}>
             <p>Nela Slezáková</p>
             <p>průvodkyně kariérní změnou</p>

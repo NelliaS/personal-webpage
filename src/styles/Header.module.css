@@ -120,16 +120,15 @@
     display: block;
     background-color: #f9f9f9;
     position: sticky;
-    z-index: 2;
-    max-width: 1440px;
-    margin: auto;
+    z-index: 2;    
   }
 
   .nav {
+    max-width: 1440px;
+    margin: auto;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    margin: 0px;
+    align-items: center;    
     font-size: 2rem;
   }
 
