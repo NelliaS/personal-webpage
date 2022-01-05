@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya&display=swap");
 
 .content {
-  max-width: 1440px;
+  width: 100vw;
   height: auto;
-  margin:auto;
 }
 .content li {
   margin-left: 0;

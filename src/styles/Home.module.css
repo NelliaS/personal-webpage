@@ -2,8 +2,7 @@
 .hero__wrap {
   position: relative;
   height: "33.33vw";
-  max-width: 1440px;
-  margin: auto;
+  max-width: "100vw";
 }
 
 .hero {
@@ -42,10 +41,6 @@
 }
 
 /* CONTENT*/
-.content_wrap {
-  max-width: 1440px;
-  margin: auto;
-}
 
 .content__block1,
 .content__block3 {
