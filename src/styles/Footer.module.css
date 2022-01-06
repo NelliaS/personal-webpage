@@ -54,7 +54,16 @@
 .footer_content p {
   font-family: var(--font-family-heading);
 }
-
+.footer_copy a p:hover {
+  color: var(--color-secondary);
+}
+.footer_icons a:hover {
+  filter: brightness(0) saturate(100%) invert(69%) sepia(16%) saturate(727%)
+    hue-rotate(151deg) brightness(91%) contrast(92%);
+}
+.footer_icons a::before {
+  display: none;
+}
 @media (max-width: 1024px) {
   .footer_content {
     max-width: 800px;
