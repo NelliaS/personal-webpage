@@ -42,6 +42,13 @@
   font-size: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .hero__text, .popup {
+    display: none;
+  }
+}  
+
+
 /* CONTENT*/
 .content__block1,
 .content__block4 {
@@ -256,7 +263,7 @@
     flex-shrink: 0;
     z-index: 2;
     flex-grow: 1;
-    margin: 1rem 1rem 3rem;
+    margin: 1rem 1rem 3rem 5rem;
   }
   .content__block4 p {
     /*font-size: 0.9rem;*/
@@ -290,7 +297,7 @@
     flex-shrink: 0;
     flex-grow: 1;
     z-index: 2;  
-    margin: 20px 15% -50px 0;
+    margin: 20px 10% -50px 0;
   }
   .content__block4_text {
     display: block;
@@ -312,7 +319,18 @@
    .hero__headline {
     font-size: 1.8rem;
     top: calc(17% - 20px);
-  }/*
+  }
+  .content__block2 h2 {
+    text-align: center;
+  }
+  .content__block2 .mainitem {
+    list-style: none;
+    font-weight: bolder;   
+  }  
+  .content__block2 .secondaryitem {
+    margin-left: 2rem;
+  }
+  /*
   .content__block4 p {
     line-height: 1.5;
     font-size: 1rem;
@@ -378,7 +396,7 @@
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-  }
+  } 
 }
 
 /*REVIEW*/
