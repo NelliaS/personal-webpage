@@ -1,6 +1,6 @@
 - [x] odrážky na stránce "Nela" vyčárkované - Rado
 - [ ] fixnout odkazy na favicony (personal-webpage/src/pages/_document.tsx)
-- [ ] potřeba napozicovat patičku (contributors a copyright) - Rado
+- [x] potřeba napozicovat patičku (contributors a copyright) - Rado
 - [x] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
 - [x] prolinkovat patičku:
     - contributors se stránkou contributors

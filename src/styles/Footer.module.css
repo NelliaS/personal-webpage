@@ -51,6 +51,9 @@
 .footer_copy span p {
   font-size: 0.7rem;
 }
+.footer_content p {
+  font-weight: bolder;
+}
 
 @media (max-width: 1024px) {
   .footer_content {
