@@ -52,7 +52,7 @@
   font-size: 0.7rem;
 }
 .footer_content p {
-  font-weight: bolder;
+  font-family: var(--font-family-heading);
 }
 
 @media (max-width: 1024px) {
