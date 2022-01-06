@@ -27,8 +27,11 @@ const Home: NextPage = () => {
           Nela Slezáková <br></br> průvodkyně kariérní změnou
         </h2>
         <div className={styles.popup}>
-          <h2>nabírám klienty</h2>
+          <h2>
+            nabírám klienty
+          </h2>
         </div>
+
       </div>
       <div className={styles.content_wrap}>
         <div className={styles.content__block1}>

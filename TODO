@@ -1,8 +1,8 @@
-- [ ] odrážky na stránce "Nela" vyčárkované - Rado
+- [x] odrážky na stránce "Nela" vyčárkované - Rado
 - [ ] fixnout odkazy na favicony (personal-webpage/src/pages/_document.tsx)
-- [ ] potřeba napozicovat patičku (contributors a copyright) - Rado
-- [ ] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
-- [ ] prolinkovat patičku:
+- [x] potřeba napozicovat patičku (contributors a copyright) - Rado
+- [x] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
+- [x] prolinkovat patičku:
     - contributors se stránkou contributors
     - github https://github.com/NelliaS/
     - linkedin https://www.linkedin.com/in/nela-slezakova/
@@ -26,4 +26,4 @@
 - [ ] název webu
 - [ ] grafický návrh stránky Ceník
 - [ ] stránka Ceník - naprogramovat
-- [ ] vrátit zpět čárku s tečkou k header a footer
+- [x] vrátit zpět čárku s tečkou k header a footer
