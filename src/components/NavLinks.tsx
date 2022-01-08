@@ -45,9 +45,9 @@ const NavLinks = (props: { isMobile: any; closeMobileMenu: () => any; }) => {
             }
             onClick={handleClickMobile}
           >
-            <Link href="/kontakt">
+            {/* <Link href="/kontakt">
               <a>Kontakt</a>
-            </Link>
+            </Link> */}
           </li>
         </ul>
       </div>
