@@ -1,29 +1,24 @@
-- [x] odrážky na stránce "Nela" vyčárkované - Rado
 - [ ] fixnout odkazy na favicony (personal-webpage/src/pages/_document.tsx)
-- [x] potřeba napozicovat patičku (contributors a copyright) - Rado
-- [x] v patičce je potřeba zvětšit ikonky a udělat je šedé - Rado
-- [x] prolinkovat patičku:
-    - contributors se stránkou contributors
-    - github https://github.com/NelliaS/
-    - linkedin https://www.linkedin.com/in/nela-slezakova/
-    - discord https://discordapp.com/users/791020144661889054/
+- [ ] nový grafický návrh na favicon
+- [ ] fix patička na velké monitory - rozšířit - Rado
 - [ ] nachystat integromat pro objednání - Vojta
-- [ ] dodělat stránku "Úvod"
+- [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět na původní + 
+      vrátit "Nela průvodkyně" "nabírám" zpět na web (ne na mobily)
+- [ ] stránka "Jak to funguje" - bílý prostor a stíny dle grafického návrhu
 - [ ] rozcestníky pro "Kontakt" - vizuál + prolinkování mezi nimi - Sveťa
-- [ ] kontaktní formulář vizuál 
-- [ ] kontaktní formulář napojení na integromat - Sveťa
-- [ ] objednací formulář první objednání vizuál
-- [ ] objednací formulář první objednání napojení na integromat - Sveťa
-- [ ] objednací formulář další objednání vizuál
-- [ ] objednací formulář další objednání napojení na integromat - Sveťa
+- [ ] kontaktní formulář vizuál a napojení na integromat - Sveťa
+- [ ] objednací formulář první objednání vizuál a napojení na integromat - Sveťa
+- [ ] objednací formulář další objednání vizuál a napojení na integromat - Sveťa
 - [ ] stránka "Contributors"
+- [ ] poslat Nelče fotky na stránku "Contributors"
 - [ ] stránka s kvízem - naprogramovat
-- [ ] otázky a vyhodnocení pro kvíz - Nela (přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
-- [ ] grafický návrh kvízu
+- [x] otázky a vyhodnocení pro kvíz - Nela (přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
+- [x] grafický návrh kvízu - https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/08c50145-05f7-4a68-b595-0d2499507956/
+- [ ] vrátit bublinu s odkazem na kvíz do stránky "Jak to funguje"
 - [ ] pregenerovať všetky obrázky (z originálního rozlišení z google drive, či?) mimo formátu SVG na WEBP formát - Nela alebo Sveťa
 - [ ] cetifikáty?
-- [ ] vzhled pro mobily - změnit hamburger
-- [ ] název webu
+- [ ] vzhled pro mobily - změnit hamburger a udělat hezčí
+- [ ] název webu ať se zobrazuje v prohlížeči
 - [ ] grafický návrh stránky Ceník
 - [ ] stránka Ceník - naprogramovat
-- [x] vrátit zpět čárku s tečkou k header a footer
+- [ ] Souhlas se zpracováním osobních údajů při najetí myší u kontaktního formuláře (https://docs.google.com/document/d/1PDjM11XtPtcp4d87Yc1mrQxTqcTHnXyTIYTmR9aDD5k/edit?usp=sharing)
