@@ -1,0 +1,31 @@
+.form_wrapper {
+    position: relative;
+}
+
+.form_input {
+    padding: 15px 30px 15px 70px;  
+    color: "##707070";  
+    margin-bottom: 10px;
+}
+
+.form_input_focus {
+    border: 3px solid #77aec3 !important;
+    outline: none;
+    color: "#141B0B"
+}
+
+.form_input_icon {
+    position: absolute;
+    z-index: 300;
+    left: 30px;
+    top: 15px;
+}
+
+.required_indicator {
+    color: red;
+    border: 3px solid red;
+}
+
+.textarea {
+    width: 100%;
+}

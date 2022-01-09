@@ -1,8 +1,10 @@
 .contact {
     height: auto;
     min-height: calc(100vh - 170px);
-    z-index: 1000;
     position: relative;
+    background-image: url('../../public/images/contact_bg.webp');
+    background-position: center center;
+    background-size: cover;
 }
 
 .outer_wrapper {
@@ -18,6 +20,52 @@
     width: 100%;
     text-align: center;
 }
+
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    padding-left: 15%;
+    padding-right: 15%;
+    min-height: 400px;
+    text-align: center;
+    padding-top: 7%;
+    width: 100%;
+    padding-bottom: 130px;
+}
+
+.form_wrapper form {
+    margin-top: 90px;
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+}
+
+.right_form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.checkbox_wrapper {
+    width: 40%;
+    padding: 10px 25px;
+    align-items: center;
+    background-color: #ffffff;
+    float: right;
+    display: flex;
+    color: "#141B0B";
+    min-height: 30px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.right_form_wrapper button {
+    width: 40%;
+    margin-top: 15px;
+}
+
 
 @media screen and (min-width: 768px) {
     .inner_wrapper {

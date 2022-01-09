@@ -3,13 +3,11 @@ import React from 'react'
 import Button from '../components/Button'
 import Title from '../components/Title'
 import ContactContainer from '../containers/ContactContainer'
-import ImageWrapper from '../containers/ImageWrapper'
 import styles from "../styles/Contact.module.css";
 
 const Kontakt: NextPage = () => {
   return (
     <div className={styles.outer_wrapper}>
-      <ImageWrapper src="/images/contact_bg.webp" alt="Nella kontakt" />
       <ContactContainer>
         <div className={styles.inner_wrapper}>
         <Title title="Připraven/a vydat se na cestu?" type="main" />
