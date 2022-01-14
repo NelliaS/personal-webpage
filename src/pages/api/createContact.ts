@@ -22,7 +22,8 @@ const CreateContactAPI = {
             headers: {
               'Content-Type': 'application/json',
             }
-          })
+          }).then((data) => {return data})
+          .catch((error) => {return error})
         return {
             data, 
             status

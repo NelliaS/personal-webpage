@@ -81,8 +81,9 @@ const ContactForm = ():JSX.Element => {
         formData.gdpr,
         formData.message
       )
+
       if (status !== 200) {
-        return toast.error('Chyba. Skuste to neskor')
+        return toast.error('Chyba', {position: toast.POSITION.BOTTOM_LEFT})
       }
 
       if (status === 200) {
