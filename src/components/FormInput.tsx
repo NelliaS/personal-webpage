@@ -35,18 +35,21 @@ const FormInput = (props: Props): JSX.Element => {
     ? <span aria-hidden className={styles.requiredIndicator}>*</span>
     : null
 
+   
+    const hookAttributes = { onFocus: () => setFocused(true), 
+                             onError: () => setError(true),
+                             onBlur: () => setFocused(false)
+                            }
+    
     const inputElement = props.multiline
     ? <textarea {...props.inputProps} className={`${basic_styles.gray_radius_shape} ${styles.form_input} 
-                ${focused && styles.form_input_focus} ${styles.textarea}`} 
-                onFocus={() => setFocused(true)}
-                onBlur={() => setFocused(false)}
-                onError={() => setError(true)}
+                ${focused && styles.form_input_focus} ${styles.textarea}`} {...hookAttributes}
     />
     : <input {...props.inputProps} 
-             className={`${basic_styles.gray_radius_shape} ${styles.form_input} ${focused && styles.form_input_focus}`} 
-             onFocus={() => setFocused(true)}
-             onBlur={() => setFocused(false)}
-             onError={() => setError(true)}
+             className={`${basic_styles.gray_radius_shape} ${props.extraClassNames} ${styles.form_input} 
+             ${focused && styles.form_input_focus}
+             ${error && styles.form_input_error}`} 
+             {...hookAttributes}
         />
 
     return (

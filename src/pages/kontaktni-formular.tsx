@@ -1,10 +1,15 @@
-import FormInput, { InputImageTypeItem } from '../components/FormInput'
+import FormInput from '../components/FormInput'
 import Title from '../components/Title';
 import ContactContainer from '../containers/ContactContainer'
 import styles from "../styles/Contact.module.css";
 import utilityStyles from "../styles/Utilities.module.css";
 import {useInputChange} from '../hooks/useInputChange'
 import Button from '../components/Button';
+import CreateContactAPI from './api/createContact';
+import { useEffect, useState } from 'react';
+import { ValidateEmail, ValidatePhoneNumber } from '../utils/Validators';
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export type FormData = {
   name: string,
@@ -14,7 +19,10 @@ export type FormData = {
   message: string
 }
 
+
+
 const ContactForm = ():JSX.Element => {
+    toast.configure()
     const contactFormInputData = 
       {
         person : {
@@ -62,23 +70,72 @@ const ContactForm = ():JSX.Element => {
       gdpr: contactFormInputData.gdpr.initialValue,
     }
 
-    const { handleInputChange, clearValues, handleSubmit } = useInputChange({...initialValue});
+    const { handleInputChange, clearValues, handleSubmit, inputValue } = useInputChange({...initialValue});
+
+    const onSubmit = async (formData: FormData) => {
+      const {status} = await CreateContactAPI.createContact(
+        formData.name,
+        new Date(),
+        formData.email,
+        formData.phone,
+        formData.gdpr,
+        formData.message
+      )
+      if (status !== 200) {
+        return toast.error('Chyba. Skuste to neskor')
+      }
+
+      if (status === 200) {
+        clearValues()
+        return toast.success('Sprava poslana. Napisem ti.', {position: toast.POSITION.BOTTOM_LEFT})
+      }
+      
+      return toast.info('Obecna chyba. Skuste neskor', {position: toast.POSITION.BOTTOM_LEFT})
+    }
+
+    const [emailError, setEmailError] = useState("")
+    const [phoneError, setPhoneError] = useState("")
+
+    const {email, phone} = inputValue
+
+    useEffect(() => {
+      !ValidateEmail(email) && email != '' && emailError === ''
+      && setEmailError("Email nie je v spravnom formate")
+
+      if ((ValidateEmail(email) && emailError !== '') || (email === '')) {
+        setEmailError("")
+      }
+    }, [email, onSubmit])
+
+    useEffect(() => {
+      !ValidatePhoneNumber(phone) && phone != '' && phoneError === ''
+      && setPhoneError("Telefonne nie je v spravnom formate")
+
+      if ((ValidatePhoneNumber(phone) && phoneError !== '') || (phone === '')) {
+        setPhoneError("")
+      }
+    }, [inputValue.phone, onSubmit])
 
     return (
     <div className={styles.outer_wrapper}>
       <ContactContainer>
       <div className={styles.form_wrapper}>
-      <Title type="main" title='Kontaktní formulář' />
-        <form onSubmit={handleSubmit} className={styles.form}>
+        <div className={styles.title_wrapper}>
+        <Title type="main" title='Kontaktní formulář' />
+        <div className={` ${styles.smaller_wrapper} ${utilityStyles.gray_radius_shape}`}>
+          Zanech mi své kontaktní údaje, ozvu se ti nejpozději do 48h
+        </div>
+        </div>
+        <form onSubmit={(e) => handleSubmit(e, onSubmit)} className={styles.form}>
         <FormInput
             inputProps={{
                 'name' : contactFormInputData.person.name,
                 'id' : contactFormInputData.person.name,
                 'required' : contactFormInputData.person.required,
                 'onChange' : handleInputChange,
-                'defaultValue' : contactFormInputData.person.initialValue,
                 'aria-required': contactFormInputData.person.required,
                 'placeholder' : contactFormInputData.person.placeholder,
+                'value' : inputValue.name
             }}
             inputImage={contactFormInputData.person}
             
@@ -89,26 +146,26 @@ const ContactForm = ():JSX.Element => {
                 'id' : contactFormInputData.email.name,
                 'required' : contactFormInputData.email.required,
                 'onChange' : handleInputChange,
-                'defaultValue' : contactFormInputData.email.initialValue,
                 'aria-required': contactFormInputData.email.required,
                 'placeholder' : contactFormInputData.email.placeholder,
+                'value' : inputValue.email
             }}
-            inputImage={contactFormInputData.email}
-            
+            inputImage={contactFormInputData.email}       
         />
+        {emailError && <span className={styles.input_error} role="dialog" aria-live='assertive'>{emailError}</span>}
         <FormInput
             inputProps={{
                 'name' : contactFormInputData.phone.name,
                 'id' : contactFormInputData.phone.name,
                 'required' : contactFormInputData.phone.required,
                 'onChange' : handleInputChange,
-                'defaultValue' : contactFormInputData.phone.initialValue,
                 'aria-required': contactFormInputData.phone.required,
                 'placeholder' : contactFormInputData.phone.placeholder,
+                'value' : inputValue.phone
             }}
-            inputImage={contactFormInputData.phone}
-            
+            inputImage={contactFormInputData.phone}    
         />
+        {phoneError && <span className={styles.input_error}>{phoneError}</span>}
         <FormInput
             multiline
             inputProps={{
@@ -116,10 +173,10 @@ const ContactForm = ():JSX.Element => {
                 'id' : contactFormInputData.message.name,
                 'required' : contactFormInputData.message.required,
                 'onChange' : handleInputChange,
-                'defaultValue' : contactFormInputData.message.initialValue,
                 'aria-required': contactFormInputData.message.required,
                 'placeholder' : contactFormInputData.message.placeholder,
-                'rows' : 5
+                'rows' : 5,
+                'value' : inputValue.message
             }}
             inputImage={contactFormInputData.message}   
         />
@@ -132,9 +189,10 @@ const ContactForm = ():JSX.Element => {
                 'type' : 'checkbox',
                 'required' : contactFormInputData.gdpr.required,
                 'onChange' : handleInputChange,
+                'value' : inputValue.gdpr
               }}
             />
-            <span>Souhlasím se zpracováním osobních údajů</span>
+            <label htmlFor="styled-checkbox">Souhlasím se zpracováním osobních údajů</label>
           </div>
           <Button value="Odeslat" type='primary' buttonType='submit' />
         </div>

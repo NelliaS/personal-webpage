@@ -14,9 +14,14 @@
     color: "#141B0B"
 }
 
+.form_input_error {
+    border: 3px solid red !important;
+    outline: none;
+}
+
 .form_input_icon {
     position: absolute;
-    z-index: 300;
+    z-index: 1;
     left: 30px;
     top: 15px;
 }
