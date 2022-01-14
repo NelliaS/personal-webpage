@@ -64,6 +64,11 @@
 .footer_icons a::before {
   display: none;
 }
+@media (min-width: 1440px) {
+  .footer_content {
+    max-width: 100vw;
+  }
+}
 @media (max-width: 1024px) {
   .footer_content {
     max-width: 800px;
