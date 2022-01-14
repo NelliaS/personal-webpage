@@ -115,7 +115,7 @@ const ContactForm = ():JSX.Element => {
       if ((ValidatePhoneNumber(phone) && phoneError !== '') || (phone === '')) {
         setPhoneError("")
       }
-    }, [inputValue.phone, onSubmit])
+    }, [phone, onSubmit])
 
     return (
     <div className={styles.outer_wrapper}>
@@ -127,7 +127,7 @@ const ContactForm = ():JSX.Element => {
           Zanech mi své kontaktní údaje, ozvu se ti nejpozději do 48h
         </div>
         </div>
-        <form onSubmit={(e) => handleSubmit(e, onSubmit)} className={styles.form}>
+        <form onSubmit={(e) => emailError === '' && phoneError === '' ? handleSubmit(e, onSubmit) : e.preventDefault()} className={styles.form}>
         <FormInput
             inputProps={{
                 'name' : contactFormInputData.person.name,
