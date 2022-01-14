@@ -32,7 +32,6 @@ export const useInputChange = (initialValue:any) => {
  }
 
  const clearValues = () => {
-   console.log({...initialValue})
   setInputValue({...initialValue});
 }
 

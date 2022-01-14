@@ -83,6 +83,7 @@ const ContactForm = ():JSX.Element => {
       )
 
       if (status !== 200) {
+        clearValues()
         return toast.error('Chyba', {position: toast.POSITION.BOTTOM_LEFT})
       }
 
@@ -190,7 +191,7 @@ const ContactForm = ():JSX.Element => {
                 'type' : 'checkbox',
                 'required' : contactFormInputData.gdpr.required,
                 'onChange' : handleInputChange,
-                'value' : inputValue.gdpr
+                'checked' : inputValue.gdpr
               }}
             />
             <label htmlFor="styled-checkbox">Souhlasím se zpracováním osobních údajů</label>
