@@ -1,6 +1,7 @@
 import axios, {AxiosResponse} from 'axios'
+import { INTEGROMAT_ENDPOINT } from '../../utils/Constants'
 
-const baseURL = process.env.NEXT_PUBLIC_INTEGROMAT_ENDPOINT
+const baseURL = INTEGROMAT_ENDPOINT
 
 const CreateContactAPI = {
     createContact: async (
