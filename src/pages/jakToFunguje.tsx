@@ -22,12 +22,7 @@ const JakToFunguje: NextPage = () => {
         <section className={styles.content__block1} >
           <div className={styles.content__box}>
             <h1>Jak pracuji</h1>            
-             <p>Poskytuji individualizovanou podporu při tvojí cestě za lepší prací. Nabízím čtyři služby - koučink, mentoring, sebepoznání a podporu. Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu práce a mají společné jedno - mě :) Styl mé práce je ovlivněn tím, kdo jsem a co považuji za důležité. Jsem upřímná, svéhlavá, empatická a podporující. Nejsem prodavač instantních řešení, ani ti nebudu lhát, že jde vše snadno a bez práce, nechci tě dostávat pod větší tlak, než pod jakým nejspíše jsi.</p>
-             <p>Když se do toho se mnou rozhodneš jít, můžu ti slíbit, že všechny mé znalosti, dovednosti a zkušenosti ti budou plně k dispozici. Ve své praxi stavím jednak na svém psychologickém vzdělání, terapeutických dovednostech (procesově orientovaná práce) a koučinku. Tak na zkušenostech z mojí cesty do IT a zkušenostech z vlastní programátorské praxe.</p>
-             <p>Prakticky to funguje tak, že se objednáš a ve stanovený čas se připojíš na videohovor, o délce 55 minut. Frekvence sezení je většinou 1-2x týdně. Odhaduju, že do úvodu budeš potřebovat 3-5 sezení. Každé sezení, nehledě na variantu spolupráce, by ti mělo přinášet uspořádání myšlenek, nadhled a větší klid. Blíže k jednotlivým variantám se dozvíš níže. 
-               Moje služby jsou v lednu dostupné za zaváděcí ceny (výrazně nižší než tržní ceny). 
-               Nabízím také možnost nezávazné konzultace (30 min) - pojďme se pobavit o tvém tématu a tom, co ti můžu nabídnout.
-              </p>
+             <p>Poskytuju individualizovanou podporu na tvojí cestě za (lepší) prací v IT. Chci ti pomoct se do IT dostat snáze, efektivněji a ve větším klidu. Můžeš si vybrat mezi koučinkem, mentoringem, sebepoznáním a podporou. Během ledna můžeš využít výhody zaváděcích cen. Každé sezení se uskutečňuje pomocí videohovoru a nehledě na variantu spolupráce, ti přinese uspořádání myšlenek, nadhled a větší klid. Specifika jednotlivých variant spolupráce najdeš níže, pokud se chceš dozvědět víc, jednoduše využij možnosti nezávazné konzultace (30 min) - pojďme se pobavit o tvém tématu a o tom, co ti můžu nabídnout.</p>
               </div>       
         </section >
         <section className={styles.content__block2}>
