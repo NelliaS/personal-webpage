@@ -20,6 +20,7 @@ interface BaseProps<T extends InputType> {
     extraClassNames?: string
     characterCount?: number
     inputImage?: InputImageTypeItem
+    hasError?: boolean
 }
 
 type Props =
@@ -29,7 +30,6 @@ type Props =
 
 const FormInput = (props: Props): JSX.Element => {
     const [focused, setFocused] = useState(false);
-    const [error, setError] = useState(false);
 
     const requiredIndicator = props.inputProps.required 
     ? <span aria-hidden className={styles.requiredIndicator}>*</span>
@@ -37,23 +37,24 @@ const FormInput = (props: Props): JSX.Element => {
 
    
     const hookAttributes = { onFocus: () => setFocused(true), 
-                             onError: () => setError(true),
                              onBlur: () => setFocused(false)
                             }
     
+    
     const inputElement = props.multiline
     ? <textarea {...props.inputProps} className={`${basic_styles.gray_radius_shape} ${styles.form_input} 
-                ${focused && styles.form_input_focus} ${styles.textarea}`} {...hookAttributes}
+                ${focused && !props.hasError && styles.form_input_focus} ${styles.textarea}
+                ${props.hasError && styles.form_input_error_state}`} {...hookAttributes}
     />
     : <input {...props.inputProps} 
-             className={`${basic_styles.gray_radius_shape} ${props.extraClassNames} ${styles.form_input} 
-             ${focused && styles.form_input_focus}
-             ${error && styles.form_input_error}`} 
+             className={`${basic_styles.gray_radius_shape} ${styles.form_input} 
+             ${focused && !props.hasError && styles.form_input_focus}
+             ${props.hasError && styles.form_input_error_state}`} 
              {...hookAttributes}
         />
 
     return (
-        <div className={`${props.extraClassNames} ${styles.form_wrapper}`}>
+        <div className={`${styles.form_wrapper}`}>
             {props.hasLabel && 
             <label htmlFor={props.inputProps.id} className={styles.label}>
                 {requiredIndicator}

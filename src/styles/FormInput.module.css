@@ -14,7 +14,8 @@
     color: "#141B0B"
 }
 
-.form_input_error {
+
+.form_input_error_state {
     border: 3px solid red !important;
     outline: none;
 }

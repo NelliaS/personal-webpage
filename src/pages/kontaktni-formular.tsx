@@ -57,7 +57,7 @@ const ContactForm = ():JSX.Element => {
           name: "gdpr",
           placeholder: "",
           icon: '',
-          required: false,
+          required: true,
           initialValue: false,
         }
       }
@@ -77,7 +77,7 @@ const ContactForm = ():JSX.Element => {
         formData.name,
         new Date(),
         formData.email,
-        formData.phone,
+        formData.phone || '',
         formData.gdpr,
         formData.message
       )
@@ -152,7 +152,8 @@ const ContactForm = ():JSX.Element => {
                 'placeholder' : contactFormInputData.email.placeholder,
                 'value' : inputValue.email
             }}
-            inputImage={contactFormInputData.email}       
+            inputImage={contactFormInputData.email}
+            hasError={emailError ? true : false}     
         />
         {emailError && <span className={styles.input_error} role="dialog" aria-live='assertive'>{emailError}</span>}
         <FormInput
@@ -163,9 +164,10 @@ const ContactForm = ():JSX.Element => {
                 'onChange' : handleInputChange,
                 'aria-required': contactFormInputData.phone.required,
                 'placeholder' : contactFormInputData.phone.placeholder,
-                'value' : inputValue.phone
+                'value' : inputValue.phone,
             }}
-            inputImage={contactFormInputData.phone}    
+            inputImage={contactFormInputData.phone}
+            hasError={phoneError ? true : false}  
         />
         {phoneError && <span className={styles.input_error}>{phoneError}</span>}
         <FormInput
