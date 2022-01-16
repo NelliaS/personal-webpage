@@ -22,7 +22,7 @@ const JakToFunguje: NextPage = () => {
         <section className={styles.content__block1} >
           <div className={styles.content__box}>
             <h1>Jak pracuji</h1>            
-             <p>Poskytuju individualizovanou podporu na tvojí cestě za (lepší) prací v IT. Chci ti pomoct se do IT dostat snáze, efektivněji a ve větším klidu. Můžeš si vybrat mezi koučinkem, mentoringem, sebepoznáním a podporou. Během ledna můžeš využít výhody zaváděcích cen. Každé sezení se uskutečňuje pomocí videohovoru a nehledě na variantu spolupráce, ti přinese uspořádání myšlenek, nadhled a větší klid. Specifika jednotlivých variant spolupráce najdeš níže, pokud se chceš dozvědět víc, jednoduše využij možnosti nezávazné konzultace (30 min) - pojďme se pobavit o tvém tématu a o tom, co ti můžu nabídnout.</p>
+             <p>Poskytuju individualizovanou podporu na tvojí cestě za (lepší) prací v IT. Chci ti pomoct se do IT dostat snáze, efektivněji a ve větším klidu. Můžeš si vybrat mezi koučinkem, mentoringem, sebepoznáním a podporou. Během ledna můžeš využít výhody zaváděcích cen. Každé sezení se uskutečňuje pomocí videohovoru (55 min) a nehledě na variantu spolupráce, ti přinese uspořádání myšlenek, nadhled a větší klid. Většině lidí by do úvodu mělo stačit 3-5 sezení. Specifika jednotlivých variant spolupráce najdeš níže, pokud se chceš dozvědět víc, jednoduše využij možnosti nezávazné konzultace (30 min) - pojďme se pobavit o tvém tématu a o tom, co ti můžu nabídnout.</p>
               </div>       
         </section >
         <section className={styles.content__block2}>
