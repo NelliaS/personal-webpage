@@ -1,4 +1,4 @@
-import FormInput from '../components/FormInput'
+import FormInput, { InputImageTypeItem } from '../components/FormInput'
 import Title from '../components/Title';
 import ContactContainer from '../containers/ContactContainer'
 import styles from "../styles/Contact.module.css";
@@ -23,7 +23,7 @@ export type FormData = {
 
 const ContactForm = ():JSX.Element => {
     toast.configure()
-    const contactFormInputData = 
+    const contactFormInputData: { [key: string]: InputImageTypeItem<string> } = 
       {
         person : {
           name: "name",
@@ -58,7 +58,7 @@ const ContactForm = ():JSX.Element => {
           placeholder: "",
           icon: '',
           required: true,
-          initialValue: false,
+          initialValue: "",
         }
       }
 
@@ -67,7 +67,7 @@ const ContactForm = ():JSX.Element => {
       email: contactFormInputData.email.initialValue,
       phone: contactFormInputData.phone.initialValue,
       message: contactFormInputData.message.initialValue,
-      gdpr: contactFormInputData.gdpr.initialValue,
+      gdpr: contactFormInputData.gdpr.initialValue ? false : true,
     }
 
     const { handleInputChange, clearValues, handleSubmit, inputValue } = useInputChange({...initialValue});

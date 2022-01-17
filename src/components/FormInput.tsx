@@ -6,12 +6,12 @@ import { FORM_ICON_SIZE, ICON_COLOR } from '../utils/Constants';
 type InputType = keyof Pick<JSX.IntrinsicElements, 'input' | 'textarea'>
 
 
-export interface InputImageTypeItem {
+export interface InputImageTypeItem<T> {
     name: string
     placeholder: string,
     icon: string,
     required: boolean,
-    initialValue: string | boolean
+    initialValue: T
 }
 
 interface BaseProps<T extends InputType> {
@@ -19,7 +19,7 @@ interface BaseProps<T extends InputType> {
     labelText?: string
     extraClassNames?: string
     characterCount?: number
-    inputImage?: InputImageTypeItem
+    inputImage?: InputImageTypeItem<string | boolean>
     hasError?: boolean
 }
 
