@@ -1,25 +1,25 @@
 import { FormData } from './../pages/kontaktni-formular';
-import { ReactText, useState } from 'react'
+import { ChangeEvent, ReactText, useState } from 'react'
 
 
+const getInputValue = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  if (e.currentTarget?.type && e.currentTarget.type === 'checkbox') {
+    return (e.currentTarget as HTMLInputElement).checked
+  } 
+
+  return e.currentTarget.value
+}
 
 export const useInputChange = (initialValue:any) => {
-
-  
   const [inputValue, setInputValue] = useState({...initialValue})
-  
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setInputValue({
       ...inputValue,
-      [e.currentTarget.name] : e.currentTarget.name !== 'gdpr' 
-      ? e.currentTarget.value 
-      : (e.currentTarget as unknown as HTMLInputElement).checked
+      [e.currentTarget.name] : getInputValue(e),
     })
-}
-
+  }
   
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>, onSubmit: ((_: FormData) => Promise<ReactText>)) => {
     if (e) {
         e.preventDefault()
