@@ -6,11 +6,11 @@ import utilityStyles from "../styles/Utilities.module.css";
 import {useInputChange} from '../hooks/useInputChange'
 import Button from '../components/Button';
 import CreateContactAPI from './api/createContact';
-import { ErrorInfo, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ValidateEmail, ValidatePhoneNumber } from '../utils/Validators';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { AxiosError } from 'axios';
+
 
 export type FormData = {
   name: string,
@@ -68,7 +68,7 @@ const ContactForm = ():JSX.Element => {
       email: contactFormInputData.email.initialValue,
       phone: contactFormInputData.phone.initialValue,
       message: contactFormInputData.message.initialValue,
-      gdpr: contactFormInputData.gdpr.initialValue ? false : true,
+      gdpr: contactFormInputData.gdpr.initialValue === '' ? false : true,
     }
 
     const { handleInputChange, clearValues, handleSubmit, inputValue } = useInputChange({...initialValue});
