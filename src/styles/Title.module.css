@@ -1,6 +1,7 @@
 .main_title {
     color: #ffffff;
     font-size: 1.4rem;
+    font-family: var(--font-family-main);
 }
 
 @media screen and (min-width: 768px) {

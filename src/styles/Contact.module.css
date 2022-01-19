@@ -138,7 +138,7 @@
 
 @media screen and (min-width: 768px) {
     .inner_wrapper {
-        justify-content: space-evenly;
+        justify-content: space-around;
         text-align: left;
     }
 }

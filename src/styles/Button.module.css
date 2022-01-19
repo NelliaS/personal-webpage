@@ -4,5 +4,6 @@
 
 .btn_primary:hover {
     border: 3px solid #77aec3;
-    color: #77aec3;
+    color: #ffffff;
+    background-color: #77aec3;
 }
