@@ -89,10 +89,10 @@ const ContactForm = ():JSX.Element => {
 
       if (status === 200) {
         clearValues()
-        return toast.success('Sprava poslana. Napisem ti.', {position: toast.POSITION.BOTTOM_LEFT})
+        return toast.success('Úspěšně odesláno. Brzy tě kontaktuji.', {position: toast.POSITION.BOTTOM_LEFT})
       }
       
-      return toast.info('Obecna chyba. Skuste neskor', {position: toast.POSITION.BOTTOM_LEFT})
+      return toast.info('Obecná chyba. Zkuste to prosím později.', {position: toast.POSITION.BOTTOM_LEFT})
     }
 
     const [emailError, setEmailError] = useState("")
@@ -102,7 +102,7 @@ const ContactForm = ():JSX.Element => {
 
     useEffect(() => {
       !ValidateEmail(email) && email != '' && emailError === ''
-      && setEmailError("Email nie je v spravnom formate")
+      && setEmailError("E-mail není ve správném formátu")
 
       if ((ValidateEmail(email) && emailError !== '') || (email === '')) {
         setEmailError("")
@@ -111,7 +111,7 @@ const ContactForm = ():JSX.Element => {
 
     useEffect(() => {
       !ValidatePhoneNumber(phone) && phone != '' && phoneError === ''
-      && setPhoneError("Telefonne nie je v spravnom formate")
+      && setPhoneError("Telefonní číslo není ve správném formátu")
 
       if ((ValidatePhoneNumber(phone) && phoneError !== '') || (phone === '')) {
         setPhoneError("")
