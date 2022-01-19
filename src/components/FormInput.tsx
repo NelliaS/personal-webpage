@@ -63,7 +63,9 @@ const FormInput = (props: Props): JSX.Element => {
             }
             {props.inputImage && 
             <span className={styles.form_input_icon}>
-                <img src={props.inputImage?.icon} color={ICON_COLOR} width={FORM_ICON_SIZE} height={FORM_ICON_SIZE} />
+                <img src={props.inputImage?.icon} 
+                color={ICON_COLOR} width={FORM_ICON_SIZE} height={FORM_ICON_SIZE} 
+                className={`icon_${props.inputImage.name}`} />
             </span>
             }
             {inputElement}

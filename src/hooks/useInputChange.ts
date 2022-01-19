@@ -20,7 +20,7 @@ export const useInputChange = (initialValue:any) => {
     })
   }
   
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>, onSubmit: ((_: FormData) => Promise<ReactText>)) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>, onSubmit: ((_: FormData) => Promise<ReactText | undefined>)) => {
     if (e) {
         e.preventDefault()
         onSubmit({...inputValue})

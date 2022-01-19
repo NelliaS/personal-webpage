@@ -1,5 +1,10 @@
 .btn_primary {
-    padding: 15px 65px;
+    padding: 15px 85px;
+    font-family: var(--font-family-main);
+}
+
+.btn_secondary {
+    border: 3px solid #77aec3;
 }
 
 .btn_primary:hover {

@@ -18,7 +18,7 @@ const Button = ({value, type='default', buttonType='button', extraClasses} : But
     type={buttonType}
     className={`${type === 'primary' 
     ? `${styles.gray_radius_shape} ${buttonStyles.btn_primary}` 
-    : type === 'secondary' ? styles.btn_secondary 
+    : type === 'secondary' ? `${styles.gray_radius_shape} ${buttonStyles.btn_primary} ${buttonStyles.btn_secondary}`
     : styles.btn_default} ${extraClasses}`}>
       {value}
     </button>

@@ -6,10 +6,11 @@ import utilityStyles from "../styles/Utilities.module.css";
 import {useInputChange} from '../hooks/useInputChange'
 import Button from '../components/Button';
 import CreateContactAPI from './api/createContact';
-import { useEffect, useState } from 'react';
+import { ErrorInfo, useEffect, useState } from 'react';
 import { ValidateEmail, ValidatePhoneNumber } from '../utils/Validators';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { AxiosError } from 'axios';
 
 export type FormData = {
   name: string,
@@ -73,26 +74,31 @@ const ContactForm = ():JSX.Element => {
     const { handleInputChange, clearValues, handleSubmit, inputValue } = useInputChange({...initialValue});
 
     const onSubmit = async (formData: FormData) => {
-      const {status} = await CreateContactAPI.createContact(
-        formData.name,
-        new Date(),
-        formData.email,
-        formData.phone || '',
-        formData.gdpr,
-        formData.message
-      )
+      try {
+        const {status} = await CreateContactAPI.createContact(
+          formData.name,
+          new Date(),
+          formData.email,
+          formData.phone || '',
+          formData.gdpr,
+          formData.message
+        )
 
-      if (status !== 200) {
-        clearValues()
-        return toast.error('Chyba', {position: toast.POSITION.BOTTOM_LEFT})
-      }
+        if (status !== 200) {
+          clearValues()
+          return toast.error('Chyba', {position: toast.POSITION.BOTTOM_LEFT})
+        }
 
-      if (status === 200) {
-        clearValues()
-        return toast.success('Úspěšně odesláno. Brzy tě kontaktuji.', {position: toast.POSITION.BOTTOM_LEFT})
+        if (status === 200) {
+          clearValues()
+          return toast.success('Úspěšně odesláno. Brzy tě kontaktuji.', {position: toast.POSITION.BOTTOM_LEFT})
+        }
+      } catch (e) {
+        return toast.info('Obecná chyba. Zkuste to prosím později.', {position: toast.POSITION.BOTTOM_LEFT})
       }
-      
-      return toast.info('Obecná chyba. Zkuste to prosím později.', {position: toast.POSITION.BOTTOM_LEFT})
+      finally {
+        return
+      }
     }
 
     const [emailError, setEmailError] = useState("")
@@ -118,7 +124,7 @@ const ContactForm = ():JSX.Element => {
       }
     }, [phone, onSubmit])
 
-    console.log("inputValue", inputValue)
+
     return (
     <div className={styles.outer_wrapper}>
       <ContactContainer>
@@ -180,7 +186,7 @@ const ContactForm = ():JSX.Element => {
                 'onChange' : handleInputChange,
                 'aria-required': contactFormInputData.message.required,
                 'placeholder' : contactFormInputData.message.placeholder,
-                'rows' : 5,
+                'rows' : 4,
                 'value' : inputValue.message
             }}
             inputImage={contactFormInputData.message}   
@@ -199,7 +205,7 @@ const ContactForm = ():JSX.Element => {
             />
             <label htmlFor="styled-checkbox">Souhlasím se zpracováním osobních údajů</label>
           </div>
-          <Button value="Odeslat" type='primary' buttonType='submit' />
+          <Button value="Odeslat" type='secondary' buttonType='submit' />
         </div>
         </form>
         </div>
