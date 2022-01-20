@@ -94,7 +94,7 @@
 }
 
 .content__block2 li:not(:nth-of-type(5n + 1))::before {
-  content: "âś";
+  content: "▶";
   color: grey;
   font-size: 0.6rem;
   margin-right: 0.5rem;
