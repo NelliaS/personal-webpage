@@ -1,14 +1,16 @@
 .btn_primary {
     padding: 15px 85px;
     font-family: var(--font-family-main);
+    background-color: #f9f9f9;
 }
 
 .btn_secondary {
     border: 3px solid #77aec3;
+    background-color: #f9f9f9;
 }
 
 .btn_primary:hover {
     border: 3px solid #77aec3;
-    color: #ffffff;
+    color: #141b0b;
     background-color: #77aec3;
 }

@@ -117,7 +117,7 @@ const ContactForm = ():JSX.Element => {
 
     useEffect(() => {
       !ValidatePhoneNumber(phone) && phone != '' && phoneError === ''
-      && setPhoneError("Telefonní číslo není ve správném formátu")
+      && setPhoneError("Telefonní číslo není ve mezinárodním formátu (+420, +421)")
 
       if ((ValidatePhoneNumber(phone) && phoneError !== '') || (phone === '')) {
         setPhoneError("")
@@ -149,6 +149,7 @@ const ContactForm = ():JSX.Element => {
             inputImage={contactFormInputData.person}
             
         />
+        <div className={styles.input_wrapper}>
         <FormInput
             inputProps={{
                 'name' : contactFormInputData.email.name,
@@ -163,6 +164,8 @@ const ContactForm = ():JSX.Element => {
             hasError={emailError ? true : false}     
         />
         {emailError && <span className={styles.input_error} role="dialog" aria-live='assertive'>{emailError}</span>}
+        </div>
+        <div className={styles.input_wrapper}>
         <FormInput
             inputProps={{
                 'name' : contactFormInputData.phone.name,
@@ -177,6 +180,7 @@ const ContactForm = ():JSX.Element => {
             hasError={phoneError ? true : false}  
         />
         {phoneError && <span className={styles.input_error}>{phoneError}</span>}
+        </div>
         <FormInput
             multiline
             inputProps={{
