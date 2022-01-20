@@ -1,6 +1,6 @@
 .contact {
     height: auto;
-    min-height: calc(100vh - 170px);
+    min-height: calc(100vh - 140px);
     position: relative;
     background-image: url('../../public/images/contact_bg.webp');
     background-position: 50% 50%;
@@ -22,12 +22,16 @@
     text-align: center;
 }
 
+.inner_wrapper h2 {
+    margin-top: 40px;
+}
+
 .form_wrapper {
     display: flex;
     flex-direction: column;
     min-height: 400px;
     text-align: center;
-    padding-top: 6%;
+    padding-top: 8%;
     width: 100%;
     padding: 30px 30px;
 }
@@ -38,7 +42,7 @@
         padding-left: 15%;
         padding-right: 15%;
         padding-bottom: 50px;
-        padding-top: 6%;
+        padding-top: 8%;
     }
 }
 
@@ -76,6 +80,7 @@
     text-align: left;
     margin-top: 30px;
     font-family: var(--font-family-main);
+    color: #141B0B;
 }
 
 @media screen and (min-width: 768px) {
@@ -108,10 +113,18 @@
     min-height: 30px;
     align-content: center;
     justify-content: space-around;
+    font-family: var(--font-family-main);
 }
 
 .checkbox_wrapper label {
     margin-left: 20px;
+}
+
+.input_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -139,9 +152,9 @@
 
 .input_error {
     display: block;
-    width: 30%;
     color: red;
     padding: 5px 20px 20px;
+    font-size: 18px;
 }
 
 
