@@ -94,7 +94,7 @@
 }
 
 .content__block2 li:not(:nth-of-type(5n + 1))::before {
-  content: "▶";
+  content: "âś";
   color: grey;
   font-size: 0.6rem;
   margin-right: 0.5rem;
@@ -250,6 +250,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .content__block3_flex p {
+    max-width: 70%;
+    margin: 0 auto;
+  }
   .content__block3 p {
     line-height: 1.5;
     font-size: 1rem;
