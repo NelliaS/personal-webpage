@@ -1,24 +1,39 @@
-- [ ] fixnout odkazy na favicony (personal-webpage/src/pages/_document.tsx)
-- [ ] nový grafický návrh na favicon
-- [ ] fix patička na velké monitory - rozšířit - Rado
-- [ ] nachystat integromat pro objednání - Vojta
-- [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět na původní + 
-      vrátit "Nela průvodkyně" "nabírám" zpět na web (ne na mobily)
-- [ ] stránka "Jak to funguje" - bílý prostor a stíny dle grafického návrhu
-- [ ] rozcestníky pro "Kontakt" - vizuál + prolinkování mezi nimi - Sveťa
-- [ ] kontaktní formulář vizuál a napojení na integromat - Sveťa
-- [ ] objednací formulář první objednání vizuál a napojení na integromat - Sveťa
-- [ ] objednací formulář další objednání vizuál a napojení na integromat - Sveťa
+devel se deployne vždy na https://nela-webpage.vercel.app/ 
+
+Rado
+- [ ] stránka Ceník - naprogramovat (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/b1b0c9bd-3d1c-4659-b1aa-f2ea7f2f22c2/)
+- [ ] vzhled pro mobily dle grafického návrhu https://xd.adobe.com/view/d483eedd-cc5e-4321-8549-bb7d2e7789a5-81d0/screen/66018949-19d3-4524-9aee-b28336503762/ 
+- [ ] naprogramovat kvíz dle grafického návrhu a zadání (na drive, nebo si řekni o odkaz) + vrátit bublinu s odkazem na kvíz do stránky "Jak to funguje" 
+- [ ] až bude kvíz - přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
 - [ ] stránka "Contributors"
-- [ ] poslat Nelče fotky na stránku "Contributors"
-- [ ] stránka s kvízem - naprogramovat
-- [x] otázky a vyhodnocení pro kvíz - Nela (přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
-- [x] grafický návrh kvízu - https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/08c50145-05f7-4a68-b595-0d2499507956/
-- [ ] vrátit bublinu s odkazem na kvíz do stránky "Jak to funguje"
-- [ ] pregenerovať všetky obrázky (z originálního rozlišení z google drive, či?) mimo formátu SVG na WEBP formát - Nela alebo Sveťa
-- [ ] cetifikáty?
-- [ ] vzhled pro mobily - změnit hamburger a udělat hezčí
-- [ ] název webu ať se zobrazuje v prohlížeči
-- [ ] grafický návrh stránky Ceník
-- [ ] stránka Ceník - naprogramovat
+
+Vojta
+- [ ] nachystat integromat pro objednání - Vojta / Nelča
+
+Sveťa
 - [ ] Souhlas se zpracováním osobních údajů při najetí myší u kontaktního formuláře (https://docs.google.com/document/d/1PDjM11XtPtcp4d87Yc1mrQxTqcTHnXyTIYTmR9aDD5k/edit?usp=sharing)
+- [ ] hezčí zaškrtnutí souhlasu (kulaté a šedé?) a více na střed, fajfka  může mít barvu 77AEC3
+- [ ] vyhodit do pryč "zanech mi své ... 48 hodin"
+- [ ] upravit barvičky chybových hlášek, tučnost a jejich velikost + barva okýnka
+- [ ] buttony budou gradientem https://coolors.co/gradient-maker/77aec3-ffffff?position=0,100&opacity=100,100&type=linear&rotation=225
+- [ ] kontaktní formulář se po odeslání přesměruje na stránku s potvrzením odeslání (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/1f249dbb-075c-4e2f-a599-4533574c4d5d/)
+- [ ] kontaktní formulář zvládá česká i slovenská čísla
+- [ ] objednací formulář první objednání vizuál a napojení na integromat 
+- [ ] objednací formulář další objednání vizuál a napojení na integromat 
+
+Lucka 
+- [ ] pregenerovať všetky obrázky (z originálního rozlišení z google drive do formátu SVG na WEBP formát
+- [ ] název webu ať se zobrazuje v prohlížeči
+- [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět na původní
+- [ ] stránka "Úvod" -  "Nela průvodkyně" a "nabírám" je příliš titerné
+- [ ] stránka "Jak to funguje" - bílý prostor a stíny dle grafického návrhu (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/9f493087-d12f-4819-974e-1dc5fed8b397/)
+- [ ] responzivita - omezení kam až se může text roztáhnout na velkých monitorech, obrázky však zachovat na celou šířku monitoru
+      a pokud to nepůjde, vrátit to rozšíření tak jak je na nelaprovazi.cz
+
+Nela - grafika
+- [ ] stránka ceník pro mobily
+- [ ] stránka objednání pro mobily
+- [ ] stránka kvíz pro mobily 
+
+Všichni
+- [ ] poslat Nelče fotky na stránku "Contributors" 
