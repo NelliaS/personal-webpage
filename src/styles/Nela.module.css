@@ -477,6 +477,23 @@
 }
 
 @media screen and (max-width: 480px) {
+  .content__block1,
+  .content__block3,
+  .content__block5 {
+    padding: 20px 0;
+  }
+  .content__block5 {
+    background-color: var(--color-secondary);
+  }
+  .content__block6_card {
+    border-radius: 50px;
+  }
+  .content__block6_card ul {
+    line-height: 18px;
+  }
+  .content__block6_card li {
+    margin-left: 9px;
+  }
   .content__block4_flex > :nth-child(even) {
     margin-top: 1.5rem;
   }
