@@ -244,6 +244,17 @@
 }
 
 @media screen and (min-width: 769px) {
+  .content__block2 li:nth-of-type(5n + 1) {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  .content__block2 li {
+    line-height: 2.1;
+  }
+  .content__block1 {
+    padding: 2rem;
+    margin-bottom: 1.2rem;
+  }
   .hero__headline {
     top: calc(20% - 20px);
     margin-left: auto;

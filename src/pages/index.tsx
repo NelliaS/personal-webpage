@@ -39,7 +39,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.content_wrap_block2and3}>
           <div className={styles.content__block2}>
-            {/* <h2>...pomoc se ti hodí, pokud:</h2> */}
+            <h2>...pomoc se ti hodí, pokud:</h2>
             <ul>
               <li className={styles.mainitem}>
                 S programováním teprve začínáš a ...{" "}
