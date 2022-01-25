@@ -39,28 +39,28 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.content_wrap_block2and3}>
           <div className={styles.content__block2}>
-            <h2>...pomoc se ti hodí, pokud:</h2>
+            {/* <h2>...pomoc se ti hodí, pokud:</h2> */}
             <ul>
               <li className={styles.mainitem}>
                 S programováním teprve začínáš a ...{" "}
               </li>
               <li className={styles.secondaryitem}>
-                ztratil/a ses v záplavě toho, co se musíš naučit
+                Ztratil/a ses v záplavě toho, co se musíš naučit
               </li>
               <li className={styles.secondaryitem}>
-                tvoje snaha nenese kýžené ovoce
+                Tvoje snaha nenese kýžené ovoce
               </li>
               <li className={styles.secondaryitem}>
-                pochybuješ, zda se ti to vůbec podaří
+                Pochybuješ, zda se ti to vůbec podaří
               </li>
-              <li className={styles.secondaryitem}>máš strach z pohovorů </li>
+              <li className={styles.secondaryitem}>Máš strach z pohovorů </li>
               <li className={styles.mainitem}>V IT už pracuješ, ale …</li>
               <li className={styles.secondaryitem}>
-                v současné práci nejsi spokojený/á
+                V současné práci nejsi spokojený/á
               </li>
-              <li className={styles.secondaryitem}>cítíš se vyhořele</li>
+              <li className={styles.secondaryitem}>Cítíš se vyhořele</li>
               <li className={styles.secondaryitem}>
-                pochybuješ, zda je IT pro tebe, a nevíš jak dál{" "}
+                Pochybuješ, zda je IT pro tebe, a nevíš jak dál{" "}
               </li>
             </ul>
           </div>

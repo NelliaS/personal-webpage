@@ -40,6 +40,7 @@
   height: 50px;
   position: relative;
   border: none;
+  left: calc(85% - 5px);
   background-color: transparent;
   cursor: pointer;
 }
@@ -120,7 +121,7 @@
     display: block;
     background-color: #f9f9f9;
     position: sticky;
-    z-index: 2;    
+    z-index: 2;
   }
 
   .nav {
@@ -128,7 +129,7 @@
     margin: auto;
     display: flex;
     justify-content: flex-end;
-    align-items: center;    
+    align-items: center;
     font-size: 2rem;
   }
 
