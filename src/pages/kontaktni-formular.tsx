@@ -197,6 +197,7 @@ const ContactForm = ():JSX.Element => {
         />
         <div className={styles.right_form_wrapper}>
           <div className={`${utilityStyles.gray_radius_shape} ${styles.checkbox_wrapper}`}>
+            <label className={styles.checkbox_label}>
             <FormInput
               inputProps={{
                 'name' : contactFormInputData.gdpr.name,
@@ -206,8 +207,21 @@ const ContactForm = ():JSX.Element => {
                 'onChange' : handleInputChange,
                 'checked' : inputValue.gdpr
               }}
+              extraClassNames='custom-checkbox'
             />
-            <label htmlFor="styled-checkbox">Souhlasím se zpracováním osobních údajů</label>
+            <svg
+        className={`${styles.checkbox} ${inputValue.gdpr ? styles.checkbox_active : ""}`}
+        aria-hidden="true"
+        viewBox="0 0 15 11"
+        fill="none">
+          <path
+          d="M1 4.5L5 9L14 1"
+          strokeWidth="2"
+          stroke={inputValue.gdpr ? "#fff" : "none"}
+        />
+        </svg>
+
+          Souhlasím se zpracováním osobních údajů</label>
           </div>
           <Button value="Odeslat" type='secondary' buttonType='submit' />
         </div>

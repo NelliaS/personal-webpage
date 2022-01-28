@@ -42,12 +42,13 @@ const FormInput = (props: Props): JSX.Element => {
     
     
     const inputElement = props.multiline
-    ? <textarea {...props.inputProps} className={`${basic_styles.gray_radius_shape} ${styles.form_input} 
+    ? <textarea {...props.inputProps} className={`${basic_styles.gray_radius_shape} ${props.extraClassNames} ${styles.form_input} 
                 ${focused && !props.hasError && styles.form_input_focus} ${styles.textarea}
                 ${props.hasError && styles.form_input_error_state}`} {...hookAttributes}
     />
     : <input {...props.inputProps} 
              className={`${basic_styles.gray_radius_shape} ${styles.form_input} 
+             ${props.extraClassNames}
              ${focused && !props.hasError && styles.form_input_focus}
              ${props.hasError && styles.form_input_error_state}`} 
              {...hookAttributes}
