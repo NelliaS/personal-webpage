@@ -1,7 +1,10 @@
 .btn_primary {
   padding: 15px 85px;
   font-family: var(--font-family-main);
-  background-color: #f9f9f9;
+  background: hsla(197, 39%, 62%, 1);
+  background: linear-gradient(225deg, hsla(197, 39%, 62%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(197, 39%, 62%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(197, 39%, 62%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 }
 
 .btn_secondary {

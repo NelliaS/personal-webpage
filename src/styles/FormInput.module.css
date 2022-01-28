@@ -22,7 +22,7 @@
 
 
 .form_input_error_state {
-    border: 3px solid red !important;
+    border: 3px solid #FF5D5D !important;
     outline: none;
 }
 
@@ -34,8 +34,8 @@
 }
 
 .required_indicator {
-    color: red;
-    border: 3px solid red;
+    color: #FF5D5D;
+    border: 3px solid #FF5D5D;
 }
 
 .textarea {

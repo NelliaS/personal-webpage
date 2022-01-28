@@ -6,7 +6,7 @@ import ContactContainer from '../containers/ContactContainer'
 import styles from "../styles/Contact.module.css";
 import Link from "next/link"
 
-const Kontakt: NextPage = () => {
+const Contact: NextPage = () => {
   return (
     <div className={styles.outer_wrapper}>
       <ContactContainer>
@@ -24,4 +24,4 @@ const Kontakt: NextPage = () => {
   )
 }
 
-export default Kontakt
+export default Contact

@@ -1,0 +1,18 @@
+.inner_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: calc(100vh - 170px);
+}
+
+.inner_box p {
+    text-align: center;
+    font-size: 36px;
+    color: #141B0B;
+    background: #F9F9F9;
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}

@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 import { ValidateEmail, ValidatePhoneNumber } from '../utils/Validators';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import { useRouter } from 'next/router'
 
 export type FormData = {
   name: string,
@@ -23,6 +23,7 @@ export type FormData = {
 
 
 const ContactForm = ():JSX.Element => {
+    const router = useRouter()
     toast.configure()
     const contactFormInputData: { [key: string]: InputImageTypeItem<string> } = 
       {
@@ -91,7 +92,7 @@ const ContactForm = ():JSX.Element => {
 
         if (status === 200) {
           clearValues()
-          return toast.success('Úspěšně odesláno. Brzy tě kontaktuji.', {position: toast.POSITION.BOTTOM_LEFT})
+          router.push('/potvrzeni-odeslani/ok')
         }
       } catch (e) {
         return toast.info('Obecná chyba. Zkuste to prosím později.', {position: toast.POSITION.BOTTOM_LEFT})
@@ -207,17 +208,18 @@ const ContactForm = ():JSX.Element => {
               extraClassNames='custom-checkbox'
             />
             <svg
-        className={`${styles.checkbox} ${inputValue.gdpr ? styles.checkbox_active : ""}`}
-        aria-hidden="true"
-        viewBox="0 0 15 11"
-        fill="none">
-          <path
-          d="M1 4.5L5 9L14 1"
-          strokeWidth="2"
-          stroke={inputValue.gdpr ? "#fff" : "none"}
-        />
-        </svg>
-          Souhlasím se zpracováním osobních údajů</label>
+              className={`${styles.checkbox} ${inputValue.gdpr ? styles.checkbox_active : ""}`}
+              aria-hidden="true"
+              viewBox="0 0 15 11"
+              fill="none">
+                <path
+                d="M1 4.5L5 9L14 1"
+                strokeWidth="2"
+                stroke={inputValue.gdpr ? "#fff" : "none"}
+              />
+            </svg>
+            Souhlasím se zpracováním osobních údajů
+            </label>
         </div>
           <Button value="Odeslat" type='secondary' buttonType='submit' />
         </div>
