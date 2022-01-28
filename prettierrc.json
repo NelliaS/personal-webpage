@@ -1,0 +1,27 @@
+{
+    "overrides": [{
+            "files": ["*.json"],
+            "options": {
+                "tabWidth": 2,
+                "printWidth": 120,
+                "semi": true
+            }
+        },
+        {
+            "files": ["*.ts", "*.tsx"],
+            "options": {
+                "bracketSpacing": true,
+                "endOfLine": "lf",
+                "jsxBracketSameLine": false,
+                "jsxSingleQuote": false,
+                "printWidth": 80,
+                "proseWrap": "preserve",
+                "quoteProps": "as-needed",
+                "semi": false,
+                "singleQuote": true,
+                "tabWidth": 2,
+                "useTabs": false
+            }
+        }
+    ]
+}

@@ -220,9 +220,8 @@ const ContactForm = ():JSX.Element => {
           stroke={inputValue.gdpr ? "#fff" : "none"}
         />
         </svg>
-
           Souhlasím se zpracováním osobních údajů</label>
-          </div>
+        </div>
           <Button value="Odeslat" type='secondary' buttonType='submit' />
         </div>
         </form>
