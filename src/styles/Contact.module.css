@@ -109,6 +109,10 @@
   font-weight: 400;
 }
 
+.tooltip_wrapper {
+  width: 40%;
+}
+
 @media screen and (min-width: 768px) {
   .checkbox_wrapper {
     width: 40%;

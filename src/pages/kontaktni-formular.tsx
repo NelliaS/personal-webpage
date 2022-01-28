@@ -11,6 +11,7 @@ import { ValidateEmail, ValidatePhoneNumber } from '../utils/Validators';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router'
+import ReactTooltip from 'react-tooltip';
 
 export type FormData = {
   name: string,
@@ -218,8 +219,24 @@ const ContactForm = ():JSX.Element => {
                 stroke={inputValue.gdpr ? "#fff" : "none"}
               />
             </svg>
-            Souhlasím se zpracováním osobních údajů
             </label>
+            <a data-tip data-for='gdpr-tooltip'>Souhlasím se zpracováním osobních údajů</a>
+            <ReactTooltip id='gdpr-tooltip' type="light" effect="solid" className={styles.tooltip_wrapper}>
+              <p>Odesláním formuláře mi dáváš výslovný souhlas se 
+                zpracováním tvých osobních údajů (jméno, e-mail, telefonní číslo) 
+                ve smyslu nařízení č. 679/2016 o ochraně osobních údajů 
+                fyzických osob. 
+                Zpracování těchto osobních údajů je nutné k zahájení konverzace o 
+                spolupráci a pro využívání mých služeb. Správcem osobních údajů jsem já, Nela Slezáková. 
+                Osobní údaje jsou uchovávány po dobu maximálně 6 měsíců od ukončení spolupráce nebo do odvolání souhlasu.
+                <br /><br />
+                Jsem povinná tě také informovat, že máš právo kdykoliv vzít svůj souhlas zpět; 
+                můžeš požadovat informaci, jaké osobní údaje zpracovávám; požadovat vysvětlení ohledně zpracování 
+                tvých osobních údajů; vyžádat si přístup k těmto údajům a nechat je změnit; požadovat 
+                jejich opravu, výmaz, či omezení zpracování; vznést námitku proti zpracováním. 
+                To vše zasláním e-mailu na nela@nelaprovazi.cz
+              </p>
+            </ReactTooltip>
         </div>
           <Button value="Odeslat" type='secondary' buttonType='submit' />
         </div>
