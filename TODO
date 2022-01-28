@@ -37,3 +37,17 @@ Nela - grafika
 
 Všichni
 - [ ] poslat Nelče fotky na stránku "Contributors" 
+
+Technické tasky
+- [ ] zjednotiť písma na webe
+- [ ] zjednotiť farby na webe do premenných a používaš ich
+- [ ] používať namiesto h1 Title komponentu
+- [ ] odstrániť všetky inline štýly z html
+- [ ] používať všade, kde to ide Button komponentu
+- [ ] odstrániť duplicitný kód
+- [ ] krajšia custom 404 stránka
+- [ ] pridať na web loading (napríklad po odoslaní formuláru)
+- [ ] upraviť url adresy na SEO semanticky správne
+- [ ] doplniť na web lepšie meta tagy
+- [ ] odstrániť zakomentovaný kód a všetky console.logy
+- [ ] zrušiť zo všade max-width media queries a prepísať na mobile first
