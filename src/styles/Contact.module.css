@@ -73,29 +73,6 @@
   }
 }
 
-.smaller_wrapper {
-  width: 100%;
-  padding: 30px 20px;
-  background-color: #ffffff;
-  text-align: left;
-  margin-top: 30px;
-  font-family: var(--font-family-main);
-  color: #141b0b;
-}
-
-@media screen and (min-width: 768px) {
-  .smaller_wrapper {
-    width: 50%;
-    margin-top: 0px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .smaller_wrapper {
-    margin-right: -150px;
-  }
-}
-
 .right_form_wrapper {
   display: flex;
   flex-direction: column;

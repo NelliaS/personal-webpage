@@ -131,9 +131,6 @@ const ContactForm = ():JSX.Element => {
       <div className={styles.form_wrapper}>
         <div className={styles.title_wrapper}>
           <Title type="main" title='Kontaktní formulář' />
-          <div className={` ${styles.smaller_wrapper} ${utilityStyles.gray_radius_shape}`}>
-            Zanech mi své kontaktní údaje, ozvu se ti nejpozději do 48h
-          </div>
         </div>
         <form onSubmit={(e) => emailError === '' && phoneError === '' ? handleSubmit(e, onSubmit) : e.preventDefault()} className={styles.form}>
         <FormInput
