@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import HeroImage from "../../public/images/homepage.jpg";
+import HeroImage from "../../public/images/homepage.webp";
 import CrossIcon from "../../public/images/icons/cross.svg";
 
 const Home: NextPage = () => {
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
             </ul>
           </div>
           <div className={styles.content__block3}>
-            <img className={styles.profile} src="images/profil.jpg" />
+            <img className={styles.profile} src="images/profil.webp" />
             <h2>Nela - průvodkyně kariérní změnou</h2>
             <p>
               Jako samouk jsem se za relativně krátký čas byla schopná uchytit

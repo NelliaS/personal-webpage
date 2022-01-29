@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import styles from '../styles/JakToFunguje.module.css'
 import Image from "next/image";
-import HeroImage from "../../public/images/jaktofunguje.jpg";
+import HeroImage from "../../public/images/jaktofunguje.webp";
 
 const JakToFunguje: NextPage = () => {
   return (
