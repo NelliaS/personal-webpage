@@ -185,3 +185,7 @@ button, a {
   width: 1px;
   display: none;
 }
+
+.w-100 {
+  width: 100%;
+}

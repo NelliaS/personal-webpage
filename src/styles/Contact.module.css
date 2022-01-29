@@ -3,9 +3,21 @@
   min-height: calc(100vh - 140px);
   position: relative;
   background-image: url("../../public/images/contact_bg.webp");
-  background-position: 50% 50%;
+  background-position: 40% 40%;
   background-size: cover;
   font-family: var(--font-family-main);
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .inner_wrapper h2 {
+    margin-top: -140px;
+  }
 }
 
 .outer_wrapper {
@@ -17,13 +29,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 400px;
+  min-height: inherit;
   width: 100%;
   text-align: center;
-}
-
-.inner_wrapper h2 {
-  margin-top: 40px;
 }
 
 .form_wrapper {
@@ -145,31 +153,21 @@
 
 @media screen and (min-width: 768px) {
   .inner_wrapper {
-    justify-content: space-around;
     text-align: left;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
 .button_wrapper {
   display: flex;
-  height: 200px;
   flex-direction: column;
-  justify-content: space-evenly;
-  width: 75%;
+  justify-content: space-around;
+  height: 300px;
+  width: 85%;
 }
 
-@media screen and (min-width: 350px) {
-  .button_wrapper {
-    flex-direction: column;
-    justify-content: space-between;
-    width: 75%;
-    margin-top: 70px;
-  }
-  .contact {
-    background-position: 40% 40%;
-    /* background-size: cover; */
-  }
-}
 
 @media screen and (min-width: 768px) {
   .button_wrapper {
