@@ -1,10 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya&display=swap");
 
+.hero__wrap {
+  position: relative;
+  width: 100%;
+  height: "33.33vw";
+  margin: auto;  
+}
+.hero {
+  position: relative;
+}
+.hero__img {
+  max-height: 800px;
+}
+
+/*
 .content {
   max-width: 1440px;
   height: auto;
   margin: auto;
-}
+}*/
 .content li {
   margin-left: 0;
   margin-bottom: 0.5rem;

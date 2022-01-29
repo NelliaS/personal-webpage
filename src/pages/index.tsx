@@ -33,6 +33,7 @@ const Home: NextPage = () => {
         </div>
 
       </div>
+      
       <div className={styles.content_wrap}>
         <div className={styles.content__block1}>
           <h2>Myslíš, že by se ti hodila pomoc?</h2>

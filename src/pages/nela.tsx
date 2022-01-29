@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Image from "next/image";
-import styles from '../styles/Nela.module.css'
+import styles from '../styles/Nela.module.css';
 import HeroImage from "../../public/images/nelacoverimg.jpg";
 
 const Nela: NextPage = () => {
   return (
-    <main className={styles.content}>
+    <>
       <div
         className={styles.hero__wrap}
         style={{ position: "relative", width: "100%", height: "33.33vw" }}
@@ -207,7 +207,7 @@ const Nela: NextPage = () => {
         
       </section>
 
-    </main>
+    </>
   )
 }
 

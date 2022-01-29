@@ -1,8 +1,9 @@
 /* HERO */
 .hero__wrap {
   position: relative;
+  width: 100%;
   height: "33.33vw";
-  margin: auto;
+  margin: auto;  
 }
 .hero {
   position: relative;
