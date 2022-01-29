@@ -11,7 +11,10 @@ import { ValidateEmail, ValidatePhoneNumber } from '../utils/Validators';
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router'
-import ReactTooltip from 'react-tooltip';
+import dynamic from "next/dynamic";
+const ReactTooltip = dynamic(() => import("react-tooltip"), {
+  ssr: false,
+});
 
 export type FormData = {
   name: string,
@@ -80,7 +83,7 @@ const ContactForm = ():JSX.Element => {
       if (!formData.gdpr) {
         return toast.error('Suhlas s podmienkami je povinny', {position: toast.POSITION.BOTTOM_LEFT})
       }
-      
+
       try {
         const {status} = await CreateContactAPI.createContact(
           formData.name,
