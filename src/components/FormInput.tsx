@@ -21,6 +21,7 @@ interface BaseProps<T extends InputType> {
     characterCount?: number
     inputImage?: InputImageTypeItem<string | boolean>
     hasError?: boolean
+    errorMessage?: string
 }
 
 type Props =
@@ -70,6 +71,7 @@ const FormInput = (props: Props): JSX.Element => {
             </span>
             }
             {inputElement}
+            {props.hasError && <span className={styles.input_error} role="dialog" aria-live='assertive'>{props.errorMessage}</span>}
         </div>
     )
 }

@@ -1,5 +1,10 @@
 .form_wrapper {
     position: relative;
+    width: 100%;
+}
+
+.form_wrapper input {
+    width: 100%;
 }
 
 .form_input {
@@ -11,6 +16,12 @@
 @media screen and (min-width: 768px) {
     .form_input {
         padding: 15px 30px 15px 70px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .form_wrapper input {
+      width: 40%;
     }
 }
 
@@ -41,3 +52,18 @@
 .textarea {
     width: 100%;
 }
+
+.input_error {
+    color: #FF5D5D;
+    padding: 5px 20px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    font-family: var(--font-family-heading);
+  }
+
+  @media screen and (min-width: 1240px) {
+    .input_error {
+        display: inline-block;
+    }
+  }

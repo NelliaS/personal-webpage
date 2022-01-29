@@ -4,6 +4,7 @@
     align-items: center;
     align-content: center;
     min-height: calc(100vh - 170px);
+    width: 100%;
 }
 
 .inner_box p {

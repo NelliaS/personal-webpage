@@ -46,7 +46,7 @@ const ContactForm = ():JSX.Element => {
           name: "phone",
           placeholder: "Telefon",
           icon: '../images/icons/phone.svg',
-          required: false,
+          required: true,
           initialValue: "",
         },
         message : {
@@ -76,6 +76,11 @@ const ContactForm = ():JSX.Element => {
     const { handleInputChange, clearValues, handleSubmit, inputValue } = useInputChange({...initialValue});
 
     const onSubmit = async (formData: FormData) => {
+
+      if (!formData.gdpr) {
+        return toast.error('Suhlas s podmienkami je povinny', {position: toast.POSITION.BOTTOM_LEFT})
+      }
+      
       try {
         const {status} = await CreateContactAPI.createContact(
           formData.name,
@@ -135,6 +140,7 @@ const ContactForm = ():JSX.Element => {
           <Title type="main" title='Kontaktní formulář' />
         </div>
         <form onSubmit={(e) => emailError === '' && phoneError === '' ? handleSubmit(e, onSubmit) : e.preventDefault()} className={styles.form}>
+        <div className={styles.input_wrapper}>
         <FormInput
             inputProps={{
                 'name' : contactFormInputData.person.name,
@@ -148,6 +154,7 @@ const ContactForm = ():JSX.Element => {
             inputImage={contactFormInputData.person}
             
         />
+        </div>
         <div className={styles.input_wrapper}>
         <FormInput
             inputProps={{
@@ -160,9 +167,9 @@ const ContactForm = ():JSX.Element => {
                 'value' : inputValue.email
             }}
             inputImage={contactFormInputData.email}
-            hasError={emailError ? true : false}     
+            hasError={emailError ? true : false}
+            errorMessage={emailError}  
         />
-        {emailError && <span className={styles.input_error} role="dialog" aria-live='assertive'>{emailError}</span>}
         </div>
         <div className={styles.input_wrapper}>
         <FormInput
@@ -176,9 +183,9 @@ const ContactForm = ():JSX.Element => {
                 'value' : inputValue.phone,
             }}
             inputImage={contactFormInputData.phone}
-            hasError={phoneError ? true : false}  
+            hasError={phoneError ? true : false}
+            errorMessage={phoneError}
         />
-        {phoneError && <span className={styles.input_error}>{phoneError}</span>}
         </div>
         <FormInput
             multiline
@@ -202,7 +209,6 @@ const ContactForm = ():JSX.Element => {
                 'name' : contactFormInputData.gdpr.name,
                 'id' : contactFormInputData.gdpr.name,
                 'type' : 'checkbox',
-                'required' : contactFormInputData.gdpr.required,
                 'onChange' : handleInputChange,
                 'checked' : inputValue.gdpr
               }}
@@ -238,7 +244,7 @@ const ContactForm = ():JSX.Element => {
               </p>
             </ReactTooltip>
         </div>
-          <Button value="Odeslat" type='secondary' buttonType='submit' />
+          <Button value="Odeslat" type='submit' buttonType='submit' />
         </div>
         </form>
         </div>
