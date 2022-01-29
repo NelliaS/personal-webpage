@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Image from "next/image";
 import styles from '../styles/Nela.module.css'
-import HeroImage from "../../public/images/nelacoverimg.jpg";
+import HeroImage from "../../public/images/nelacoverimg.webp";
 
 const Nela: NextPage = () => {
   return (
@@ -140,42 +140,42 @@ const Nela: NextPage = () => {
 
           <div className={styles.content__block4_box}>
             <p>Vzešla jsem z velké lásky</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/rodice.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/rodice.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>Mám skvělýho bráchu</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/bracha.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/bracha.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>Miluju svého přítele (většinou)</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/pritel.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/pritel.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>Když mě nenutí spát pod širákem</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/kemp.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/kemp.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>Lezkyně už od mala</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/lezkyne.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/lezkyne.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>Majitelka fotogenického kocoura</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/kocour.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/kocour.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>Ráda cestuju</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/oslo.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/oslo.webp'/></div>
           </div>
 
           <div className={styles.content__block4_box}>
             <p>A trávím čas v přírodě</p>
-            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/priroda.jpg'/></div>
+            <div className={styles.boximagecontainer}><img className={styles.boximage}src='images/priroda.webp'/></div>
           </div>
 
         </div>
@@ -200,7 +200,7 @@ const Nela: NextPage = () => {
           </div>
             
           <div className={styles.content__block6_card}>
-            <img className={styles.cardimage}src='images/nelafoto.jpg'/>
+            <img className={styles.cardimage}src='images/nelafoto.webp'/>
           </div>
 
         </div>
