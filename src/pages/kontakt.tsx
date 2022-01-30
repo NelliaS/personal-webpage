@@ -13,9 +13,9 @@ const Contact: NextPage = () => {
         <div className={styles.inner_wrapper}>
         <Title title="Připraven/a vydat se na cestu?" type="main" />
         <div className={styles.button_wrapper}>
-          <Button value="Chci se objednat" type='primary' />
+          <Button value="Chci se objednat" type='submit' />
           <Link href="/kontaktni-formular">
-            <a><Button value="Kontaktuj mě" type='primary' extraClasses='w-100' /></a>
+            <a><Button value="Kontaktuj mě" type='submit' extraClasses='w-100' /></a>
           </Link>
         </div>
         </div>
