@@ -33,8 +33,11 @@ const Cenik: NextPage = () => {
                         <p>* k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
                         <p>** zvýhodněná cena pro typ spolupráce, která je zpravidla dlouhodobější</p>
                     </div>
-                    <Button value="Chci zjistit víc" type='submit'/>
-                    <Link href="/kontaktni-formular"><a></a></Link>
+                    
+                        <Link href="/kontaktni-formular">
+                            <a><Button value="Chci zjistit víc" type='submit'/></a>
+                        </Link>
+                    
                 </section>
             </section>
 
