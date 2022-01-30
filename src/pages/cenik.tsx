@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import styles from '../styles/cenik.module.css'
+import Button from '../components/Button'
+import Link from "next/link"
 import Image from "next/image";
 import HeroImage from "../../public/images/cenik.webp";
 
@@ -31,12 +33,13 @@ const Cenik: NextPage = () => {
                         <p>* k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
                         <p>** zvýhodněná cena pro typ spolupráce, která je zpravidla dlouhodobější</p>
                     </div>
-                    <a href=""><h1>Chci zjistit vic</h1></a>
+                    <Button value="Chci zjistit víc" type='submit'/>
+                    <Link href="/kontaktni-formular"><a></a></Link>
                 </section>
-          </section>
-    
+            </section>
+
         </main>
     )
-  }
-  
-  export default Cenik
+}
+
+export default Cenik

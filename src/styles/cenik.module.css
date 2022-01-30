@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 .content{
-    position: relative;
-    background-image: url("../../public/images/cenik.jpg");
-    background-size: cover;
-    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: auto;
+    min-height: calc(100vh - 145px);
+    background-image: url("../../public/images/cenik.webp");
+    background-size: cover;
+    /* background-position: 0 165px; */
+
 }
 .boxwrapper{
     display: flex;
@@ -109,14 +112,14 @@
     padding: 20px 0px 40px 0px;
 
 }
-.flexwrapper a{
+/* .flexwrapper a{
     flex-grow: 1;
     text-decoration: none;
     border: 3px solid var(--color-secondary);
     border-radius: 3rem;
     margin: 0 auto;
     padding: 0 40px;
-}
+} */
 
 .textwrapper p{
     line-height: 1.5;
@@ -136,7 +139,7 @@
 .griditem2,
 .griditem3,
 .griditem4,
-.flexwrapper a h1{
+.flexwrapper h1{
     font-size: 1.1rem;
     padding: 10px 0px
 }
@@ -195,7 +198,7 @@
     background-color: #707070;
     border: 2px solid #707070;
     border-radius: 50%;
-    bottom: 114.25px;
+    bottom: 115.25px;
     right: 100%;
     transform: translateY(50%);
   }
