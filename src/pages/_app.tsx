@@ -19,6 +19,8 @@ const MyApp = ({ Component, pageProps }: AppProps): any => (
     <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg?v=2" color="#77aec3"/>           
     <meta name="msapplication-TileColor" content="#ffffff"/>            
     <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" href="/public/images/favicons/favicon.ico?v=2" />
+
   </Head>
   <Header />
   <Component {...pageProps} />
