@@ -185,7 +185,7 @@
 @media screen and (min-width: 480px) {
   .content__block2 {
     width: fit-content;
-    margin: auto;
+    /*margin: auto;*/
   }
   .content__block3 {
     width: 80%;

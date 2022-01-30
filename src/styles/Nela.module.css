@@ -128,6 +128,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 4rem 6.125rem;
+  max-width: 1980px;
+  margin: auto;
 }
 
 .content__block4_flex > :nth-child(odd) {
@@ -146,6 +148,8 @@
 .content__block6_flex {
   display: flex;
   justify-content: space-evenly;
+  max-width: 1980px;
+  margin: auto;
 }
 
 .content__block6 {
