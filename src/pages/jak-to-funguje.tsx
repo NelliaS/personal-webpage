@@ -37,23 +37,25 @@ const JakToFunguje: NextPage = () => {
           <div className={styles.card}>
           <h2>Nezávazná konzultace</h2>
             <ul>
-              <li>pojď si se mnou popovídat o tvém tématu a o tom, co ti můžu nabídnout</li>
-              <li>získej podrobnější informace o jednotlivých variantách spolupráce</li>
+              <li>pojď si se mnou popovídat o tvém tématu</li>
+              <li>získej podrobnější informace</li>
+              <li>poslechni si, co ti můžu nabídnout</li>
               <li>zeptej se na všechno, co tě zajímá</li>
             </ul>
           </div>
           <div className={styles.card}>
             <h2>Koučink</h2>
             <ul>
-              <li>zorientuješ se ve své situaci</li>
-              <li>budeš vědět, co použít na cestě za svými cíli</li>
-              <li>budeš mít jasný plán, co a jak dělat, abys svého cíle dosáhl/a</li>
+              <li>zorientuješ se ve své momentální situaci</li>
+              <li>stanovíš si cíl, který je SMART</li>
+              <li>zvolíš ten nejlepší postup a plán</li>
+              <li>pracuješ na splnění svého cíle</li>
             </ul>
           </div>
           <div className={styles.card}>
           <h2>Mentoring</h2>
             <ul>
-              <li>rozhodneš se, čemu se věnovat (jazyk, oblast, odvětví)</li>
+              <li>rozhodneš se, čemu se věnovat (jazyk, oblast)</li>
               <li>budeš vědět, co tě čeká a čím začít</li>
               <li>nastavíš si rozumný time management</li>
               <li>cenné tipy v rukávu</li>
@@ -62,16 +64,16 @@ const JakToFunguje: NextPage = () => {
           <div className={styles.card}>
           <h2>Podpora</h2>
             <ul>
-              <li>lépe porozumíš své situaci a svým pocitům</li>
-              <li>budeš klidnější</li>
+              <li>lépe porozumíš své situaci a pocitům</li>
               <li>zvýší se tvoje sebedůvěra</li>
-              <li>svoji situaci budeš lépe zvládat a mít plán, jak dál postupovat</li>
+              <li>svoji situaci budeš lépe zvládat</li>
+              <li>budeš mít plán, jak dál postupovat</li>
             </ul>
           </div>
           <div className={styles.card}>
           <h2>Sebepoznání</h2>
             <ul>
-              <li>absolvuješ diagnostiku osobnosti, kognitivních schopností (inteligence) anebo aktuálního psychického stavu</li>
+              <li>absolvuješ diagnostiku osobnosti, inteligence anebo psychického stavu</li>
               <li>vydáš na cestu, která je pro tebe nejvhodnější</li>
               <li>budeš vědět, na čem stavět úspěch a jak dál</li>
             </ul>
