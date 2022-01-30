@@ -1,0 +1,138 @@
+.content{
+    position: relative;
+    background-image: url("../../public/images/cenik.jpg");
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxwrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 6px solid var(--color-secondary);
+    border-radius: 2rem;
+    padding: 0 60px;
+
+}
+
+/* GRID LAYOUT */
+
+.gridwrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+.griditem1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    place-self: center;
+}
+.griditem2{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    place-self: center;
+}
+.griditem3{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    place-self: center;
+}
+.griditem4{
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    place-self: center;
+}
+.griditem5{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    place-self: center;
+}
+.griditem6{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    place-self: center;
+}
+.griditem7{
+    grid-column: 3 /4;
+    grid-row: 2 / 3;
+    place-self: center;
+}
+.griditem8{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    place-self: center;
+}
+.griditem9{
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+    place-self: center;
+}
+.griditem10{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    place-self: center;
+}
+.griditem11{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    place-self: center;
+}
+.griditem12{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    place-self: center;
+}
+.griditem13{
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    place-self: center;
+}
+.griditem14{
+    grid-column: 5 / 6;     
+    grid-row: 3 / 4;
+    place-self: center;
+}
+
+.gridwrapper p{
+    padding: 15px;
+}
+
+.flexwrapper{
+    display: flex;
+    padding: 20px 0px 40px 0px;
+
+}
+.flexwrapper a{
+    flex-grow: 1;
+    text-decoration: none;
+    border: 3px solid var(--color-secondary);
+    border-radius: 3rem;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.textwrapper p{
+    line-height: 1.5;
+}
+.textwrapper{
+    flex-grow: 1;
+    padding-right: 35px;
+    padding-left: 25px;
+}
+
+.titlewrapper h1{
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+}
+
+.griditem1,
+.griditem2,
+.griditem3,
+.griditem4,
+.flexwrapper a h1{
+    font-size: 1.1rem;
+    padding: 10px 0px
+}
