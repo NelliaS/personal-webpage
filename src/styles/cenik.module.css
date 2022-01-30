@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 .content{
     position: relative;
     background-image: url("../../public/images/cenik.jpg");
@@ -25,6 +27,7 @@
     grid-template-rows: repeat(3, 1fr);
     margin-bottom: 20px;
 }
+
 .griditem1{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -98,6 +101,7 @@
 
 .gridwrapper p{
     padding: 15px;
+    font-family: 'PT Serif', serif;
 }
 
 .flexwrapper{
@@ -136,3 +140,64 @@
     font-size: 1.1rem;
     padding: 10px 0px
 }
+ /* BLACK LINES WITH DOTS */
+
+ .titlewrapper{
+     position: relative;
+ }
+
+ .titlewrapper::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    left: 0px;
+    border-top: 1px solid #707070;
+    transform: translateY(-50%);
+ }
+ .titlewrapper ::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #707070;
+    border: 2px solid #707070;
+    border-radius: 50%;
+    top: 80px;
+    left: 100%;
+    transform: translateY(-50%);
+ }
+
+ .flexwrapper{
+     position: relative;
+ }
+
+  .flexwrapper::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 115px;
+    right: 0px;
+    z-index: 3;
+    border-top: 1px solid #707070;
+    transform: translateY(50%);
+  }
+  
+  .flexwrapper::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: #707070;
+    border: 2px solid #707070;
+    border-radius: 50%;
+    bottom: 114.25px;
+    right: 100%;
+    transform: translateY(50%);
+  }
+
+  
