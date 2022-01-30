@@ -7,31 +7,26 @@ Rado
 - [ ] až bude kvíz - přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
 - [ ] stránka "Contributors"
 
-Vojta
-- [ ] nachystat integromat pro objednání - Vojta / Nelča
-
-Sveťa
-- [ ] Souhlas se zpracováním osobních údajů při najetí myší u kontaktního formuláře (https://docs.google.com/document/d/1PDjM11XtPtcp4d87Yc1mrQxTqcTHnXyTIYTmR9aDD5k/edit?usp=sharing)
-- [ ] hezčí zaškrtnutí souhlasu (kulaté a šedé?) a více na střed, fajfka  může mít barvu 77AEC3
-- [ ] vyhodit do pryč "zanech mi své ... 48 hodin"
-- [ ] upravit barvičky chybových hlášek, tučnost a jejich velikost + barva okýnka
-- [ ] buttony budou gradientem https://coolors.co/gradient-maker/77aec3-ffffff?position=0,100&opacity=100,100&type=linear&rotation=225
-- [ ] kontaktní formulář se po odeslání přesměruje na stránku s potvrzením odeslání (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/1f249dbb-075c-4e2f-a599-4533574c4d5d/)
-- [ ] kontaktní formulář zvládá česká i slovenská čísla
-- [ ] objednací formulář první objednání vizuál a napojení na integromat 
-- [ ] objednací formulář další objednání vizuál a napojení na integromat 
-
-Lucka 
-- [ ] pregenerovať všetky obrázky (z originálního rozlišení z google drive do formátu SVG na WEBP formát
+Nepřiřazené
 - [ ] název webu ať se zobrazuje v prohlížeči
 - [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět na původní
 - [ ] stránka "Úvod" -  "Nela průvodkyně" a "nabírám" je příliš titerné
 - [ ] stránka "Jak to funguje" - bílý prostor a stíny dle grafického návrhu (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/9f493087-d12f-4819-974e-1dc5fed8b397/)
+
+Vojta
+- [ ] nachystat integromat pro objednání - Vojta
+
+Sveťa
+- [ ] poslední iterace poznámek na discordu
+- [ ] objednací formulář první objednání vizuál a napojení na integromat 
+- [ ] objednací formulář další objednání vizuál a napojení na integromat 
+
+Lucka 
 - [ ] responzivita - omezení kam až se může text roztáhnout na velkých monitorech, obrázky však zachovat na celou šířku monitoru
       a pokud to nepůjde, vrátit to rozšíření tak jak je na nelaprovazi.cz
 
 Nela - grafika
-- [ ] stránka ceník pro mobily
+- [ ] poznámky z discordu
 - [ ] stránka objednání pro mobily
 - [ ] stránka kvíz pro mobily 
 
