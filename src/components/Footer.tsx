@@ -10,7 +10,7 @@ const Footer = () => {
             <p>průvodkyně kariérní změnou</p>
           </div>
           <div className={styles.footer_text}>
-            <p>nelaslezakova@seznam.cz</p>
+            <p>nela@nelaprovazi.cz</p>
             <p>+420 605 135 201</p>
           </div>
           <div className={styles.footer_icons}>
