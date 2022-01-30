@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.content_wrap_block2and3}>
           <div className={styles.content__block2}>
-            <h2>...pomoc se ti hodí, pokud:</h2>
+            <h2>Pomoc se ti hodí pokud:</h2>
             <ul>
               <li className={styles.mainitem}>
                 S programováním teprve začínáš a ...{" "}
@@ -69,16 +69,15 @@ const Home: NextPage = () => {
             <img className={styles.profile} src="images/profil.webp" />
             <h2>Nela - průvodkyně kariérní změnou</h2>
             <p>
-              Jako samouk jsem se za relativně krátký čas byla schopná uchytit
-              jako Python programátorka. Mimo to jsem ale taky vystudovaná
-              psycholožka, terapeutka a koučka ve výcviku.{" "}
+            Jako samouk jsem se za relativně krátký čas byla schopná uchytit 
+            jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 
+            terapeutka a koučka ve výcviku.{" "}
             </p>
             <p>
-              Hledala jsem způsob, jak spojit své dva milované světy -
-              programování a psychologii. Když jsem se začala pohybovat mezi
-              začátečníky, kteří se do IT snaží dostat, objevila jsem, že jim
-              mám hodně co nabídnout. A nejen jim, ale i lidem, kteří se v IT
-              pohybují, ale nejsou úplně spokojení.
+            Hledala jsem způsob, jak spojit své dva milované světy - programování a psychologii. 
+            A když jsem se začala pohybovat mezi začátečníky, kteří se do IT snaží dostat, 
+            objevila jsem, že jim mám hodně co nabídnout. A nejen jim, ale i lidem, kteří se v IT pohybují, 
+            ale nejsou úplně spokojení.
             </p>
           </div>
         </div>
@@ -96,8 +95,7 @@ const Home: NextPage = () => {
                 Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu
                 práce. Pokud na stránce
                 <span className={styles.italicfont}> Jak to funguje </span>
-                nepřijdeš na to, která je pro tebe nejvhodnější, nelam si hlavu
-                s tím, ozvi se a společně na to přijdeme.
+                nepřijdeš na to, která je pro tebe nejvhodnější, nelam si s tím hlavu, ozvi se a v rámci nezávazného 30 minutového videohovoru na to společně přijdeme.
               </p>
             </div>
           </div>

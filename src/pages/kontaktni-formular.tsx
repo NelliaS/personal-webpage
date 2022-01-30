@@ -54,7 +54,7 @@ const ContactForm = ():JSX.Element => {
         },
         message : {
           name: "message",
-          placeholder: "Text",
+          placeholder: "Můžeš mi přiblížit důvody se kterými se na mne obracíš?",
           icon: '../images/icons/envelope.svg',
           required: false,
           initialValue: "",
@@ -81,7 +81,7 @@ const ContactForm = ():JSX.Element => {
     const onSubmit = async (formData: FormData) => {
 
       if (!formData.gdpr) {
-        return toast.error('Suhlas s podmienkami je povinny', {position: toast.POSITION.BOTTOM_LEFT})
+        return toast.error('Souhlas se zpracováním údajů je povinný', {position: toast.POSITION.BOTTOM_LEFT})
       }
 
       try {
