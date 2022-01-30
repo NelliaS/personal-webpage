@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import styles from '../styles/cenik.module.css'
 import Image from "next/image";
-import HeroImage from "../../public/images/cenik.jpg";
+import HeroImage from "../../public/images/cenik.webp";
 
 const Cenik: NextPage = () => {
     return (

@@ -56,14 +56,26 @@
 .input_error {
     color: #FF5D5D;
     padding: 5px 20px 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     display: block;
     font-family: var(--font-family-heading);
+    background: black;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 
   @media screen and (min-width: 1240px) {
     .input_error {
         display: inline-block;
+        margin-bottom: 0px;
+    }
+  }
+
+
+  @media screen and (min-width: 1440px) {
+    .input_error {
+        font-size: 18px;
     }
   }

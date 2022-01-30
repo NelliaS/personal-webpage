@@ -162,16 +162,10 @@
   }
 
   .checkbox_wrapper a {
-    margin-top: 2px;
     font-size: 18px;
   }
 }
 
-@media screen and (min-width: 1366px) {
-  .checkbox_wrapper a {
-    margin-top: 1px;
-  }
-}
 .checkbox_label {
   font-weight: 400;
 }
@@ -201,7 +195,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1600px) {
   .checkbox_wrapper {
     width: 44%;
     font-size: 16px;
@@ -225,7 +219,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1600px) {
   .right_form_wrapper button {
     width: 44%;
   }
