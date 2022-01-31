@@ -10,17 +10,14 @@
   border: none;
   padding: 15px 85px;
   font-family: var(--font-family-main);
-  background: hsla(197, 39%, 62%, 1);
-  background: linear-gradient(180deg, hsla(197, 39%, 62%, 1) 0%, hsla(210, 9%, 73%, 1) 49%, hsla(220, 78%, 29%, 1) 100%);
-  background: -moz-linear-gradient(180deg, hsla(197, 39%, 62%, 1) 0%, hsla(210, 9%, 73%, 1) 49%, hsla(220, 78%, 29%, 1) 100%);
-  background: -webkit-linear-gradient(180deg, hsla(197, 39%, 62%, 1) 0%, hsla(210, 9%, 73%, 1) 49%, hsla(220, 78%, 29%, 1) 100%);
+  background-color: #77aec3;
+  border: 3px solid #77aec3;
 }
 
 .btn_submit:hover {
-  background: #77aec3 !important;
-  background: linear-gradient(180deg, hsla(197, 39%, 62%, 1) 0%, hsla(210, 9%, 73%, 1) 49%, hsla(220, 78%, 29%, 1) 100%);
-  background: -moz-linear-gradient(180deg, hsla(197, 39%, 62%, 1) 0%, hsla(210, 9%, 73%, 1) 49%, hsla(220, 78%, 29%, 1) 100%);
-  background: -webkit-linear-gradient(180deg, hsla(197, 39%, 62%, 1) 0%, hsla(210, 9%, 73%, 1) 49%, hsla(220, 78%, 29%, 1) 100%);
+  background: #f9f9f9 !important;
+  border: 3px solid #77aec3;
+  
 }
 
 .btn_secondary {
