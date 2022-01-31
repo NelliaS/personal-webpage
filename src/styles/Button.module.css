@@ -12,11 +12,13 @@
   font-family: var(--font-family-main);
   background-color: #77aec3;
   border: 3px solid #77aec3;
+  color: #ffffff;
 }
 
 .btn_submit:hover {
   background: #f9f9f9 !important;
   border: 3px solid #77aec3;
+  color: #141b0b;
   
 }
 
