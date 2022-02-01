@@ -100,81 +100,6 @@ button, a {
   margin-top: 2.5px;
 }
 
-
-
-/* @media screen and (max-width: 769px) {
-  h1 {
-    font-size: 1.6rem;  
-  }
-  
-  h2 {
-    font-size: 1.4rem;
-  }
-  
-  p, li { 
-    font-size: 1.2rem; 
-  }
-} */
-
-/*
-@media screen and (min-width: 480px) {
-  h1 {
-    font-size: 1.2rem;  
-  }
-  
-  h2 {
-    font-size: 1rem;
-  }
-  
-  p, li { 
-    font-size: 0.8rem; 
-  }
-}
-
-@media screen and (min-width: 769px) {
-  h1 {
-    font-size: 1.4rem;  
-  }
-  
-  h2 {
-    font-size: 1.2rem;
-  }
-  
-  p, li { 
-    font-size: 1rem; 
-  }
-}
-
-
-@media screen and (min-width: 1025px) {
-  h1 {
-    font-size: 1.6rem;  
-  }
-  
-  h2 {
-    font-size: 1.4rem;
-  }
-  
-  p, li{ 
-    font-size: 1rem; 
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  h1 {
-    font-size: 1.875rem;  
-  }
-
-  h2 {
-    font-size: 1.75rem;
-  }
-  
-  p, li { 
-    font-size: 1.25rem; 
-  }
-}
-*/
-
 .custom-checkbox {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -188,4 +113,9 @@ button, a {
 
 .w-100 {
   width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #403e3e;
+  opacity: 1; /* Firefox */
 }
