@@ -247,6 +247,7 @@
           place-self: center;
       }
       .mobilebuttonwrapper button{
+        color: black;
         text-align: center;
         background: rgb(119,174,195);
         background: linear-gradient(90deg, rgba(119,174,195,0.3533788515406162) 0%, rgba(119,174,195,1) 100%);
@@ -264,24 +265,28 @@
     }
     .mbitem1:active{
         background: white;
+        color: black;
     }
     .mbitem2:hover{
         background: white;
     }
     .mbitem2:active{
         background: white;
+        color: black;
     }
     .mbitem3:hover{
         background: white;
     }
     .mbitem3:active{
         background: white;
+        color: black;
     }
     .mbitem4:hover{
         background: white;
     }
     .mbitem4:active{
         background: white;
+        color: black;
     }
  
     .mobiletablewrapper h1{
