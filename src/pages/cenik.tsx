@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import type { NextPage } from 'next'
 import styles from '../styles/cenik.module.css'
 import Button from '../components/Button'
@@ -5,7 +6,15 @@ import Link from "next/link"
 import Image from "next/image";
 import HeroImage from "../../public/images/cenik.webp";
 
+
 const Cenik: NextPage = () => {
+
+    const [cena1, setCena1] = useState("990,- Kč");
+    const [cena2, setCena2] = useState("890,- Kč");
+    const [info1, setInfo1] = useState("");
+    const [info2, setInfo2] = useState("");
+
+
     return (
         <section className={styles.content}>
             <section className={styles.boxwrapper}>
@@ -22,7 +31,7 @@ const Cenik: NextPage = () => {
                     <p className={styles.griditem7}>990,- Kč</p>
                     <p className={styles.griditem8}>990,- Kč</p>
                     <p className={styles.griditem9}>890,- Kč</p>
-                    <p className={styles.griditem10}>4. a další sezení</p>
+                    <p className={styles.griditem10} id=''>4. a další sezení</p>
                     <p className={styles.griditem11}>890,- Kč</p>
                     <p className={styles.griditem12}>890,- Kč</p>
                     <p className={styles.griditem13}>890,- Kč</p>
@@ -44,20 +53,40 @@ const Cenik: NextPage = () => {
             <section className={styles.mobilecontent}>
                 <div className={styles.mobileimgwrapper}></div>
                 <section className={styles.mobilebuttonwrapper}>
-                    <a className={styles.mbitem1}>Koučing</a>
-                    <a className={styles.mbitem2}>Sebepoznání</a>
-                    <a className={styles.mbitem3}>Mentoring</a>
-                    <a className={styles.mbitem4}>Podpora</a>
+                    <button onClick={() => {
+                        setCena1("990,- Kč");
+                        setCena2("890,- Kč");
+                        setInfo1("");
+                        setInfo2("");
+                        }} className={styles.mbitem1}>Koučink</button>
+                    <button onClick={() => {
+                        setCena1("990,- Kč");
+                        setCena2("890,- Kč");
+                        setInfo1("*");
+                        setInfo2("* k tomu navíc jednorázově 990,- Kč za dvě diagnostické metody a jejich vyhodnocení");}} className={styles.mbitem2}>Sebepoznání</button>
+                    <button onClick={() => {
+                        setCena1("990,- Kč");
+                        setCena2("890,- Kč");
+                        setInfo1("");
+                        setInfo2("");}} className={styles.mbitem3}>Mentoring</button>
+                    <button onClick={() => {
+                        setCena1("890,- Kč");
+                        setCena2("790,- Kč");
+                        setInfo1("*");
+                        setInfo2("* zvýhodněná cena pro typ spolupráce, která je zpravidla dlouhodobější");
+                    }} 
+                        className={styles.mbitem4}>Podpora</button>
                 </section>
                 <section className={styles.mobiletablewrapper}>
-                    <h1>Cena za sezení*</h1>
+                    <h1>Cena za sezení{info1}</h1>
                     <section className={styles.mobilegridwrapper}>
                         <p>1. - 3. sezení</p>
                         <p>4. a další</p>
-                        <p>990,- Kč</p>
-                        <p>890,- Kč</p>
+                        <p>{cena1}</p>
+                        <p>{cena2}</p>
                     </section>
-                    <p className={styles.mtextalign}>* k tomu navíc jednorázově <span className={styles.mtextinfo}>990,- Kč</span> za dvě diagnostické metody a jejich vyhodnocení</p>
+                    <p className={styles.mtextalign}>{info2}</p>
+                    {/* <p className={styles.mtextalign}>* k tomu navíc jednorázově <span className={styles.mtextinfo}>990,- Kč</span> za dvě diagnostické metody a jejich vyhodnocení</p> */}
                 </section >
                 <Link href="/kontaktni-formular">
                     <a className={styles.malign}><Button value="Chci zjistit víc" type='submit'/></a>
@@ -67,6 +96,7 @@ const Cenik: NextPage = () => {
         
         
     )
+    
 }
 
 export default Cenik
