@@ -31,9 +31,12 @@ const Home: NextPage = () => {
             nabírám klienty
           </h2>
         </div>
-
       </div>
       
+      <div className={styles.mobileimgwrapper}>
+        <h1>Pomůžu ti na cestě za (lepší) prací v IT</h1>
+      </div>
+
       <div className={styles.content_wrap}>
         <div className={styles.content__block1}>
           <h2>Myslíš, že by se ti hodila pomoc?</h2>

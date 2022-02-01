@@ -19,6 +19,10 @@ const Nela: NextPage = () => {
         />
       </div>
 
+      <div className={styles.mobileimgwrapper}>
+        <h1>Nela</h1>
+      </div>
+
       <section className={styles.content__block1}>
         <h2>Kdo jsem?</h2>
       </section>

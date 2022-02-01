@@ -19,6 +19,11 @@ const JakToFunguje: NextPage = () => {
             objectFit="cover"
           />
         </div>
+
+        <div className={styles.mobileimgwrapper}>
+        <h1>Jak pracuji</h1>
+        </div>
+
         <section className={styles.content__block1} >
           <div className={styles.content__box}>
             <h1 className={styles.hidden}>Jak pracuji</h1>            

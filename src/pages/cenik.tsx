@@ -51,7 +51,9 @@ const Cenik: NextPage = () => {
             {/* MOBILE SECTION */}
 
             <section className={styles.mobilecontent}>
-                <div className={styles.mobileimgwrapper}></div>
+                <div className={styles.mobileimgwrapper}>
+                    <h1>Ceník</h1>
+                </div>
                 <section className={styles.mobilebuttonwrapper}>
                     <button onClick={() => {
                         setCena1("990,- Kč");
