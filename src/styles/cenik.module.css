@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 .mobilecontent{
     display: none;
 }
@@ -240,12 +246,12 @@
       .mbitem4{
           place-self: center;
       }
-      .mobilebuttonwrapper a{
+      .mobilebuttonwrapper button{
         text-align: center;
         background: rgb(119,174,195);
         background: linear-gradient(90deg, rgba(119,174,195,0.3533788515406162) 0%, rgba(119,174,195,1) 100%);
         padding: 12px 5px;
-        border: 2px solid var(--color-secondary);
+        border: 3px solid var(--color-secondary);
         border-radius: 5px;
         margin-top: 15px;
         font-weight: bold;
@@ -253,15 +259,31 @@
         width: 150px;
     }
 
-    .mobilebuttonwrapper a:hover{
-        background-color: white;
+    .mbitem1:hover{
+        background: white;
     }
-    .mobilebuttonwrapper a:active{
-        background-color: white;
+    .mbitem1:active{
+        background: white;
     }
-    .mobilebuttonwrapper a:focus{
-        background-color: white;
+    .mbitem2:hover{
+        background: white;
     }
+    .mbitem2:active{
+        background: white;
+    }
+    .mbitem3:hover{
+        background: white;
+    }
+    .mbitem3:active{
+        background: white;
+    }
+    .mbitem4:hover{
+        background: white;
+    }
+    .mbitem4:active{
+        background: white;
+    }
+ 
     .mobiletablewrapper h1{
         text-align: center;
         margin-bottom: 15px;
@@ -302,7 +324,7 @@
     .malign{
         margin: 0 auto 50px auto;
     }
-    .mobilebuttonwrapper a,
+    .mobilebuttonwrapper button,
     .mobiletablewrapper h1,
     .mobilegridwrapper p{
         font-size: 1.2rem;
@@ -330,5 +352,8 @@
         left: 90%;
         transform: translateY(-50%);
     }
+
+
+
   }
 
