@@ -98,6 +98,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .menu span::before{
+    display: none;
+  }
   .menu span:active{
     color: black;
   }
