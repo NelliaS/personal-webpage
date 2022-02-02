@@ -36,7 +36,7 @@
 
 .menu {
   /* display: block; */
-  width: 50px;
+  width: 40px;
   height: 50px;
   position: relative;
   border: none;
@@ -44,13 +44,23 @@
   background-color: transparent;
   cursor: pointer;
 }
+.menu h2{
+  position: absolute;
+  right: -40%;
+  top: 25%;
+  width: 400px;
+}
+
+.menu h2::before{
+  display: none;
+}
 
 .menu span {
   position: absolute;
   top: calc(50% - 2px);
   left: 5px;
   right: 5px;
-  height: 5px;
+  height: 3px;
   background-color: currentColor;
   transition-property: opacity, transform;
   transition-duration: 0.2s;
@@ -84,9 +94,16 @@
   font-size: 1.5rem;
   display: inline-block;
   padding: 1rem 1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
+
+  .nav li{
+    display: flex;
+    justify-content: center;
+  }
+
   .menu::before {
     display: none;
   }
@@ -116,6 +133,8 @@
   .menu {
     display: none;
   }
+
+
 
   .nav_wrapper {
     display: block;
