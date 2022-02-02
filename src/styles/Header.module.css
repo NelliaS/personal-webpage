@@ -98,11 +98,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .menu span:active{
+    color: black;
+  }
+
+  .nav a:active{
+    color: black;
+  }
 
   .nav li{
     display: flex;
     justify-content: center;
   }
+
 
   .menu::before {
     display: none;
