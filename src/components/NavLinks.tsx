@@ -35,16 +35,6 @@ const NavLinks = (props: { isMobile: any; closeMobileMenu: () => any; }) => {
             }
             onClick={handleClickMobile}
           >
-            <Link href="/cenik">
-              <a>Ceník</a>
-            </Link>
-          </li>
-          <li
-            className={
-              router.pathname === "/jak-to-funguje" ? activeLink : styles.link
-            }
-            onClick={handleClickMobile}
-          >
             <Link href="/jak-to-funguje">
               <a>Jak to funguje</a>
             </Link>
@@ -52,6 +42,16 @@ const NavLinks = (props: { isMobile: any; closeMobileMenu: () => any; }) => {
           <li
             className={
               router.pathname === "/kontaktni-formular" ? activeLink : styles.link
+            }
+            onClick={handleClickMobile}
+          >
+            <Link href="/cenik">
+              <a>Ceník</a>
+            </Link>
+          </li>
+          <li
+            className={
+              router.pathname === "/jak-to-funguje" ? activeLink : styles.link
             }
             onClick={handleClickMobile}
           >
