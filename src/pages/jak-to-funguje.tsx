@@ -60,10 +60,10 @@ const JakToFunguje: NextPage = () => {
           <div className={styles.card}>
           <h2>Mentoring</h2>
             <ul>
-              <li>rozhodneš se, čemu se věnovat (jazyk, oblast)</li>
-              <li>budeš vědět, co tě čeká a čím začít</li>
-              <li>nastavíš si rozumný time management</li>
-              <li>cenné tipy v rukávu</li>
+              <li>ujasníš si, kam zaměřit svou pozornost</li>
+              <li>zlepšíš styl učení</li>
+              <li>objevíš, kde máš mezery</li>
+              <li>víš, co je třeba ke získání první práce</li>
             </ul>
           </div>
           <div className={styles.card}>
@@ -72,7 +72,7 @@ const JakToFunguje: NextPage = () => {
               <li>lépe porozumíš své situaci a pocitům</li>
               <li>zvýší se tvoje sebedůvěra</li>
               <li>svoji situaci budeš lépe zvládat</li>
-              <li>budeš mít plán, jak dál postupovat</li>
+              <li>budeš mít jasno, jak dál postupovat</li>
             </ul>
           </div>
           <div className={styles.card}>
