@@ -116,6 +116,6 @@ button, a {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #403e3e;
+  color: #787878;
   opacity: 1; /* Firefox */
 }
