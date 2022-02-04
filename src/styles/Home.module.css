@@ -16,7 +16,7 @@
 .hero__text {
   position: absolute;
   bottom: 1.25rem;
-  right: calc(20% - 20px);
+  right: calc(20% - 6px);
   font-size: 0.625rem;
 }
 .hero__headline {
@@ -40,7 +40,7 @@
   left: calc(20% - 20px);
 }
 .popup h2 {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 480px) {
@@ -298,10 +298,10 @@
     bottom: 20px;
   }
   .popup h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .hero__text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     bottom: 1.25rem;
   }
   .content_wrap_block2and3 {
