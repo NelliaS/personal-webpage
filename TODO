@@ -6,23 +6,10 @@ Rado
 - [ ] naprogramovat kvíz dle grafického návrhu a zadání (na drive, nebo si řekni o odkaz) + vrátit bublinu s odkazem na kvíz do stránky "Jak to funguje" 
 - [ ] až bude kvíz - přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
 - [ ] stránka "Contributors"
-<<<<<<< HEAD
-- [ ] stránka s kvízem - naprogramovat
-- [ ] otázky a vyhodnocení pro kvíz - Nela (přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
-- [ ] grafický návrh kvízu
-- [ ] pregenerovať všetky obrázky (z originálního rozlišení z google drive, či?) mimo formátu SVG na WEBP formát - Nela alebo Sveťa
-- [ ] cetifikáty?
-- [ ] vzhled pro mobily - změnit hamburger
-- [ ] název webu
-- [ ] grafický návrh stránky Ceník
-- [ ] stránka Ceník - naprogramovat
-- [ ] vrátit zpět čárku s tečkou k header a footer
-- [ ]
-=======
 
 Nepřiřazené
 - [ ] název webu ať se zobrazuje v prohlížeči
-- [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět na původní
+- [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět podle grafického návrhu
 - [ ] stránka "Úvod" -  "Nela průvodkyně" a "nabírám" je příliš titerné
 - [ ] stránka "Jak to funguje" - bílý prostor a stíny dle grafického návrhu (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/9f493087-d12f-4819-974e-1dc5fed8b397/)
 
@@ -55,4 +42,3 @@ Technické tasky
 - [ ] doplniť na web lepšie meta tagy
 - [ ] odstrániť zakomentovaný kód a všetky console.logy
 - [ ] zrušiť zo všade max-width media queries a prepísať na mobile first
->>>>>>> devel
