@@ -1,7 +1,47 @@
 .btn_primary {
+  padding: 15px 85px;
+  font-family: var(--font-family-main);
+  background-color: #f9f9f9;
+}
+
+.btn_submit {
+  font-size: 18px;
+  border-radius: 39px;
+  border: none;
+  padding: 15px 85px;
+  font-family: var(--font-family-main);
+  background-color: #77aec3;
+  border: 3px solid #77aec3;
+  color: #ffffff;
+}
+
+.btn_submit:hover {
+  background: #f9f9f9 !important;
+  border: 3px solid #77aec3;
+  color: #141b0b;
+  
+}
+
+.btn_secondary {
+  border: 3px solid #77aec3;
+  background-color: #f9f9f9;
+}
+
+.btn_primary:hover {
+  border: 3px solid #77aec3;
+  color: #141b0b;
+  background-color: #77aec3;
+}
+
+@media screen and (min-width: 350px) {
+  .btn_primary {
     padding: 15px 65px;
-    font-size: 18px;
-    border-radius: 39px;
-    border: 3px solid #707070;
-    font-weight: 600;
+    opacity: 0.9;
+  }
+}
+@media screen and (min-width: 768px) {
+  .btn_primary {
+    padding: 15px 85px;
+    opacity: 1;
+  }
 }

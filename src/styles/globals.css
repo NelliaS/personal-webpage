@@ -53,9 +53,12 @@
 */
 
 html,
-body {
+body,
+textarea,
+input {
   padding: 0;
   margin: 0;
+  font-family: var(--font-family-main);
 }
 
 h1, h2 {
@@ -63,11 +66,11 @@ h1, h2 {
   color: var(--color-font-heading);
 }
 h1 {
-  font-size: 1.6rem;  
+  font-size: 1.3rem;  
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 p, li {
@@ -78,83 +81,41 @@ p, li {
 
 footer {
   background-color: var(--color-primary);
-  margin-top: 20px;
-  padding: 20px;
+  /* margin-top: 20px; */
+  padding: 20px;  
 }
 
 button, a {
   cursor: pointer;
 }
 
-/* @media screen and (max-width: 769px) {
-  h1 {
-    font-size: 1.6rem;  
-  }
-  
-  h2 {
-    font-size: 1.4rem;
-  }
-  
-  p, li { 
-    font-size: 1.2rem; 
-  }
-} */
-
-/*
-@media screen and (min-width: 480px) {
-  h1 {
-    font-size: 1.2rem;  
-  }
-  
-  h2 {
-    font-size: 1rem;
-  }
-  
-  p, li { 
-    font-size: 0.8rem; 
-  }
+.icon_email {
+  width: 35px;
+  height: 35px;
+  margin-top: -8px;
+  margin-left: -2px;
 }
 
-@media screen and (min-width: 769px) {
-  h1 {
-    font-size: 1.4rem;  
-  }
-  
-  h2 {
-    font-size: 1.2rem;
-  }
-  
-  p, li { 
-    font-size: 1rem; 
-  }
+.icon_message {
+  margin-top: 2.5px;
 }
 
-
-@media screen and (min-width: 1025px) {
-  h1 {
-    font-size: 1.6rem;  
-  }
-  
-  h2 {
-    font-size: 1.4rem;
-  }
-  
-  p, li{ 
-    font-size: 1rem; 
-  }
+.custom-checkbox {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  display: none;
 }
 
-@media screen and (min-width: 1280px) {
-  h1 {
-    font-size: 1.875rem;  
-  }
-
-  h2 {
-    font-size: 1.75rem;
-  }
-  
-  p, li { 
-    font-size: 1.25rem; 
-  }
+.w-100 {
+  width: 100%;
 }
-*/
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #787878;
+  opacity: 1; /* Firefox */
+}

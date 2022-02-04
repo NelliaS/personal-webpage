@@ -14,14 +14,19 @@ const MobileNavigation = () => {
 
   return (
     <>
-      <button
-        className={open ? menuOpen : styles.menu}
-        onClick={handleClickMenu}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+     
+        
+        <button
+          className={open ? menuOpen : styles.menu}
+          onClick={handleClickMenu}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <h2 className={styles.headertext}>Nela - průvodkyně kariérní změnou</h2>
+        </button>
+     
       <nav className={styles.mobileNavigation}>{open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}</nav>
     </>
   );

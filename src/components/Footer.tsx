@@ -22,6 +22,9 @@ const Footer = () => {
             <a target="_blank" rel="noopener noreferrer" href=""><p>Contributors</p></a>
           </div> */}
           <div className={styles.footer_copy}>
+            <a target="_blank" rel="noopener noreferrer" href=""><p>Contributors</p></a>
+          </div>
+          <div className={styles.footer_copy}>
             <span><p>Copyright ©</p></span>
           </div>
         </div>

@@ -12,7 +12,7 @@
   content: "";
   display: block;
   position: absolute;
-  width: 50%; 
+  width: 50%;
   bottom: 0px;
   right: 0px;
   border-top: 1px solid #707070;
@@ -36,12 +36,23 @@
 
 .menu {
   /* display: block; */
-  width: 50px;
+  width: 40px;
   height: 50px;
   position: relative;
   border: none;
+  left: calc(85% - 5px);
   background-color: transparent;
   cursor: pointer;
+}
+.menu h2{
+  position: absolute;
+  right: -40%;
+  top: 25%;
+  width: 400px;
+}
+
+.menu h2::before{
+  display: none;
 }
 
 .menu span {
@@ -49,7 +60,7 @@
   top: calc(50% - 2px);
   left: 5px;
   right: 5px;
-  height: 5px;
+  height: 3px;
   background-color: currentColor;
   transition-property: opacity, transform;
   transition-duration: 0.2s;
@@ -83,9 +94,40 @@
   font-size: 1.5rem;
   display: inline-block;
   padding: 1rem 1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
+  .menu span::before{
+    display: none;
+  }
+  .menu span:active{
+    color: black;
+  }
+
+  .nav a:active{
+    color: black;
+  }
+
+  .nav li{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .menu::before {
+    display: none;
+  }
+  .mobileNavigation::before {
+    display: none;
+  }
+  .footer_line::before {
+    display: none;
+  }
+  .footer_line::after {
+    display: none;
+  }
+
   .stick {
     position: initial;
   }
@@ -103,6 +145,8 @@
     display: none;
   }
 
+
+
   .nav_wrapper {
     display: block;
     background-color: #f9f9f9;
@@ -111,11 +155,12 @@
   }
 
   .nav {
+    max-width: 1440px;
+    margin: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 0px;
-    font-size: 2rem;   
+    font-size: 2rem;
   }
 
   .mobileNavigation {

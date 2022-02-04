@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }: AppProps): any => (
 
 <>
   <Head>
-    <title>Nela provází</title>
+  <title>Nela provází</title>
     <meta name="description" content="Nela Slezáková - personal web" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v=2"/>
@@ -19,6 +19,8 @@ const MyApp = ({ Component, pageProps }: AppProps): any => (
     <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg?v=2" color="#77aec3"/>           
     <meta name="msapplication-TileColor" content="#ffffff"/>            
     <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" href="/public/images/favicons/favicon.ico?v=2" />
+
   </Head>
   <Header />
   <Component {...pageProps} />

@@ -1,10 +1,17 @@
 .main_title {
-    color: #ffffff;
-    font-size: 1.4rem;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-family: var(--font-family-main);
+}
+@media screen and (min-width: 350px) {
+  .main_title {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .main_title {
-        font-size: 2rem;
-    }
- }
+  .main_title {
+    display: initial;
+    font-size: 1.8rem;
+  }
+}
