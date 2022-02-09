@@ -49,23 +49,27 @@ const Home: NextPage = () => {
                 S programováním teprve začínáš a ...{" "}
               </li>
               <li className={styles.secondaryitem}>
-                Ztratil/a ses v záplavě toho, co se musíš naučit
+                Nevíš odkud začít a kterou cestou se vydat
               </li>
               <li className={styles.secondaryitem}>
-                Tvoje snaha nenese kýžené ovoce
+                Chceš si svoji cestu do IT co nejlépe naplánovat
               </li>
               <li className={styles.secondaryitem}>
-                Pochybuješ, zda se ti to vůbec podaří
+                Chceš vědět, na čem můžeš stavět svůj úspěch
               </li>
-              <li className={styles.secondaryitem}>Máš strach z pohovorů </li>
-              <li className={styles.mainitem}>V IT už pracuješ, ale …</li>
               <li className={styles.secondaryitem}>
-                V současné práci nejsi spokojený/á
+                Trápí tě pochybnosti (imposter syndrom)
               </li>
-              <li className={styles.secondaryitem}>Cítíš se vyhořele</li>
               <li className={styles.secondaryitem}>
-                Pochybuješ, zda je IT pro tebe, a nevíš jak dál{" "}
+                Chceš objevit, kde máš mezery a zlepšit styl učení
               </li>
+              <li className={styles.mainitem}>V IT už pracuješ, ale ...{" "}</li>
+
+              <li className={styles.secondaryitem}>Cítíš se vyhořele či nespokojeně a chceš si ujasnit, co dál</li>
+              <li className={styles.secondaryitem}>Chceš objevit své silné stránky a způsob jak je využít</li>
+              <li className={styles.secondaryitem}>Potřebuješ pomoc s hledáním nové práce</li>
+              <li className={styles.secondaryitem}>Potřebuješ pomoc s aklimatizací v nové práci</li>
+
             </ul>
           </div>
           <div className={styles.content__block3}>
