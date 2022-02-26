@@ -40,7 +40,7 @@ const Cenik: NextPage = () => {
                 <section className={styles.flexwrapper}>
                     <div className={styles.textwrapper}>
                         <p>* k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
-                        <p>** sleva pro dlouhodobější styl spolupráce, klientům v tíživé finanční situaci mohu nabídnout další slevu</p>
+                        <p>** sleva pro dlouhodobější styl spolupráce, v tíživé finančí situaci lze cenu dále uzpůsobit</p>
                     </div>
                         <Link href="/kontaktni-formular">
                             <a><Button value="Chci zjistit víc" type='submit'/></a>
@@ -75,7 +75,7 @@ const Cenik: NextPage = () => {
                         setCena1("790,- Kč");
                         setCena2("690,- Kč");
                         setInfo1("*");
-                        setInfo2("* sleva pro dlouhodobější styl spolupráce, klientům v tíživé finanční situaci mohu nabídnout další slevu");
+                        setInfo2("* sleva pro dlouhodobější styl spolupráce, v tíživé finančí situaci lze cenu dále uzpůsobit");
                     }} 
                         className={styles.mbitem4}>Podpora</button>
                 </section>
