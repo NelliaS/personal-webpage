@@ -24,7 +24,7 @@ const Nela: NextPage = () => {
       </div>
 
       <section className={styles.content__block1}>
-        <h2>Kdo jsem?</h2>
+        <h2>Nela Slezáková</h2>
       </section>
 
       <section className={styles.content__block2}>
