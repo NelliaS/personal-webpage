@@ -65,11 +65,10 @@ const Home: NextPage = () => {
               </li>
               <li className={styles.mainitem}>V IT už pracuješ, ale ...{" "}</li>
 
-              <li className={styles.secondaryitem}>Cítíš se vyhořele či nespokojeně a chceš si ujasnit, co dál</li>
+              <li className={styles.secondaryitem}>Nejsi spokojený/á a chtěl/a bys být</li>
+              <li className={styles.secondaryitem}>Cítíš se vyhořele a chceš s tím něco začít dělat</li>
               <li className={styles.secondaryitem}>Chceš objevit své silné stránky a způsob jak je využít</li>
-              <li className={styles.secondaryitem}>Potřebuješ pomoc s hledáním nové práce</li>
-              <li className={styles.secondaryitem}>Potřebuješ pomoc s aklimatizací v nové práci</li>
-
+              <li className={styles.secondaryitem}>Potřebuješ pomoc s hledáním nové práce nebo aklimatizací</li>
             </ul>
           </div>
           <div className={styles.content__block3}>
