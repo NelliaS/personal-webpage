@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={styles.footer_content}>
           <div className={styles.footer_text}>
             <p>Nela Slezáková</p>
-            <p>průvodkyně kariérní změnou</p>
+            <p>psycholožka & programátorka</p>
           </div>
           <div className={styles.footer_text}>
             <p>nela@nelaprovazi.cz</p>

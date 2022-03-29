@@ -8,7 +8,7 @@ const Nela: NextPage = () => {
     <>
       <div
         className={styles.hero__wrap}
-        style={{ position: "relative", width: "100%", height: "33.33vw" }}
+        style={{ position: "relative", width: "100%", height: "28vw" }}
       >
         <Image
           src={HeroImage}

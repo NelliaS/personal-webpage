@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <div className={styles.hero}>
         <div
           className={styles.hero__wrap}
-          style={{ position: "relative", width: "100%", height: "33.33vw" }}
+          style={{ position: "relative", width: "100%", height: "22vw" }}
         >
           <Image
             src={HeroImage}
@@ -21,8 +21,11 @@ const Home: NextPage = () => {
           />
         </div>
         <h1 className={styles.hero__headline}>
-          Pomůžu ti na cestě za (lepší) prací v IT
+          Pomáhám lidem v IT anebo do IT
         </h1>
+
+
+        {/*
         <h2 className={styles.hero__text}>
           Nela Slezáková <br></br> průvodkyně kariérní změnou
         </h2>
@@ -30,7 +33,7 @@ const Home: NextPage = () => {
           <h2>
             nabírám klienty
           </h2>
-        </div>
+        </div>*/}
       </div>
       
       <div className={styles.mobileimgwrapper}>
@@ -73,7 +76,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.content__block3}>
             <img className={styles.profile} src="images/profil.webp" />
-            <h2>Nela - průvodkyně kariérní změnou</h2>
+            <h2>Nela - psycholožka & programátorka</h2>
             <p>
             Jako samouk jsem se za relativně krátký čas byla schopná uchytit 
             jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 
