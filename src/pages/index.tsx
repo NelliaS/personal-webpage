@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <div className={styles.hero}>
         <div
           className={styles.hero__wrap}
-          style={{ position: "relative", width: "100%", height: "37vw" }}
+          style={{ position: "relative", width: "100%", height: "22vw" }}
         >
           <Image
             src={HeroImage}
@@ -21,8 +21,11 @@ const Home: NextPage = () => {
           />
         </div>
         <h1 className={styles.hero__headline}>
-          Pomůžu ti na cestě za (lepší) prací v IT
+          Pomáhám lidem v IT anebo do IT
         </h1>
+
+
+        {/*
         <h2 className={styles.hero__text}>
           Nela Slezáková <br></br> průvodkyně kariérní změnou
         </h2>
@@ -30,7 +33,7 @@ const Home: NextPage = () => {
           <h2>
             nabírám klienty
           </h2>
-        </div>
+        </div>*/}
       </div>
       
       <div className={styles.mobileimgwrapper}>
@@ -49,28 +52,37 @@ const Home: NextPage = () => {
                 S programováním teprve začínáš a ...{" "}
               </li>
               <li className={styles.secondaryitem}>
-                Ztratil/a ses v záplavě toho, co se musíš naučit
+                Nevíš odkud začít a kterou cestou se vydat
               </li>
               <li className={styles.secondaryitem}>
-                Tvoje snaha nenese kýžené ovoce
+                Chceš si svoji cestu do IT co nejlépe naplánovat
               </li>
               <li className={styles.secondaryitem}>
-                Pochybuješ, zda se ti to vůbec podaří
+                Chceš vědět, na čem můžeš stavět svůj úspěch
               </li>
-              <li className={styles.secondaryitem}>Máš strach z pohovorů </li>
+              <li className={styles.secondaryitem}>
+                Trápí tě pochybnosti (imposter syndrom)
+              </li>
+              <li className={styles.secondaryitem}>
+                Chceš objevit, kde máš mezery a zlepšit styl učení
+              </li>
+
               <li className={styles.mainitem}>V IT už pracuješ, ale …</li>
               <li className={styles.secondaryitem}>
-                V současné práci nejsi spokojený/á
+                Nejsi spokojený/á a chtěl/a bys být
               </li>
-              <li className={styles.secondaryitem}>Cítíš se vyhořele</li>
+              <li className={styles.secondaryitem}>Cítíš se vyhořele a chceš s tím něco začít dělat</li>
               <li className={styles.secondaryitem}>
-                Pochybuješ, zda je IT pro tebe, a nevíš jak dál{" "}
+                Chceš objevit své silné stránky a způsob jak je využít{" "}
+              </li>
+              <li className={styles.secondaryitem}>
+                Potřebuješ pomoc s hledáním nové práce nebo aklimatizací{" "}
               </li>
             </ul>
           </div>
           <div className={styles.content__block3}>
             <img className={styles.profile} src="images/profil.webp" />
-            <h2>Nela - průvodkyně kariérní změnou</h2>
+            <h2>Nela - psycholožka & programátorka</h2>
             <p>
             Jako samouk jsem se za relativně krátký čas byla schopná uchytit 
             jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 

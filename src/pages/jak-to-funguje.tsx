@@ -1,16 +1,15 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next'
+import styles from '../styles/JakToFunguje.module.css'
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import HeroImage from "../../public/images/homepage.webp";
-import CrossIcon from "../../public/images/icons/cross.svg";
+import HeroImage from "../../public/images/jaktofunguje.webp";
 
-const Home: NextPage = () => {
+const JakToFunguje: NextPage = () => {
   return (
     <>
-      <div className={styles.hero}>
+      <main className={styles.content}>
         <div
           className={styles.hero__wrap}
-          style={{ position: "relative", width: "100%", height: "37vw" }}
+          style={{ position: "relative", width: "100%", height: "22vw" }}
         >
           <Image
             src={HeroImage}
@@ -20,96 +19,79 @@ const Home: NextPage = () => {
             objectFit="cover"
           />
         </div>
-        <h1 className={styles.hero__headline}>
-          Pomůžu ti na cestě za (lepší) prací v IT
-        </h1>
-        <h2 className={styles.hero__text}>
-          Nela Slezáková <br></br> průvodkyně kariérní změnou
-        </h2>
-        <div className={styles.popup}>
-          <h2>
-            nabírám klienty
-          </h2>
-        </div>
-      </div>
-      
-      <div className={styles.mobileimgwrapper}>
-        <h1>Pomůžu ti na cestě za (lepší) prací v IT</h1>
-      </div>
 
-      <div className={styles.content_wrap}>
-        <div className={styles.content__block1}>
-          <h2>Myslíš, že by se ti hodila pomoc?</h2>
+        <div className={styles.mobileimgwrapper}>
+        <h1>Jak pracuji</h1>
         </div>
-        <div className={styles.content_wrap_block2and3}>
-          <div className={styles.content__block2}>
-            <h2 className={styles.hide}>Pomoc se ti hodí pokud:</h2>
+
+        <section className={styles.content__block1} >
+          <div className={styles.content__box}>
+            <h1 className={styles.hidden}>Jak pracuji</h1>
+             <p>Aplikuji psychologii ve světě IT. Pokud si junior/ka, začni se mnou spolupracovat a dostaň se do IT snáze, efektivněji a ve větším klidu. Pokud v IT pracuješ a nejsi spokojený/á, pojď se mnou zjistit, jak na tom jsi, co potřebuješ a jak to získáš. Ve své praxi stavím jednak na svém psychologickém vzdělání, terapeutických dovednostech (procesově orientovaná práce) a koučinku. Tak na zkušenostech z mojí cesty do IT a zkušenostech z vlastní programátorské praxe. Nabízím Ti 4 varianty spolupráce - můžeš si vybrat mezi koučinkem, mentoringem, sebepoznáním a podporou. Blíže k jednotlivým variantám spolupráce se dozvíš níže.</p>
+
+             <p>
+                Prakticky to funguje tak, že se objednáš a ve stanovený čas se připojíš na videohovor, o délce 60 minut. Frekvence sezení je zpravidla 1x 14 dní. Odhadovat potřebný počet sezení je ošemetné, ale zpravidla by lidem mělo do úvodu stačit 3 - 5 sezení. Každé sezení, nehledě na variantu spolupráce, by ti mělo přinášet uspořádání myšlenek, nadhled a větší klid. Nelam si hlavu, pokud nevíš, jaký typ spolupráce je pro tebe ten pravý. Využij možnosti nezávazné konzultace (30 min), která je zdarma - pojďme se pobavit o tvém tématu a tom, co ti můžu nabídnout.
+              </p>
+              </div>
+        </section >
+        <section className={styles.content__block2}>
+          <h1>Varianty spolupráce</h1>
+        </section>
+        <section className={styles.content__block3}>
+          <div className={styles.card_container}>
+          <div className={styles.card}>
+          <h2>Nezávazná konzultace</h2>
             <ul>
-              <li className={styles.mainitem}>
-                S programováním teprve začínáš a ...{" "}
-              </li>
-              <li className={styles.secondaryitem}>
-                Nevíš odkud začít a kterou cestou se vydat
-              </li>
-              <li className={styles.secondaryitem}>
-                Chceš si svoji cestu do IT co nejlépe naplánovat
-              </li>
-              <li className={styles.secondaryitem}>
-                Chceš vědět, na čem můžeš stavět svůj úspěch
-              </li>
-              <li className={styles.secondaryitem}>
-                Trápí tě pochybnosti (imposter syndrom)
-              </li>
-              <li className={styles.secondaryitem}>
-                Chceš objevit, kde máš mezery a zlepšit styl učení
-              </li>
-              <li className={styles.mainitem}>V IT už pracuješ, ale ...{" "}</li>
-
-              <li className={styles.secondaryitem}>Cítíš se vyhořele či nespokojeně a chceš si ujasnit, co dál</li>
-              <li className={styles.secondaryitem}>Chceš objevit své silné stránky a způsob jak je využít</li>
-              <li className={styles.secondaryitem}>Potřebuješ pomoc s hledáním nové práce</li>
-              <li className={styles.secondaryitem}>Potřebuješ pomoc s aklimatizací v nové práci</li>
-
+              <li>pojď si se mnou popovídat o tvém tématu</li>
+              <li>získej podrobnější informace</li>
+              <li>poslechni si, co ti můžu nabídnout</li>
+              <li>zeptej se na všechno, co tě zajímá</li>
             </ul>
           </div>
-          <div className={styles.content__block3}>
-            <img className={styles.profile} src="images/profil.webp" />
-            <h2>Nela - průvodkyně kariérní změnou</h2>
-            <p>
-            Jako samouk jsem se za relativně krátký čas byla schopná uchytit 
-            jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 
-            terapeutka a koučka ve výcviku.{" "}
-            </p>
-            <p>
-            Hledala jsem způsob, jak spojit své dva milované světy - programování a psychologii. 
-            A když jsem se začala pohybovat mezi začátečníky, kteří se do IT snaží dostat, 
-            objevila jsem, že jim mám hodně co nabídnout. A nejen jim, ale i lidem, kteří se v IT pohybují, 
-            ale nejsou úplně spokojení.
-            </p>
+          <div className={styles.card}>
+            <h2>Koučink</h2>
+            <ul>
+              <li>zorientuješ se ve své momentální situaci</li>
+              <li>stanovíš si cíl, který je SMART</li>
+              <li>zvolíš ten nejlepší postup a plán</li>
+              <li>pracuješ na splnění svého cíle</li>
+            </ul>
+          </div>
+          <div className={styles.card}>
+          <h2>Mentoring</h2>
+            <ul>
+              <li>ujasníš si, kam zaměřit svou pozornost</li>
+              <li>zlepšíš styl učení</li>
+              <li>objevíš, kde máš mezery</li>
+              <li>víš, co je třeba ke získání první práce</li>
+            </ul>
+          </div>
+          <div className={styles.card}>
+          <h2>Podpora</h2>
+            <ul>
+              <li>lépe porozumíš své situaci a pocitům</li>
+              <li>zvýší se tvoje sebedůvěra</li>
+              <li>svoji situaci budeš lépe zvládat</li>
+              <li>budeš mít jasno, jak dál postupovat</li>
+            </ul>
+          </div>
+          <div className={styles.card}>
+          <h2>Sebepoznání</h2>
+            <ul>
+              <li>absolvuješ diagnostiku osobnosti, inteligence anebo psychického stavu</li>
+              <li>vydáš na cestu, která je pro tebe nejvhodnější</li>
+              <li>budeš vědět, na čem stavět úspěch a jak dál</li>
+            </ul>
           </div>
         </div>
-        <div className={styles.content__block4}>
-          <div className={styles.content__block4_text}>
-            <div className={styles.content__block4_flex}>
-              <h2>Co nabízím?</h2>
-              <p>
-                Nabízím čtyři služby -{" "}
-                <span className={styles.boldfont}>
-                  koučink, mentoring, sebepoznání a podporu.
-                </span>{" "}
-              </p>
-              <p>
-                Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu
-                práce. Pokud na stránce
-                <span className={styles.italicfont}> Jak to funguje </span>
-                nepřijdeš na to, která je pro tebe nejvhodnější, nelam si s tím hlavu, ozvi se a v rámci nezávazného 30 minutového videohovoru na to společně přijdeme.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+        </section>
+        {/* <section className={styles.content__block4}>
+          <h2>Zjisti, která forma spolupráce by pro tebe byla nejlepší</h2>
+          <h2>Udělat si kvíz</h2>
+          </section>       */}
+      </main>
+      </>
   );
-};
+}
 
-export default Home;
+export default JakToFunguje

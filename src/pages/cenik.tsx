@@ -40,7 +40,7 @@ const Cenik: NextPage = () => {
                 <section className={styles.flexwrapper}>
                     <div className={styles.textwrapper}>
                         <p>* k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
-                        <p>** sleva pro dlouhodobější styl spolupráce, v tíživé finančí situaci lze cenu dále uzpůsobit</p>
+                        <p>** sleva pro dlouhodobější styl spolupráce, v tíživé finanční situaci lze cenu dále uzpůsobit</p>
                     </div>
                         <Link href="/kontaktni-formular">
                             <a><Button value="Chci zjistit víc" type='submit'/></a>

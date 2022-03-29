@@ -110,13 +110,13 @@
   font-family: var(--font-family-heading);*/
 }
 
-.content__block2 li:not(:nth-of-type(5n + 1))::before {
+.content__block2 li:not(:nth-of-type(6n + 1))::before {
 	content: '▶';
 	color: grey;
 	font-size: 0.6rem;
 	margin-right: 0.5rem;
 	vertical-align: 10%;
-	/* zapis hore zoberie kazdy 5. item zacinajuc prvym , not to zneguje  */
+	/* zapis hore zoberie kazdy 7. item zacinajuc prvym , not to zneguje  */
 }
 .content__block2 .mainitem {
 	list-style: none;
@@ -184,7 +184,7 @@
 	.content__block3 {
 		margin: 10px 10px 50px 10px;
 	}
-	.content__block2 li:nth-of-type(5n + 1) {
+	.content__block2 li:nth-of-type(6n + 1) {
 		margin: 20px 0 10px 0;
 		font-size: 1.1rem;
 	}
@@ -278,7 +278,7 @@
 		display: block;
 	}
 
-	.content__block2 li:nth-of-type(5n + 1) {
+	.content__block2 li:nth-of-type(6n + 1) {
 		margin: 0;
 		font-size: 1.1rem;
 	}

@@ -8,7 +8,7 @@ const Nela: NextPage = () => {
     <>
       <div
         className={styles.hero__wrap}
-        style={{ position: "relative", width: "100%", height: "37vw" }}
+        style={{ position: "relative", width: "100%", height: "28vw" }}
       >
         <Image
           src={HeroImage}
@@ -24,7 +24,7 @@ const Nela: NextPage = () => {
       </div>
 
       <section className={styles.content__block1}>
-        <h2>Kdo jsem?</h2>
+        <h2>Nela Slezáková</h2>
       </section>
 
       <section className={styles.content__block2}>
@@ -123,7 +123,7 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>2/2022</span></p>
-                  <p>Začínám programovat a aplikovat psychologii pro ___ ? :)</p>
+                  <p>Začínám programovat pro FlowerChecker</p>
                 </div>
               </li>
 
