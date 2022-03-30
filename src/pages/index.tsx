@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       </div>
       
       <div className={styles.mobileimgwrapper}>
-        <h1>Pomůžu ti na cestě za (lepší) prací v IT</h1>
+        <h1>Pomáhám lidem v IT anebo do IT</h1>
       </div>
 
       <div className={styles.content_wrap}>
@@ -101,8 +101,7 @@ const Home: NextPage = () => {
                 </span>{" "}
               </p>
               <p>
-                Všechny čtyři jsou svým unikátním způsobem přínosné pro změnu
-                práce. Pokud na stránce
+                Pokud na stránce
                 <span className={styles.italicfont}> Jak to funguje </span>
                 nepřijdeš na to, která je pro tebe nejvhodnější, nelam si s tím hlavu, ozvi se a v rámci nezávazného 30 minutového videohovoru na to společně přijdeme.
               </p>
