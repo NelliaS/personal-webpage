@@ -116,7 +116,7 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>12/2021</span></p>
-                  <p>Začínám s vlastní praxí průvodkyně kariérní změnou</p>
+                  <p>Začínám s vlastní praxí psycholožky</p>
                 </div>
               </li>
 
