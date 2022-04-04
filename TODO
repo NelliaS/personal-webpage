@@ -1,26 +1,23 @@
 devel se deployne vždy na https://nela-webpage.vercel.app/ 
 
 Rado
-- [ ] stránka Ceník - naprogramovat (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/b1b0c9bd-3d1c-4659-b1aa-f2ea7f2f22c2/)
-- [ ] vzhled pro mobily dle grafického návrhu https://xd.adobe.com/view/d483eedd-cc5e-4321-8549-bb7d2e7789a5-81d0/screen/66018949-19d3-4524-9aee-b28336503762/ 
-- [ ] naprogramovat kvíz dle grafického návrhu a zadání (na drive, nebo si řekni o odkaz) + vrátit bublinu s odkazem na kvíz do stránky "Jak to funguje" 
-- [ ] až bude kvíz - přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
+- [ ] vzhled pro mobily dle grafického návrhu https://xd.adobe.com/view/d483eedd-cc5e-4321-8549-bb7d2e7789a5-81d0/screen/66018949-19d3-4524-9aee-b28336503762/
+        - hlavně ten hamburger (+ drawer, viz discord)
+        - šířky a průsvitnost pruhů (viz discord)
 - [ ] stránka "Contributors"
+- [ ] stránka Nela omezit šířku kam až se může roztáhnout text na velkých monitorech
+    - problem je asi v inline stylu
+
 
 Nepřiřazené
 - [ ] název webu ať se zobrazuje v prohlížeči
-- [ ] stránka "Úvod" - první bublina - odsazený text + pomoc se ti hodí pokud zpět na původní
-- [ ] stránka "Úvod" -  "Nela průvodkyně" a "nabírám" je příliš titerné
-- [ ] stránka "Jak to funguje" - bílý prostor a stíny dle grafického návrhu (https://xd.adobe.com/view/f780a458-30f7-4d25-8490-3e0f893ec56b-a2d3/screen/9f493087-d12f-4819-974e-1dc5fed8b397/)
 
 Vojta
-- [ ] nachystat integromat pro objednání - Vojta
+- [ ] nachystat integromat pro objednání
 
 Sveťa
-- [ ] poslední iterace poznámek na discordu
 - [ ] objednací formulář první objednání vizuál a napojení na integromat 
 - [ ] objednací formulář další objednání vizuál a napojení na integromat 
-
 
 Nela - grafika
 - [ ] stránka objednání pro mobily
@@ -42,3 +39,8 @@ Technické tasky
 - [ ] doplniť na web lepšie meta tagy
 - [ ] odstrániť zakomentovaný kód a všetky console.logy
 - [ ] zrušiť zo všade max-width media queries a prepísať na mobile first
+
+
+Odloženo
+- [ ] naprogramovat kvíz dle grafického návrhu a zadání (na drive, nebo si řekni o odkaz) + vrátit bublinu s odkazem na kvíz do stránky "Jak to funguje"
+- [ ] až bude kvíz - přidat do popisu "můžeš si také udělat kvíz a zjistit, která by pro tebe v současnosti byla nejvhodnější.")
