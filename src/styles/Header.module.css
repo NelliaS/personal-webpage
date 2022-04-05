@@ -111,9 +111,8 @@
 
   .nav li{
     display: flex;
-    justify-content: center;
+    justify-content: end;
   }
-
 
   .menu::before {
     display: none;
@@ -129,14 +128,35 @@
   }
 
   .stick {
-    position: initial;
+    position: fixed;
+    right: 0%;
+    background-color: white;
+    width: 100%;
   }
   .navigation {
     display: none;
   }
+  
 
   .link a:hover {
     color: var(--color-secondary);
+  }
+
+  .mobileNavigation {
+    background-color: white;
+    position: fixed;
+    width: 66vw;
+    height: 100vh;
+    right: -100%;
+    transition: 450ms ease-in-out;
+  }
+ .mobileNavActive{
+    background-color: white;
+    position: fixed;
+    width: 66vw;
+    height: 100vh;
+    right: 0;
+    transition: 450ms ease-in-out;
   }
 }
 
