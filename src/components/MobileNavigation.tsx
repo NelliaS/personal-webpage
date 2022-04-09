@@ -3,7 +3,7 @@ import NavLinks from "./NavLinks";
 import styles from "../styles/Header.module.css";
 
 const MobileNavigation = () => {
-  const menuOpen = `${styles.menu} ${styles.menu_open}`;
+  const menuOpen = `${styles.menu} ${styles.menu_open} `;
 
   const [open, setOpen] = useState(false);
 
@@ -27,7 +27,7 @@ const MobileNavigation = () => {
           <h2 className={styles.headertext}>Nela - psycholožka & programátorka</h2>
         </button>
      
-      <nav className={styles.mobileNavigation}>{open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}</nav>
+      <nav className={open ?  styles.mobileNavActive : styles.mobileNavigation}>{open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}</nav>
     </>
   );
 };
