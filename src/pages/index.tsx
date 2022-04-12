@@ -79,8 +79,8 @@ const Home: NextPage = () => {
             <h2>Nela - psycholožka & programátorka</h2>
             <p>
             Jako samouk jsem se za relativně krátký čas byla schopná uchytit 
-            jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, 
-            terapeutka a koučka ve výcviku.{" "}
+            jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, certifikovaná koučka a
+            terapeutka ve výcviku.{" "}
             </p>
             <p>
             Hledala jsem způsob, jak spojit své dva milované světy - programování a psychologii. 

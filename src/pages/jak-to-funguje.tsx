@@ -32,6 +32,9 @@ const JakToFunguje: NextPage = () => {
              <p>
                 Prakticky to funguje tak, že se objednáš a ve stanovený čas se připojíš na videohovor, o délce 60 minut. Frekvence sezení je zpravidla 1x 14 dní. Odhadovat potřebný počet sezení je ošemetné, ale zpravidla by lidem mělo do úvodu stačit 3 - 5 sezení. Každé sezení, nehledě na variantu spolupráce, by ti mělo přinášet uspořádání myšlenek, nadhled a větší klid. Nelam si hlavu, pokud nevíš, jaký typ spolupráce je pro tebe ten pravý. Využij možnosti nezávazné konzultace (30 min), která je zdarma - pojďme se pobavit o tvém tématu a tom, co ti můžu nabídnout.
               </p>
+             <p>
+               Svoji práci pravidelně superviduji a zachovávám mlčenlivost.
+             </p>
               </div>
         </section >
         <section className={styles.content__block2}>
