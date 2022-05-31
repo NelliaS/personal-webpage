@@ -87,6 +87,9 @@ const Home: NextPage = () => {
             objevila jsem, že jim mám hodně co nabídnout. A nejen jim, ale i lidem, kteří se v IT pohybují, 
             ale nejsou úplně spokojení.
             </p>
+            <p>
+            Jsem aktivní v <a href="https://junior.guru/club/">junior guru</a> komunitě, kde jsem měla <a href="https://youtu.be/6G4TKGQICw0">přednášku</a> o duševním zdraví v kontextu kariérní změny.
+            </p>
           </div>
         </div>
         <div className={styles.content__block4}>
