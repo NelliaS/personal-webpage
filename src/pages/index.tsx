@@ -55,16 +55,16 @@ const Home: NextPage = () => {
                 Nevíš odkud začít a kterou cestou se vydat
               </li>
               <li className={styles.secondaryitem}>
-                Chceš si svoji cestu do IT co nejlépe naplánovat
-              </li>
-              <li className={styles.secondaryitem}>
-                Chceš vědět, na čem můžeš stavět svůj úspěch
-              </li>
-              <li className={styles.secondaryitem}>
                 Trápí tě pochybnosti (imposter syndrom)
               </li>
               <li className={styles.secondaryitem}>
-                Chceš objevit, kde máš mezery a zlepšit styl učení
+                Chceš se do IT dostat snáz a udržitelně
+              </li>
+              <li className={styles.secondaryitem}>
+                Tvůj styl učení nepřináší adekvátní výsledky
+              </li>
+              <li className={styles.secondaryitem}>
+                Chceš vědět, na čem můžeš stavět svůj úspěch
               </li>
               <li className={styles.mainitem}>V IT už pracuješ, ale ...{" "}</li>
 
