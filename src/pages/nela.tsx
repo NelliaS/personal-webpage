@@ -94,8 +94,8 @@ const Nela: NextPage = () => {
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
-                  <p><span>06/2021 - dosud</span></p>
-                  <p>Začínám si osvojovat psychoterapeutické dovednosti</p>
+                  <p><span>05/2021 - dosud</span></p>
+                  <p>Začínám si osvojovat psychoterapeutické dovednosti - Procesově orientovaná práce (Základní terapeutický výcvik 05/21-03/22, předčasně ukončen), metody Kognitivně behaviorální terapie (kurz od Psychosomatická klinika s.r.o.), Rogeriánská psychoterapie (samostudium)</p>
                 </div>
               </li>
 
