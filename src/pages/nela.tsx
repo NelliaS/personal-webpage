@@ -96,9 +96,9 @@ const Nela: NextPage = () => {
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>05/2021 - dosud</span></p>
                   <p>Začínám se intenzivně vzdělávat v psychoterapii:<br></br>
-                    - psychoterapeutický výcvik v Procesově orientované práci (nedokončený základní kmen, 05/21 - 02/22, celkem: 125 hodin)<br></br>
-                    - kurz metod Kognitivně behaviorální terapie (01/22 - 03/22, celkem: 16h)<br></br>
-                    + doposud absolvovaná individuální psychoterapie: cca 100h<br></br>
+                    - psychoterapeutický výcvik v Procesově orientované práci (nedokončený základní kmen, 2021-22, celkem: 125 hodin)<br></br>
+                    - kurz metod Kognitivně behaviorální terapie (2022, celkem: 16h)<br></br>
+                    + doposud absolvovaná individuální psychoterapie: 100h<br></br>
                     + doposud absolvovaná supervize: 10h
                   </p>
                 </div>
