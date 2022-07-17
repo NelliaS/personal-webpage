@@ -67,7 +67,7 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>07/2020 - 07/2021</span></p>
-                  <p>Vedu seberozvojové programy pro rodiče dětí s autismem (SPOSA)</p>
+                  <p>Vedu seberozvojové programy pro rodiče dětí s autismem (SPOSA) - cca 20h praxe</p>
                 </div>
               </li>
 
@@ -95,7 +95,12 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>05/2021 - dosud</span></p>
-                  <p>Začínám si osvojovat psychoterapeutické dovednosti - Procesově orientovaná práce (Základní terapeutický výcvik 05/21-03/22, předčasně ukončen), metody Kognitivně behaviorální terapie (kurz od Psychosomatická klinika s.r.o.), Rogeriánská psychoterapie (samostudium)</p>
+                  <p>Začínám se intenzivně vzdělávat v psychoterapii:<br></br>
+                    - psychoterapeutický výcvik v Procesově orientované práci (nedokončený základní kmen, 05/21 - 02/22, celkem: 125 hodin)<br></br>
+                    - kurz metod Kognitivně behaviorální terapie (01/22 - 03/22, celkem: 16h)<br></br>
+                    + doposud absolvovaná individuální psychoterapie: cca 100h<br></br>
+                    + doposud absolvovaná supervize: 10h
+                  </p>
                 </div>
               </li>
 
@@ -109,14 +114,15 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>10/2021 - 4/2022</span></p>
-                  <p>Absolvuji koučovací výcvik (akreditovaný rekvalifikační kurz na pozici Kouč od Praktická psychologie s.r.o.)</p>
+                  <p>Absolvuji akreditovaný koučovací výcvik (Praktická psychologie s.r.o., zahrnujíce 150h vzdělávání a 35 odkoučovaných sezení)</p>
                 </div>
               </li>
 
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>12/2021</span></p>
-                  <p>Začínám s vlastní praxí psycholožky</p>
+                  <p>Začínám s vlastní praxí psycholožky
+                  </p>
                 </div>
               </li>
 
