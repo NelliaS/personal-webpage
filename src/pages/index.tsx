@@ -79,7 +79,7 @@ const Home: NextPage = () => {
             <h2>Nela - psycholožka & programátorka</h2>
             <p>
             Jako samouk jsem se za relativně krátký čas byla schopná uchytit 
-            jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka a certifikovaná koučka.{" "}
+            jako Python programátorka. Mimo to jsem ale taky vystudovaná psycholožka, psychoterapeutka ve výcviku a certifikovaná koučka.{" "}
             </p>
             <p>
             Hledala jsem způsob, jak spojit své dva milované světy - programování a psychologii. 
@@ -89,6 +89,7 @@ const Home: NextPage = () => {
             </p>
             <p>
             Jsem aktivní v <a href="https://junior.guru/club/">junior guru</a> komunitě, kde jsem měla <a href="https://youtu.be/6G4TKGQICw0">přednášku</a> o duševním zdraví v kontextu kariérní změny.
+            Vznikla i stránka o <a href="https://junior.guru/handbook/mental-health/">psychice v IT</a>.
             </p>
           </div>
         </div>

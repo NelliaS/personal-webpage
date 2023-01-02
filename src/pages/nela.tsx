@@ -98,8 +98,7 @@ const Nela: NextPage = () => {
                   <p>Začínám se intenzivně vzdělávat v psychoterapii:<br></br>
                     - psychoterapeutický výcvik v Procesově orientované práci (nedokončený základní kmen, r. 2021-22, celkem: 125 hodin)<br></br>
                     - kurz metod Kognitivně behaviorální terapie (r. 2022, celkem: 16h)<br></br>
-                    + doposud absolvovaná individuální psychoterapie: 100h<br></br>
-                    + doposud absolvovaná supervize: 10h
+                    - započatý dlouhodobý výcvik v Rogersovské psychoterapii (Inštitút psychoterapie a socioterapie, od 12/2022 - dosud)<br></br>
                   </p>
                 </div>
               </li>
@@ -121,7 +120,9 @@ const Nela: NextPage = () => {
               <li>
                 <div className={styles.content__block2_timelineContent}>
                   <p><span>12/2021</span></p>
-                  <p>Začínám s vlastní praxí psycholožky
+                  <p>Začínám s vlastní praxí psycholožky a posouvám se, doposud absolvováno:<br></br>
+                    - individuální psychoterapie: 102h<br></br>
+                    - supervize: 13h
                   </p>
                 </div>
               </li>
