@@ -63,10 +63,10 @@ const JakToFunguje: NextPage = () => {
           <div className={styles.card}>
           <h2>Mentoring</h2>
             <ul>
-              <li>ujasníš si, kam zaměřit svou pozornost</li>
-              <li>zlepšíš styl učení</li>
-              <li>objevíš, kde máš mezery</li>
-              <li>víš, co je třeba ke získání první práce</li>
+              <li>udržíš si správný kurz a směr</li>
+              <li>víš, kam zaměřit pozornost a co dělat</li>
+              <li>ujasníš si, co je třeba ke kariérnímu posunu</li>
+              <li>čerpáš ze zkušeností mentora</li>
             </ul>
           </div>
           <div className={styles.card}>

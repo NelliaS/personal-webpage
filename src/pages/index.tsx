@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                 Chceš se do IT dostat snáz a udržitelně
               </li>
               <li className={styles.secondaryitem}>
-                Tvůj styl učení nepřináší adekvátní výsledky
+                Chceš, aby ti někdo zkušený pomáhal udržet kurz a směr
               </li>
               <li className={styles.secondaryitem}>
                 Chceš vědět, na čem můžeš stavět svůj úspěch
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
               <li className={styles.secondaryitem}>Nejsi spokojený/á a chtěl/a bys být</li>
               <li className={styles.secondaryitem}>Cítíš se vyhořele a chceš s tím něco začít dělat</li>
               <li className={styles.secondaryitem}>Chceš objevit své silné stránky a způsob jak je využít</li>
-              <li className={styles.secondaryitem}>Potřebuješ pomoc s hledáním nové práce nebo aklimatizací</li>
+              <li className={styles.secondaryitem}>Chceš se kariérně posouvat</li>
             </ul>
           </div>
           <div className={styles.content__block3}>
