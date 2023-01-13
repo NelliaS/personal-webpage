@@ -22,25 +22,25 @@ const Cenik: NextPage = () => {
                     <h1>Ceník</h1>
                 </div>
                 <section className={styles.gridwrapper}>
-                    <h1 className={styles.griditem1}>Koučink</h1>
-                    <h1 className={styles.griditem2}>Mentoring</h1>
-                    <h1 className={styles.griditem3}>Sebepoznání*</h1>
-                    <h1 className={styles.griditem4}>Podpora**</h1>
+                    <h2 className={styles.griditem1}>Jednorázové setkání</h2>
+                    <h2 className={styles.griditem2}>Sebepoznání*</h2>
+                    <h2 className={styles.griditem3}>Koučink / Mentoring</h2>
+                    <h2 className={styles.griditem4}>Podpora**</h2>
                     <p className={styles.griditem5}>1. - 3. sezení</p>
-                    <p className={styles.griditem6}>890,- Kč</p>
-                    <p className={styles.griditem7}>890,- Kč</p>
+                    <p className={styles.griditem6}>1050,- Kč</p>
+                    <p className={styles.griditem7}>990,- Kč</p>
                     <p className={styles.griditem8}>890,- Kč</p>
                     <p className={styles.griditem9}>850,- Kč</p>
                     <p className={styles.griditem10} id=''>4. a další sezení</p>
-                    <p className={styles.griditem11}>850,- Kč</p>
-                    <p className={styles.griditem12}>850,- Kč</p>
+                    <p className={styles.griditem11}> </p>
+                    <p className={styles.griditem12}> </p>
                     <p className={styles.griditem13}>850,- Kč</p>
                     <p className={styles.griditem14}>790,- Kč</p>
                 </section>
                 <section className={styles.flexwrapper}>
                     <div className={styles.textwrapper}>
-                        <p>* k tomu navíc jednorázově 890,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
-                        <p>** sleva pro dlouhodobější styl spolupráce, v tíživé finanční situaci lze cenu dále uzpůsobit</p>
+                        <p>* k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
+                        <p>** sleva pro dlouhodobější styl spolupráce, v tíživé finanční situaci lze ceny dále uzpůsobit</p>
                     </div>
                         <Link href="/kontaktni-formular">
                             <a><Button value="Chci zjistit víc" type='submit'/></a>
