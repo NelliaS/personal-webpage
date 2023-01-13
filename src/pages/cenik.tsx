@@ -56,21 +56,21 @@ const Cenik: NextPage = () => {
                 </div>
                 <section className={styles.mobilebuttonwrapper}>
                     <button onClick={() => {
-                        setCena1("890,- Kč");
-                        setCena2("850,- Kč");
+                        setCena1("1050,- Kč");
+                        setCena2("");
                         setInfo1("");
                         setInfo2("");
-                        }} className={styles.mbitem1}>Koučink</button>
-                    <button onClick={() => {
-                        setCena1("890,- Kč");
-                        setCena2("850,- Kč");
-                        setInfo1("*");
-                        setInfo2("* k tomu navíc jednorázově 990,- Kč za dvě diagnostické metody a jejich vyhodnocení");}} className={styles.mbitem2}>Sebepoznání</button>
+                        }} className={styles.mbitem1}>Jednorázové setkání</button>
                     <button onClick={() => {
                         setCena1("890,- Kč");
                         setCena2("850,- Kč");
                         setInfo1("");
-                        setInfo2("");}} className={styles.mbitem3}>Mentoring</button>
+                        setInfo2("");}} className={styles.mbitem3}>Koučink / Mentoring</button>
+                    <button onClick={() => {
+                        setCena1("990,- Kč");
+                        setCena2("");
+                        setInfo1("*");
+                        setInfo2("* k tomu navíc jednorázově 990,- Kč za dvě diagnostické metody a jejich vyhodnocení");}} className={styles.mbitem2}>Sebepoznání</button>
                     <button onClick={() => {
                         setCena1("850,- Kč");
                         setCena2("790,- Kč");
