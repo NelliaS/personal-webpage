@@ -9,10 +9,11 @@ import HeroImage from "../../public/images/cenik.webp";
 
 const Cenik: NextPage = () => {
 
-    const [cena1, setCena1] = useState("890,- Kč");
-    const [cena2, setCena2] = useState("850,- Kč");
+    const [cena1, setCena1] = useState(" ");
+    const [cena2, setCena2] = useState(" ");
     const [info1, setInfo1] = useState("");
-    const [info2, setInfo2] = useState("");
+    const [info2, setInfo2] = useState("* čím dlouhodobější typ spolupráce, tím dostupnější cena, v tíživé finanční situaci lze ceny dále uzpůsobit");
+
 
 
     return (
