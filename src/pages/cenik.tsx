@@ -19,13 +19,13 @@ const Cenik: NextPage = () => {
         <section className={styles.content}>
             <section className={styles.boxwrapper}>
                 <div className={styles.titlewrapper}>
-                    <h1>Ceník</h1>
+                    <h1>Ceník*</h1>
                 </div>
                 <section className={styles.gridwrapper}>
                     <h2 className={styles.griditem1}>Jednorázové setkání</h2>
-                    <h2 className={styles.griditem2}>Sebepoznání*</h2>
+                    <h2 className={styles.griditem2}>Sebepoznání**</h2>
                     <h2 className={styles.griditem3}>Koučink / Mentoring</h2>
-                    <h2 className={styles.griditem4}>Podpora**</h2>
+                    <h2 className={styles.griditem4}>Podpora</h2>
                     <p className={styles.griditem5}>1. - 3. sezení</p>
                     <p className={styles.griditem6}>1050,- Kč</p>
                     <p className={styles.griditem7}>990,- Kč</p>
@@ -39,8 +39,8 @@ const Cenik: NextPage = () => {
                 </section>
                 <section className={styles.flexwrapper}>
                     <div className={styles.textwrapper}>
-                        <p>* k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
-                        <p>** sleva pro dlouhodobější styl spolupráce, v tíživé finanční situaci lze ceny dále uzpůsobit</p>
+                        <p>* čím dlouhodobější typ spolupráce, tím dostupnější cena, v tíživé finanční situaci lze ceny dále uzpůsobit</p>
+                        <p>** k tomu navíc jednorázově 990,- Kč za 2 diagnostické metody a jejich vyhodnocení</p>
                     </div>
                         <Link href="/kontaktni-formular">
                             <a><Button value="Chci zjistit víc" type='submit'/></a>
@@ -59,28 +59,33 @@ const Cenik: NextPage = () => {
                         setCena1("1050,- Kč");
                         setCena2("");
                         setInfo1("");
-                        setInfo2("");
-                        }} className={styles.mbitem1}>Jednorázové setkání</button>
+                        setInfo2("* čím dlouhodobější typ spolupráce, tím dostupnější cena, v tíživé finanční situaci lze ceny dále uzpůsobit");
+                        }}
+                            className={styles.mbitem1}>Jednorázové setkání</button>
                     <button onClick={() => {
                         setCena1("890,- Kč");
                         setCena2("850,- Kč");
                         setInfo1("");
-                        setInfo2("");}} className={styles.mbitem3}>Koučink / Mentoring</button>
+                        setInfo2("* čím dlouhodobější typ spolupráce, tím dostupnější cena, v tíživé finanční situaci lze ceny dále uzpůsobit");
+                    }}
+                            className={styles.mbitem3}>Koučink / Mentoring</button>
                     <button onClick={() => {
                         setCena1("990,- Kč");
                         setCena2("");
                         setInfo1("*");
-                        setInfo2("* k tomu navíc jednorázově 990,- Kč za dvě diagnostické metody a jejich vyhodnocení");}} className={styles.mbitem2}>Sebepoznání</button>
+                        setInfo2("** k tomu navíc jednorázově 990,- Kč za dvě diagnostické metody a jejich vyhodnocení");
+                    }}
+                            className={styles.mbitem2}>Sebepoznání</button>
                     <button onClick={() => {
                         setCena1("850,- Kč");
                         setCena2("790,- Kč");
-                        setInfo1("*");
-                        setInfo2("* sleva pro dlouhodobější styl spolupráce, v tíživé finanční situaci lze cenu dále uzpůsobit");
-                    }} 
-                        className={styles.mbitem4}>Podpora</button>
+                        setInfo1("");
+                        setInfo2("* čím dlouhodobější typ spolupráce, tím dostupnější cena, v tíživé finanční situaci lze ceny dále uzpůsobit");
+                    }}
+                            className={styles.mbitem4}>Podpora</button>
                 </section>
                 <section className={styles.mobiletablewrapper}>
-                    <h1>Cena za sezení{info1}</h1>
+                    <h1>Cena za sezení*{info1}</h1>
                     <section className={styles.mobilegridwrapper}>
                         <p>1. - 3. sezení</p>
                         <p>4. a další</p>

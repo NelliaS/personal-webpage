@@ -82,7 +82,7 @@ const JakToFunguje: NextPage = () => {
           <h2>Sebepoznání</h2>
             <ul>
               <li>absolvuješ diagnostiku osobnosti, inteligence anebo psychického stavu</li>
-              <li>během tří sezení dostaneš odpovědi na otázky</li>
+              <li>během dvou sezení dostaneš odpovědi na otázky</li>
               <li>budeš vědět, na čem stavět úspěch a jak dál</li>
             </ul>
           </div>
