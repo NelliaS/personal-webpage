@@ -49,7 +49,7 @@ const ContactForm = ():JSX.Element => {
           name: "phone",
           placeholder: "Telefon",
           icon: '../images/icons/phone.svg',
-          required: false,
+          required: true,
           initialValue: "",
         },
         message : {
