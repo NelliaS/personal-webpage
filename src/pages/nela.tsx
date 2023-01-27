@@ -38,13 +38,6 @@ const Nela: NextPage = () => {
             <ul>
               <li>
                 <div className={styles.content__block2_timelineContent}>
-                  <p><span>1995</span></p>
-                  <p>Poprvé mamince v náručí</p>
-                </div>
-              </li>
-
-              <li>
-                <div className={styles.content__block2_timelineContent}>
                   <p><span>2011 - 2015</span></p>
                   <p>Studuji gympl a čtu knížky o psychologii</p>
                 </div>
