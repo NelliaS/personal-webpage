@@ -35,7 +35,10 @@ const JakToFunguje: NextPage = () => {
              <p>
                Svoji práci pravidelně superviduji a jsem členkou Českomoravské psychologické společnosti, jejíž etický kodex je pro mě závazný. Jeho samozřejmou součástí je důvěrnost informací o klientech a závazek k mlčenlivosti.
              </p>
-              </div>
+            <p>
+              Je možné platit za jednotlivá sezení, či zakoupit balíček 5 sezení s 10 % slevou. Cena za při jednorázových platbách je 1250,- Kč / sezení, v balíčku vychází 1 sezení na 1125,- Kč, cena balíčku je 5625,- Kč. K variantě Sebepoznání je třeba navíc jednorázově počítat s částkou 1250,- Kč za 2 diagnostické metody a jejich vyhodnocení.
+            </p>
+          </div>
         </section >
         <section className={styles.content__block2}>
           <h1>Varianty spolupráce</h1>
