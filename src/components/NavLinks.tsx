@@ -39,22 +39,13 @@ const NavLinks = (props: { isMobile: any; closeMobileMenu: () => any; }) => {
               <a>Jak to funguje</a>
             </Link>
           </li>
+
           <li
             className={
-              router.pathname === "/cenik" ? activeLink : styles.link
+              router.pathname === "/kontaktni-formular" ? activeLink : styles.link
             }
             onClick={handleClickMobile}
           >
-          {/*  <Link href="/cenik">*/}
-          {/*    <a>Ceník</a>*/}
-          {/*  </Link>*/}
-          {/*</li>*/}
-          {/*<li*/}
-          {/*  className={*/}
-          {/*    router.pathname === "/kontaktni-formular" ? activeLink : styles.link*/}
-          {/*  }*/}
-          {/*  onClick={handleClickMobile}*/}
-          {/*>*/}
             <Link href="/kontaktni-formular">
               <a>Kontakt</a>
             </Link>
