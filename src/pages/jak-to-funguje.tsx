@@ -36,7 +36,7 @@ const JakToFunguje: NextPage = () => {
                Svoji práci pravidelně superviduji a jsem členkou Českomoravské psychologické společnosti, jejíž etický kodex je pro mě závazný. Jeho samozřejmou součástí je důvěrnost informací o klientech a závazek k mlčenlivosti.
              </p>
             <p>
-              Je možné platit za jednotlivá sezení (o délce 55 minut), či zakoupit balíček 5 sezení s 10 % slevou. Cena za při jednorázových platbách je 1250,- Kč / sezení, v balíčku vychází 1 sezení na 1125,- Kč, cena balíčku je 5625,- Kč. K variantě Sebepoznání je třeba navíc jednorázově počítat s částkou 1250,- Kč za 2 diagnostické metody a jejich vyhodnocení. V tíživé finanční situaci mohu poskytnout slevu.
+              Je možné platit za jednotlivá sezení (o délce 55 minut), či zakoupit balíček 3 anebo 5 sezení. Cena za při jednorázových platbách je 1200,- Kč / sezení, v balíčku 3 sezení vychází 1 sezení na 1100,- Kč (kompletní balíček 3300,- Kč), v balíčku 5 sezení vychází 1 sezení na 1000,- Kč (kompletní balíček 5000,- Kč). K variantě Sebepoznání je třeba navíc jednorázově počítat s částkou 1200,- Kč za 2 diagnostické metody a jejich vyhodnocení. Naplánovaná sezení lze libovolně přeobjednat, zkuste tak ale prosím činit co nejdříve. V tíživé finanční situaci mohu poskytnout slevu.
             </p>
           </div>
         </section >
@@ -85,7 +85,7 @@ const JakToFunguje: NextPage = () => {
           <h2>Sebepoznání</h2>
             <ul>
               <li>absolvuješ diagnostiku osobnosti, inteligence anebo psychického stavu</li>
-              <li>během 2 sezení dostaneš odpovědi na otázky</li>
+              <li>během 2-3 sezení dostaneš odpovědi na otázky</li>
               <li>budeš vědět, na čem stavět úspěch a jak dál</li>
             </ul>
           </div>
